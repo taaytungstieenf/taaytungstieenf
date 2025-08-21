@@ -1,8 +1,8 @@
 <!-- BANNER -->
 <p align="center">
-  <img src="https://i.pinimg.com/originals/98/4e/81/984e81934046c3050464525dfcacb6bc.gif" alt="banner" width="250" height="100"/>
-  <img src="https://i.pinimg.com/originals/98/4e/81/984e81934046c3050464525dfcacb6bc.gif" alt="banner" width="250" height="100"/>
-  <img src="https://i.pinimg.com/originals/98/4e/81/984e81934046c3050464525dfcacb6bc.gif" alt="banner" width="250" height="100"/>
+  <img src="https://i.pinimg.com/originals/98/4e/81/984e81934046c3050464525dfcacb6bc.gif" alt="banner" width="250" height="120"/>
+  <img src="https://i.pinimg.com/originals/98/4e/81/984e81934046c3050464525dfcacb6bc.gif" alt="banner" width="250" height="120"/>
+  <img src="https://i.pinimg.com/originals/98/4e/81/984e81934046c3050464525dfcacb6bc.gif" alt="banner" width="250" height="120"/>
 </p>
 
 # 👋 Hi, I'm Tae  
