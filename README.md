@@ -59,6 +59,8 @@
 
 </div>
 
+<br>
+
 ## 🚀 Projects  
 
 <details>
@@ -85,22 +87,14 @@
   - Security: **Spring Security + BCryptPasswordEncoder**  
 </details>
 
+<br>
+
 ## 📈 GitHub Stats  
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=taaytungstieenf&show_icons=true&theme=radical" height="160"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=taaytungstieenf&layout=compact&theme=radical" height="160"/>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=taaytungstieenf&theme=radical" height="160"/>
-</p>
-
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=taaytungstieenf&theme=radical&margin-w=5&margin-h=5"/>
 </p>
 
----
+<br>
 
 ## 📫 Connect with Me  
 
