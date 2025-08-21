@@ -1,6 +1,6 @@
 <!-- BANNER -->
 <p align="center">
-  <img src="https://github.com/your-username/your-repo/assets/banner.png" alt="banner" />
+  <img src="https://i.pinimg.com/originals/98/4e/81/984e81934046c3050464525dfcacb6bc.gif" alt="banner" />
 </p>
 
 # 👋 Hi, I'm Tae  
