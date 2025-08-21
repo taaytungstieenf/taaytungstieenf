@@ -11,7 +11,8 @@
   <samp>
     Software Engineer, Data Engineer, Machine Learning Learner <br/>
     Vietnamese & English <br/>
-    ────── ⋆⋅☆⋅⋆ ──────
+    <br>
+    -ˋˏ✄┈┈┈┈
   </samp>
 </p>
 
