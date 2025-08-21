@@ -14,6 +14,10 @@
   </samp>
 </p>
 
+<div align="center">
+  ─── ⋆⋅☆⋅⋆ ───
+</div>
+
 - Experienced in building web applications, personal blogs  
 - Skilled in working with data warehouses, data lakes, lakehouses  
 - Exploring AI technologies  
