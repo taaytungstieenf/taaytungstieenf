@@ -14,27 +14,43 @@
 
 ---
 
+# 👋 Hi, I'm [Your Name]  
+
+💻 **Software Engineer | Data Engineer | Cloud Enthusiast**  
+🌍 Passionate about building scalable systems and data-driven applications  
+
+---
+
 ## 🛠 Tech Stack
 
 ### 👨‍💻 Software Engineering
-- **Languages:** Java, Python, JavaScript (React), SQL  
-- **Frameworks & Tools:** Spring Boot, Hibernate, Maven, Gradle, REST API  
-- **Frontend:** HTML5, CSS3, React.js  
-- **Databases:** MySQL, PostgreSQL  
-- **Version Control & CI/CD:** Git, GitHub, GitLab, Jenkins  
+<p align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="java" width="50" height="50"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="python" width="50" height="50"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="javascript" width="50" height="50"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="react" width="50" height="50"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" alt="spring" width="50" height="50"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="mysql" width="50" height="50"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="postgresql" width="50" height="50"/>
+</p>
 
 ### 📊 Data Engineering
-- **Data Collection:** Python (Scrapy, Requests, BeautifulSoup)  
-- **Big Data Frameworks:** Hadoop (HDFS, Hive, Pig), Apache Spark  
-- **Data Workflow & ETL:** Apache Airflow, Kafka, Spark Streaming  
-- **Data Modeling & Storage:** OLAP schema, MySQL, Data Warehouse concepts  
-- **Machine Learning Integration:** Scikit-learn, XGBoost, Pandas, NumPy  
-- **Visualization:** Tableau, Power BI, Matplotlib  
+<p align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apache/apache-original.svg" alt="hadoop" width="50" height="50"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apachekafka/apachekafka-original.svg" alt="kafka" width="50" height="50"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apacheairflow/apacheairflow-original.svg" alt="airflow" width="50" height="50"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apachespark/apachespark-original.svg" alt="spark" width="50" height="50"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" alt="numpy" width="50" height="50"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" alt="pandas" width="50" height="50"/>
+</p>
 
 ### ☁ Cloud & DevOps
-- **Cloud Platforms:** AWS (S3, EMR, Redshift, Lambda, EC2)  
-- **Containerization:** Docker  
-- **Orchestration:** Kubernetes  
+<p align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg" alt="aws" width="50" height="50"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="docker" width="50" height="50"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" alt="kubernetes" width="50" height="50"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="git" width="50" height="50"/>
+</p>
 
 ---
 
