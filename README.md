@@ -49,6 +49,10 @@
 | **Data Engineering** | ![Hadoop](https://img.shields.io/badge/Hadoop-FFCA28?logo=apachehadoop&logoColor=black) ![Spark](https://img.shields.io/badge/Spark-E25A1C?logo=apachespark&logoColor=white) ![Airflow](https://img.shields.io/badge/Airflow-017CEE?logo=apacheairflow&logoColor=white) ![Kafka](https://img.shields.io/badge/Kafka-231F20?logo=apachekafka&logoColor=white) |
 | **DevOps** | ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white) ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?logo=kubernetes&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black) ![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white) |
 
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=taaytungstieenf&show_icons=true&theme=radical" height="160"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=taaytungstieenf&layout=compact&theme=radical" height="160"/>
+</p>
 
 ---
 
