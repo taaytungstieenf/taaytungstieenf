@@ -26,27 +26,6 @@
 <br>
 
 ## 👤 About Me
-<table>
-<tr>
-<td>
-
-- Experienced in building web applications, personal blogs  
-- Skilled in working with data warehouses, data lakes, lakehouses  
-- Exploring AI technologies  
-- Executing daily tasks with the Linux shell 
-
-</td>
-<td align="center">
-
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="65"/>  
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="65"/>  
-<img src="https://cdn.simpleicons.org/javascript/F7DF1E/000000" width="65"/>  
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="65"/>  
-<img src="https://www.vectorlogo.zone/logos/mongodb/mongodb-icon.svg" width="65"/>
-
-</td>
-</tr>
-</table>
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=taaytungstieenf&theme=dracula&no-frame=true&margin-w=15&margin-h=15" />
 </p>
