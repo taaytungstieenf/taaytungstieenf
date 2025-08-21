@@ -33,10 +33,7 @@
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="73"/>  
 <img src="https://cdn.simpleicons.org/javascript/F7DF1E/000000" width="73"/>  
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="73"/>  
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" width="73"/>
-<img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/mongodb.svg" width="73"/>
 <img src="https://www.vectorlogo.zone/logos/mongodb/mongodb-icon.svg" width="73"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg" width="73"/>
 
 </td>
 </tr>
