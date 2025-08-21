@@ -89,6 +89,10 @@
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=taaytungstieenf&theme=radical&margin-w=5&margin-h=5"/>
 </p>
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=taaytungstieenf&theme=radical&hide_border=true" />
+</p>
+
 
 <br>
 
