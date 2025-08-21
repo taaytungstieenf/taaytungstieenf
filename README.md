@@ -10,7 +10,7 @@
 <p align="center">
   <samp>
     Software Engineer, Data Engineer, Machine Learning Learner <br/>
-    Vietnamese & English
+    Vietnamese & English <br/>
     ────── ⋆⋅☆⋅⋆ ──────
   </samp>
 </p>
