@@ -1,71 +1,117 @@
-# 👋 Hi, I'm Tae
-
-💻 Major in Software Engineering, Data Engineering, Machine Learning  
-🎓 Background in Web Development, Big Data Processing and Machine Learning Intergrating  
-🌎 Communicate in Vietnamese and English  
-
-### 👤 ABOUT ME
--  Experienced in building full-stack technologies for building e-commerce web application, personal blogs
--  Skilled in building data processing architectures such as data warehouse, data lake and data lakehouse
--  Currently exploring multiple cloud services to improve working path
--  Proficient in using Bash Scripting for everyday tasks
-
-### 🛠️ TECH STACK
-
-##### Programming Languages
-<p align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" width="50" height="50" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" width="50" height="50" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL" width="50" height="50" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="postgresql" width="50" height="50"/>
+<!-- BANNER -->
+<p align="center">
+  <img src="https://github.com/your-username/your-repo/assets/banner.png" alt="banner" />
 </p>
 
-##### Software Engineering
-<p align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" alt="Spring" width="50" height="50" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" width="50" height="50" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" width="50" height="50" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" alt="AngularJS" width="50" height="50" />
+# 👋 Hi, I'm Tae  
+
+<p align="center">
+  <samp>
+    💻 Software & Data Engineer | 🚀 Machine Learning Enthusiast <br/>
+    🌏 Vietnamese & English | 🌱 Exploring Cloud & DevOps
+  </samp>
 </p>
 
-##### Data Engineering
-<p align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/hadoop/hadoop-original.svg" alt="Hadoop" width="50" height="50" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apachespark/apachespark-original.svg" alt="Spark" width="50" height="50" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apacheairflow/apacheairflow-original.svg" alt="Airflow" width="50" height="50" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apachekafka/apachekafka-original.svg" alt="Kafka" width="50" height="50" />
+---
+
+## 👤 About Me
+<table>
+<tr>
+<td>
+
+- 🔨 Experienced in building **Full-stack web apps**  
+- 🗄️ Skilled with **Data Warehouse / Data Lake / Lakehouse**  
+- 🌩 Exploring **Cloud services**  
+- ⚡ Daily with **Bash scripting**  
+
+</td>
+<td align="center">
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="70"/>  
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="70"/>  
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="70"/>  
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="70"/>  
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🛠️ Tech Stack  
+
+**Programming Languages**  
+![Java](https://img.shields.io/badge/Java-ED8B00?logo=java&logoColor=white)  
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)  
+![SQL](https://img.shields.io/badge/SQL-003B57?logo=postgresql&logoColor=white)  
+
+**Frameworks & Libraries**  
+![Spring](https://img.shields.io/badge/Spring-6DB33F?logo=spring&logoColor=white)  
+![Node.js](https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white)  
+![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black)  
+![Angular](https://img.shields.io/badge/Angular-DD0031?logo=angular&logoColor=white)  
+
+**Data Engineering**  
+![Hadoop](https://img.shields.io/badge/Hadoop-FFCA28?logo=apachehadoop&logoColor=black)  
+![Spark](https://img.shields.io/badge/Spark-E25A1C?logo=apachespark&logoColor=white)  
+![Airflow](https://img.shields.io/badge/Airflow-017CEE?logo=apacheairflow&logoColor=white)  
+![Kafka](https://img.shields.io/badge/Kafka-231F20?logo=apachekafka&logoColor=white)  
+
+**DevOps Tools**  
+![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)  
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?logo=kubernetes&logoColor=white)  
+![Linux](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black)  
+![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)  
+
+---
+
+## 🚀 Projects  
+
+<details>
+  <summary>📊 Data Lake Platform</summary>
+  
+  - Built a **data lake** with Hadoop + Spark + Cloud storage  
+  - Automated **ETL pipelines** with Airflow + Kafka  
+  - Processed data → structured storage → ML-ready datasets  
+</details>
+
+<details>
+  <summary>🗄️ Data Warehouse ETL System</summary>
+  
+  - Designed **OLAP schema** for BI reporting  
+  - Queried big data with **Hive + Spark SQL**  
+  - Built dashboards using **Power BI / Tableau**  
+</details>
+
+<details>
+  <summary>🛒 E-commerce Web Application</summary>
+  
+  - Full-stack project: **Spring Boot (backend)** + **React (frontend)**  
+  - Features: user login, catalog, cart, checkout, payment  
+  - Security: **Spring Security + BCryptPasswordEncoder**  
+</details>
+
+---
+
+## 📈 GitHub Stats  
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=taaytungstieenf&show_icons=true&theme=radical" height="160"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=taaytungstieenf&layout=compact&theme=radical" height="160"/>
 </p>
 
-##### DevOps Tools
-<p align="left">
-  <img src="https://cdn.simpleicons.org/docker/2496ED" alt="Docker" width="50" height="50" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" alt="Kubernetes" width="50" height="50" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" width="50" height="50" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" alt="AngularJS" width="50" height="50" />
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=taaytungstieenf&theme=radical" height="160"/>
 </p>
 
-### 🚀 PROJECTS
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=taaytungstieenf&theme=radical&margin-w=5&margin-h=5"/>
+</p>
 
-##### Data Lake Platform  
-- Built a **data lake** integrating Hadoop + Spark with cloud storage.  
-- Implemented **ETL pipelines** from raw crawling data → structured storage → ML-ready datasets.  
-- Automated workflows with **Airflow + Kafka**.  
+---
 
-##### Data Warehouse ETL System  
-- Designed OLAP schema for structured reporting.  
-- Used **Hive + Spark SQL** to query big datasets.  
-- Visualized business insights with **Power BI/Tableau**.  
+## 📫 Connect with Me  
 
-##### E-commerce Web Application  
-- Full-stack project using **Spring Boot (backend)** + **React (frontend)**.  
-- Features: user login, product catalog, shopping cart, checkout, and payment.  
-- Secured login with **Spring Security + BCryptPasswordEncoder**.  
-
-### 📈 GitHub Stats  
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=taaytungstieenf&show_icons=true&theme=radical)  
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=taaytungstieenf&layout=compact&theme=radical)  
-
-### 📫 Connect with Me  
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/your-profile)  
 [![GitHub](https://img.shields.io/badge/GitHub-black?style=for-the-badge&logo=github)](https://github.com/your-username)  
 [![Gmail](https://img.shields.io/badge/Gmail-red?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your-email@gmail.com)  
