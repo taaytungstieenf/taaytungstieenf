@@ -13,6 +13,7 @@
     Vietnamese & English
   </samp>
 </p>
+
 - Experienced in building web applications, personal blogs  
 - Skilled in working with data warehouses, data lakes, lakehouses  
 - Exploring AI technologies  
