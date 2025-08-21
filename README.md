@@ -6,12 +6,16 @@
 </p>
 
 ## 👋 Hi, I'm Tae  
-
+<!--
 <p align="center">
   <samp>
     Software Engineer, Data Engineer, Machine Learning Learner <br/>
     Vietnamese & English
   </samp>
+</p>
+-->
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com/?lines=Hello,+I'm+Tây+Nguyễn!;Welcome+to+my+GitHub+Profile!;Fullstack+Developer+%7C+Data+Engineer&center=true&size=22&color=ff79c6">
 </p>
 
 <div align="center">
