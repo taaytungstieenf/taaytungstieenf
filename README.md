@@ -4,13 +4,13 @@
 🎓 Background in Web Development, Big Data Processing and Machine Learning Intergrating  
 🌎 Communicate in Vietnamese and English  
 
-### 👤 About Me
+### 👤 ABOUT ME
 -  Experienced in building full-stack technologies for building e-commerce web application, personal blogs
 -  Skilled in building data processing architectures such as data warehouse, data lake and data lakehouse
 -  Currently exploring multiple cloud services to improve working path
 -  Proficient in using Bash Scripting for everyday tasks
 
-### 🛠️ Tech Stack
+### 🛠️ TECH STACK
 
 ##### Programming Languages
 <p align="left">
@@ -44,39 +44,30 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" alt="AngularJS" width="50" height="50" />
 </p>
 
-##### Cloud Services
-<p align="left">
-  <img src="https://cdn.worldvectorlogo.com/logos/snowflake-2.svg" alt="Docker" width="50" height="50" />
-  <img src="https://cdn.worldvectorlogo.com/logos/databricks.svg" alt="Kubernetes" width="50" height="50" />
-  <img src="https://cdn.worldvectorlogo.com/logos/amazon-redshift.svg" alt="GitHub" width="50" height="50" />
-  <img src="https://cdn.worldvectorlogo.com/logos/amazon-s3.svg" alt="AngularJS" width="50" height="50" />
-</p>
+### 🚀 PROJECTS
 
-## 🚀 Highlight Projects
-
-### 🏗 Data Lake Platform  
+##### Data Lake Platform  
 - Built a **data lake** integrating Hadoop + Spark with cloud storage.  
 - Implemented **ETL pipelines** from raw crawling data → structured storage → ML-ready datasets.  
 - Automated workflows with **Airflow + Kafka**.  
 
-### 📊 Data Warehouse ETL System  
+##### Data Warehouse ETL System  
 - Designed OLAP schema for structured reporting.  
 - Used **Hive + Spark SQL** to query big datasets.  
 - Visualized business insights with **Power BI/Tableau**.  
 
-### 🌐 E-commerce Web Application  
+##### E-commerce Web Application  
 - Full-stack project using **Spring Boot (backend)** + **React (frontend)**.  
 - Features: user login, product catalog, shopping cart, checkout, and payment.  
 - Secured login with **Spring Security + BCryptPasswordEncoder**.  
 
-## 📈 GitHub Stats  
+### 📈 GitHub Stats  
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=taaytungstieenf&show_icons=true&theme=radical)  
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=taaytungstieenf&layout=compact&theme=radical)  
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=your-username&show_icons=true&theme=radical)  
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=your-username&layout=compact&theme=radical)  
-
-## 📫 Connect with Me  
+### 📫 Connect with Me  
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/your-profile)  
 [![GitHub](https://img.shields.io/badge/GitHub-black?style=for-the-badge&logo=github)](https://github.com/your-username)  
 [![Gmail](https://img.shields.io/badge/Gmail-red?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your-email@gmail.com)  
-
-⭐️ From [your-username](https://github.com/your-username)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/yourphonenumber)  
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/your-username)  
