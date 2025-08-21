@@ -21,10 +21,10 @@
 <tr>
 <td>
 
-- Experienced in building **web apps**, **personal blogs**  
-- Skilled with **data warehouse**, **data lake**, **data lakehouse**  
-- Exploring **AI stuffs**  
-- And executing daily tasks with **Linux shell**  
+- Experienced in building web applications  
+- Skilled with data warehouse, data lake, data lakehouse  
+- Exploring AI stuffs  
+- And executing daily tasks with Linux shell  
 
 </td>
 <td align="center">
