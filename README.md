@@ -1,8 +1,8 @@
 # 👋 Hi, I'm Tae
 
-## 💻 Major in Software Engineering, Data Engineering, Machine Learning  
-## 🎓 Background in Web Development, Big Data Processing and Machine Learning Intergrating  
-## 🌎 Communicate in Vietnamese and English  
+💻 Major in Software Engineering, Data Engineering, Machine Learning  
+🎓 Background in Web Development, Big Data Processing and Machine Learning Intergrating  
+🌎 Communicate in Vietnamese and English  
 
 ### 👤 About Me
 -  Experienced in building full-stack web development technologies with Java Spring Boot, Node.js & Express.js and React & Angular
