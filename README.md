@@ -21,10 +21,10 @@
 <tr>
 <td>
 
-- 🔨 Experienced in building **Full-stack web apps**  
-- 🗄️ Skilled with **Data Warehouse / Data Lake / Lakehouse**  
-- 🌩 Exploring **Cloud services**  
-- ⚡ Daily with **Bash scripting**  
+- Experienced in building **e-commerce web apps**, **personal blogs**  
+- Skilled with **data warehouse**, **data lake**, **lakehouse**  
+- Exploring **cloud services**  
+- Executing daily tasks with **Bash scripting**  
 
 </td>
 <td align="center">
