@@ -9,8 +9,8 @@
 
 <p align="center">
   <samp>
-    💻 Software & Data Engineer | 🚀 Machine Learning Enthusiast <br/>
-    🌏 Vietnamese & English | 🌱 Exploring Cloud & DevOps
+    Software Engineer, Data Engineer, Machine Learning Learner <br/>
+    Speaking Vietnamese & English
   </samp>
 </p>
 
