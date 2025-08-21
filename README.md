@@ -1,7 +1,7 @@
 <!-- BANNER -->
 <p align="center">
-  <img src="https://i.pinimg.com/originals/98/4e/81/984e81934046c3050464525dfcacb6bc.gif" alt="banner"/>
-  <img src="https://i.pinimg.com/originals/98/4e/81/984e81934046c3050464525dfcacb6bc.gif" alt="banner"/>
+  <img src="https://i.pinimg.com/originals/98/4e/81/984e81934046c3050464525dfcacb6bc.gif" alt="banner" width="150" height="50"/>
+  <img src="https://i.pinimg.com/originals/98/4e/81/984e81934046c3050464525dfcacb6bc.gif" alt="banner" width="150" height="50"/>
 </p>
 
 # 👋 Hi, I'm Tae  
