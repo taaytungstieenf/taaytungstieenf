@@ -49,15 +49,7 @@
 | **Frameworks** | ![Spring](https://img.shields.io/badge/Spring-6DB33F?logo=spring&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black) ![Angular](https://img.shields.io/badge/Angular-DD0031?logo=angular&logoColor=white) |
 | **Data Engineering** | ![Hadoop](https://img.shields.io/badge/Hadoop-FFCA28?logo=apachehadoop&logoColor=black) ![Spark](https://img.shields.io/badge/Spark-E25A1C?logo=apachespark&logoColor=white) ![Airflow](https://img.shields.io/badge/Airflow-017CEE?logo=apacheairflow&logoColor=white) ![Kafka](https://img.shields.io/badge/Kafka-231F20?logo=apachekafka&logoColor=white) |
 | **DevOps** | ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white) ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?logo=kubernetes&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black) ![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white) |
-
-## 🛠️ Tech Stack  
-
-| **Languages** | **Frameworks** | **Data Engineering** | **DevOps / Tools** |
-|---------------|----------------|----------------------|--------------------|
-| ![Java](https://img.shields.io/badge/Java-ED8B00?logo=java&logoColor=white) | ![Spring](https://img.shields.io/badge/Spring-6DB33F?logo=spring&logoColor=white) | ![Hadoop](https://img.shields.io/badge/Hadoop-FFCA28?logo=apachehadoop&logoColor=black) | ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white) |
-| ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) | ![Node.js](https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white) | ![Spark](https://img.shields.io/badge/Spark-E25A1C?logo=apachespark&logoColor=white) | ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?logo=kubernetes&logoColor=white) |
-| ![SQL](https://img.shields.io/badge/SQL-003B57?logo=postgresql&logoColor=white) | ![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black) | ![Airflow](https://img.shields.io/badge/Airflow-017CEE?logo=apacheairflow&logoColor=white) | ![Linux](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black) |
-| ![Bash](https://img.shields.io/badge/Bash-4EAA25?logo=gnubash&logoColor=white) | ![Angular](https://img.shields.io/badge/Angular-DD0031?logo=angular&logoColor=white) | ![Kafka](https://img.shields.io/badge/Kafka-231F20?logo=apachekafka&logoColor=white) | ![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white) |
+| **Cloud** | ![AWS](https://img.shields.io/badge/AWS-232F3E?logo=amazonaws&logoColor=white) ![Azure](https://img.shields.io/badge/Azure-0078D4?logo=microsoftazure&logoColor=white) ![GCP](https://img.shields.io/badge/GCP-4285F4?logo=googlecloud&logoColor=white) |
 
 ---
 
