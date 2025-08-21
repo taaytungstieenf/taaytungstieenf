@@ -55,6 +55,28 @@
 
 </div>
 
+<div align="center">
+
+<table style="border-collapse: collapse; text-align: center;">
+  <tr>
+    <th style="background: white; padding: 10px; border: 1px solid #ddd;">Category</th>
+    <th style="background: white; padding: 10px; border: 1px solid #ddd;">Technologies</th>
+  </tr>
+  <tr>
+    <td style="background: white; padding: 10px; border: 1px solid #ddd;">Languages</td>
+    <td style="background: white; padding: 10px; border: 1px solid #ddd;">
+      <img src="https://img.shields.io/badge/Java-ED8B00?logo=java&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white"/>
+      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black"/>
+      <img src="https://img.shields.io/badge/C++-00599C?logo=cplusplus&logoColor=white"/>
+      <img src="https://img.shields.io/badge/R-276DC3?logo=r&logoColor=white"/>
+    </td>
+  </tr>
+</table>
+
+</div>
+
+
 <br>
 
 ## 🚀 Projects  
