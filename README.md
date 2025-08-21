@@ -17,6 +17,8 @@
 <br>
 
 ## 👤 About Me
+<div align="center">
+
 <table>
 <tr>
 <td>
@@ -39,7 +41,9 @@
 </tr>
 </table>
 
-<div style="height:150px;"></div>
+</div>
+
+<br>
 
 ## 🛠️ Tech Stack  
 
