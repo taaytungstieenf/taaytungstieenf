@@ -17,11 +17,11 @@
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com/?lines=Hello,+welcome+to+my+GitHub!;Fullstack+Developer;Data+Engineer;AI+Engineer&center=true&size=24&color=6d28d9&font=Fira+Code">
 </p>
-
+<!--
 <div align="center">
   ───────────────────────────────── ⋆⋅☆⋅⋆ ─────────────────────────────────
 </div>
-
+-->
 <br>
 
 
@@ -32,7 +32,7 @@
 
 <br>
 
-## 🎨 Nothing  Decoration
+## 🎨 Nothing But Decoration
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=taaytungstieenf&theme=dracula&no-frame=true&margin-w=15&margin-h=15" />
 </p>
