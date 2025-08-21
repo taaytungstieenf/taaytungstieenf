@@ -5,14 +5,19 @@
 🌎 Communicate in Vietnamese and English  
 
 ### 👤 About Me
--  Experienced in building full-stack web development technologies with Java Spring Boot, Node.js & Express.js and React & Angular
+-  Experienced in building full-stack web development technologies for building e-commerce web application, personal blogs
 -  Skilled in building data processing architectures such as data warehouse, data lake and data lakehouse
 -  Currently exploring multiple cloud services to improve working path
 -  Proficient in using Bash Scripting for everyday tasks
 
-### 🛠 Tech Stack
+### 🛠️ Tech Stack
 
-### 👨‍💻 Software Engineering
+##### Programming Languages
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" width="50" height="50" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" width="50" height="50" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL" width="50" height="50" />
+
+##### 👨‍💻 Software Engineering
 <p align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="java" width="50" height="50"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="python" width="50" height="50"/>
