@@ -22,8 +22,6 @@
   ───────────────────────────────── ⋆⋅☆⋅⋆ ─────────────────────────────────
 </div>
 -->
-<br>
-
 
 - Experienced in building web applications, personal blogs  
 - Skilled in working with data warehouses, data lakes, data lakehouses  
