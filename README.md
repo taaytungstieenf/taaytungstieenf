@@ -15,7 +15,7 @@
 </p>
 -->
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?lines=Hello,+welcome+to+my+GitHub!;Fullstack+Developer;Data+Engineer;AI+Engineer&center=true&size=24&color=6d28d9&font=Fira+Code">
+  <img src="https://readme-typing-svg.herokuapp.com/?lines=Hello,+welcome+to+my+GitHub!;Fullstack+Developer;Data+Engineer;AI+Engineer&center=true&size=24&color=ff79c6&font=Fira+Code">
 </p>
 <!--
 <div align="center">
@@ -109,21 +109,6 @@
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=taaytungstieenf&theme=radical&hide_border=true" />
-</p>
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=taaytungstieenf&layout=compact&theme=dracula&hide_border=true" />
-</p>
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=taaytungstieenf&show_icons=true&theme=dracula&hide_border=true" />
-</p>
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=taaytungstieenf&theme=dracula&hide_border=true" />
-</p>
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=taaytungstieenf&color=ff69b4&style=flat-square&label=Profile+Views" />
-</p>
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?lines=Hello,+I'm+Tây+Nguyễn!;Welcome+to+my+GitHub+Profile!;Fullstack+Developer+%7C+Data+Engineer&center=true&size=22&color=ff79c6">
 </p>
 
 <br>
