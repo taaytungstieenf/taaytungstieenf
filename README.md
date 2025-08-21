@@ -12,7 +12,7 @@
 
 ### 🛠️ Tech Stack
 
-##### </> Programming Languages
+##### Programming Languages
 <p align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" width="50" height="50" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" width="50" height="50" />
@@ -20,7 +20,7 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="postgresql" width="50" height="50"/>
 </p>
 
-##### 👨‍💻 Software Engineering
+##### Software Engineering
 <p align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" alt="Spring" width="50" height="50" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" width="50" height="50" />
@@ -28,22 +28,28 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" alt="AngularJS" width="50" height="50" />
 </p>
 
-##### 👨‍💻 Data Engineering
+##### Data Engineering
 <p align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/hadoop/hadoop-original.svg" alt="Hadoop" width="50" height="50" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apachespark/apachespark-original.svg" alt="Spark" width="50" height="50" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apacheairflow/apacheairflow-original.svg" alt="Airflow" width="50" height="50" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apachekafka/apachekafka-original.svg" alt="Kafka" width="50" height="50" />
-  <img src="https://cdn.worldvectorlogo.com/logos/dbt-logo.svg" alt="Kafka" width="50" height="50" />
-
 </p>
 
-##### 👨‍💻 DevOps Tools
+##### DevOps Tools
 <p align="left">
   <img src="https://cdn.simpleicons.org/docker/2496ED" alt="Docker" width="50" height="50" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" alt="Kubernetes" width="50" height="50" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" width="50" height="50" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" alt="AngularJS" width="50" height="50" />
+</p>
+
+##### Cloud Services
+<p align="left">
+  <img src="https://cdn.worldvectorlogo.com/logos/snowflake-2.svg" alt="Docker" width="50" height="50" />
+  <img src="https://cdn.worldvectorlogo.com/logos/databricks.svg" alt="Kubernetes" width="50" height="50" />
+  <img src="https://cdn.worldvectorlogo.com/logos/amazon-redshift.svg" alt="GitHub" width="50" height="50" />
+  <img src="https://cdn.worldvectorlogo.com/logos/amazon-s3.svg" alt="AngularJS" width="50" height="50" />
 </p>
 
 ## 🚀 Highlight Projects
