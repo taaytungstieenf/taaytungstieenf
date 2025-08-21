@@ -118,19 +118,19 @@
 ## 📫 Connect with Me  
 
 <p align="center">
-  <a href="mailto:your-email@gmail.com">
+  <a href="mailto:nguyenductay121999@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-red?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
-  <a href="https://wa.me/yourphonenumber">
+  <a href="https://wa.me/0974328514">
     <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
   </a>
   <a href="https://t.me/your-username">
     <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" />
   </a>
-  <a href="https://linkedin.com/in/your-profile">
+  <a href="https://linkedin.com/in/elcoco33">
     <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin" />
   </a>
-  <a href="https://instagram.com/your-username">
+  <a href="https://instagram.com/taetae.zip">
     <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
   </a>
 </p>
