@@ -22,9 +22,9 @@
 <td>
 
 - Experienced in building web applications  
-- Skilled with data warehouse, data lake, data lakehouse  
-- Exploring AI stuffs  
-- And executing daily tasks with Linux shell  
+- Skilled in working with data warehouses, data lakes, and lakehouses  
+- Exploring AI technologies  
+- Executing daily tasks with the Linux shell 
 
 </td>
 <td align="center">
