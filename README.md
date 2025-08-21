@@ -128,9 +128,13 @@
   <a href="https://linkedin.com/in/elcoco33">
     <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin" />
   </a>
-  <a href="https://instagram.com/taetae.zip">
+  <a href="https://instagram.com/teytey.zip">
     <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
   </a>
+  <a href="https://facebook.com/tieeurtaaytaay">
+    <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" />
+</a>
+
 </p>
 
 
