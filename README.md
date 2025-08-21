@@ -1,9 +1,8 @@
 # 👋 Hi, I'm Tae
 
-💻 **Software Engineer | Data Engineer | Machine Learning Engineer**  
-🎓 Background in **Web Development, Big Data and Machine Learning**  
-🌍 Passionate about building **web application**, **data processing system** and intergrating **machine learning techniques** into applications  
-🌎 Vietnamese/English - IELTS 7.0
+💻 Major in **Software Engineering | Data Engineering | Machine Learning**  
+🎓 Background in **Web Development**, **Big Data Processing** and **Machine Learning Intergrating**  
+🌎 Vietnamese/English - IELTS 7.0  
 
 ## 🔥 About Me
 - 🎯 Skilled in **Java + Spring Boot** for backend and **React.js** for frontend.  
