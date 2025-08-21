@@ -92,6 +92,16 @@
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com?user=taaytungstieenf&theme=radical&hide_border=true" />
 </p>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=taaytungstieenf&show_icons=true&theme=radical&hide_border=true" />
+</p>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=taaytungstieenf&layout=compact&theme=radical&hide_border=true" />
+</p>
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=taaytungstieenf&theme=radical&hide_border=true" />
+</p>
+
 
 
 <br>
