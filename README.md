@@ -15,13 +15,15 @@
 </p>
 -->
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?lines=Hello,+I'm+Tây+Nguyễn!;Welcome+to+my+GitHub+Profile!;Fullstack+Developer;Data+Engineer;AI+Engineer&center=true&size=22&color=ff79c6">
+  <img src="https://readme-typing-svg.herokuapp.com/?lines=Hello,+I'm+Tae!;Welcome+to+my+GitHub+Profile!;Fullstack+Developer;Data+Engineer;AI+Engineer&center=true&size=22&color=ff79c6">
 </p>
-
 
 <div align="center">
   ───────────────────────────────── ⋆⋅☆⋅⋆ ─────────────────────────────────
 </div>
+
+<br>
+
 
 - Experienced in building web applications, personal blogs  
 - Skilled in working with data warehouses, data lakes, data lakehouses  
