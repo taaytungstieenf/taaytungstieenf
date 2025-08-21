@@ -134,10 +134,6 @@
   <a href="https://facebook.com/tieeurtaaytaay">
     <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" />
   </a>
-  <a href="tel:+84912345678">
-    <img src="https://img.shields.io/badge/Phone-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
-  </a>
-
 
 </p>
 
