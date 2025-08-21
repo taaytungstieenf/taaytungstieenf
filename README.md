@@ -15,7 +15,7 @@
 </p>
 -->
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?lines=I'm+Tae,+welcome+to+my+GitHub!;Fullstack+Developer;Data+Engineer;Machine+Learning+Engineer&center=true&size=24&color=ff79c6&font=Fira+Code">
+  <img src="https://readme-typing-svg.herokuapp.com/?lines=Hi,+I'm+Tae;Welcome+to+my+GitHub+profile!;Fullstack+Developer;Data+Engineer;Machine+Learning+Engineer&center=true&size=24&color=ff79c6&font=Fira+Code">
 </p>
 <!--
 <div align="center">
