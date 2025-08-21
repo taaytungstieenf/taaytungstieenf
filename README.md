@@ -4,22 +4,12 @@
 🎓 Background in **Big Data, Web Development, and Machine Learning**  
 🌍 Passionate about building **scalable systems** and leveraging **cloud technologies**  
 
----
-
 ## 🔥 About Me
 - 🎯 Skilled in **Java + Spring Boot** for backend and **React.js** for frontend.  
 - 📊 Experienced in **Data Engineering pipelines**: crawling → ETL → Big Data → ML integration.  
 - ☁ Currently exploring **AWS Cloud services** for large-scale data solutions.  
 - 🏆 Interested in **Data Lake platforms, Data Warehouses, and Cloud-native architectures**.  
 
----
-
-# 👋 Hi, I'm [Your Name]  
-
-💻 **Software Engineer | Data Engineer | Cloud Enthusiast**  
-🌍 Passionate about building scalable systems and data-driven applications  
-
----
 
 ## 🛠 Tech Stack
 
@@ -52,8 +42,6 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="git" width="50" height="50"/>
 </p>
 
----
-
 ## 🚀 Highlight Projects
 
 ### 🏗 Data Lake Platform  
@@ -71,19 +59,14 @@
 - Features: user login, product catalog, shopping cart, checkout, and payment.  
 - Secured login with **Spring Security + BCryptPasswordEncoder**.  
 
----
-
 ## 📈 GitHub Stats  
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=your-username&show_icons=true&theme=radical)  
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=your-username&layout=compact&theme=radical)  
-
----
 
 ## 📫 Connect with Me  
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/your-profile)  
 [![GitHub](https://img.shields.io/badge/GitHub-black?style=for-the-badge&logo=github)](https://github.com/your-username)  
 [![Gmail](https://img.shields.io/badge/Gmail-red?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your-email@gmail.com)  
 
----
 ⭐️ From [your-username](https://github.com/your-username)
