@@ -15,7 +15,7 @@
 </p>
 
 <div align="center">
-  ────────────────── ⋆⋅☆⋅⋆ ──────────────────
+  ───────────────────────────────── ⋆⋅☆⋅⋆ ─────────────────────────────────
 </div>
 
 - Experienced in building web applications, personal blogs  
