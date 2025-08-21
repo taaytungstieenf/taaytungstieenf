@@ -1,17 +1,16 @@
 # 👋 Hi, I'm Tae
 
-💻 Major in **Software Engineering | Data Engineering | Machine Learning**  
-🎓 Background in **Web Development**, **Big Data Processing** and **Machine Learning Intergrating**  
-🌎 Vietnamese/English - IELTS 7.0  
+## 💻 Major in Software Engineering, Data Engineering, Machine Learning  
+## 🎓 Background in Web Development, Big Data Processing and Machine Learning Intergrating  
+## 🌎 Communicate in Vietnamese and English  
 
-## 🔥 About Me
-- 🎯 Skilled in **Java + Spring Boot** for backend and **React.js** for frontend.  
-- 📊 Experienced in **Data Engineering pipelines**: crawling → ETL → Big Data → ML integration.  
-- ☁ Currently exploring **AWS Cloud services** for large-scale data solutions.  
-- 🏆 Interested in **Data Lake platforms, Data Warehouses, and Cloud-native architectures**.  
+### 👤 About Me
+-  Experienced in building full-stack web development technologies with Java Spring Boot, Node.js & Express.js and React & Angular
+-  Skilled in building data processing architectures such as data warehouse, data lake and data lakehouse
+-  Currently exploring multiple cloud services to improve working path
+-  Proficient in using Bash Scripting for everyday tasks
 
-
-## 🛠 Tech Stack
+### 🛠 Tech Stack
 
 ### 👨‍💻 Software Engineering
 <p align="left">
