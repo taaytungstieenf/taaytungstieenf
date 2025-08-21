@@ -1,8 +1,8 @@
 # 👋 Hi, I'm [Your Name]  
 
-💻 **Software Engineer | Data Engineer | Cloud Enthusiast**  
-🎓 Background in **Big Data, Web Development, and Machine Learning**  
-🌍 Passionate about building **scalable systems** and leveraging **cloud technologies**  
+💻 **Software Engineer | Data Engineer | Machine Learning Engineer**  
+🎓 Background in **Web Development, Big Data and Machine Learning**  
+🌍 Passionate about building **web application**, **data processing system** and intergrating **machine learning techniques** into applications  
 
 ## 🔥 About Me
 - 🎯 Skilled in **Java + Spring Boot** for backend and **React.js** for frontend.  
