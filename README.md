@@ -27,7 +27,9 @@
 - Skilled in working with data warehouses, data lakes, data lakehouses  
 - Exploring AI technologies  
 - Executing daily tasks with the Linux shell
-
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=taaytungstieenf&color=ff69b4&style=flat-square&label=Profile+Views" />
+</p>
 <br>
 
 ## 🎨 Nothing But Decoration
