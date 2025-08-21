@@ -19,7 +19,7 @@
 </div>
 
 - Experienced in building web applications, personal blogs  
-- Skilled in working with data warehouses, data lakes, lakehouses  
+- Skilled in working with data warehouses, data lakes, data lakehouses  
 - Exploring AI technologies  
 - Executing daily tasks with the Linux shell
 
@@ -103,8 +103,21 @@
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=taaytungstieenf&theme=radical&hide_border=true" />
 </p>
-
-
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=taaytungstieenf&layout=compact&theme=dracula&hide_border=true" />
+</p>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=taaytungstieenf&show_icons=true&theme=dracula&hide_border=true" />
+</p>
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=taaytungstieenf&theme=dracula&hide_border=true" />
+</p>
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=taaytungstieenf&color=ff69b4&style=flat-square&label=Profile+Views" />
+</p>
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com/?lines=Hello,+I'm+Tây+Nguyễn!;Welcome+to+my+GitHub+Profile!;Fullstack+Developer+%7C+Data+Engineer&center=true&size=22&color=ff79c6">
+</p>
 
 <br>
 
