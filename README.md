@@ -62,9 +62,13 @@
 <details>
   <summary>📊 Data Lake Platform</summary>
   
-  - Built a **data lake** with Hadoop + Spark + Cloud storage  
-  - Automated **ETL pipelines** with Airflow + Kafka  
-  - Processed data → structured storage → ML-ready datasets  
+  - Apply Gradient Boosting models such as CatBoost, LightGBM, and XGBoost to build predictive models.  
+  - Perform Exploratory Data Analysis to understand the data, including feature importance, correlation heatmaps.  
+  - Compare model performance using accuracy, precision, recall, F1-score, and confusion matrix.  
+  - Evaluate machine learning models using ROC and Precision-Recall curves.  
+  - Apply feature engineering concepts to transform dialogue-based data for chatbot application.  
+  - Implement semantic search with FAISS and integrate DialoGPT to build retrieval-based chatbot.  
+  - Containerize the application using Docker.
 </details>
 
 <details>
