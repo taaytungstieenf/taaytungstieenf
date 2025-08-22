@@ -5,9 +5,6 @@
   <img src="https://i.pinimg.com/originals/98/4e/81/984e81934046c3050464525dfcacb6bc.gif" alt="banner" width="250" height="150"/>
 </p>
 
-![Web Dev](https://img.shields.io/badge/Web%20Developer-HTML%2FCSS%2FJS-orange?logo=javascript&logoColor=white)
-![Data Engineer](https://img.shields.io/badge/Data%20Engineer-SQL%20%7C%20ETL%20%7C%20Hadoop-blue?logo=apachehadoop&logoColor=white)
-![AI Engineer](https://img.shields.io/badge/AI%20Engineer-Python%20%7C%20ML%20%7C%20DL-green?logo=pytorch&logoColor=white)
 
 <br> <!-- break -->
 
