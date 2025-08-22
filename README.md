@@ -87,9 +87,15 @@
 <details>
   <summary>🛒 E-commerce Web Application</summary>
   
-  - Full-stack project: **Spring Boot (backend)** + **React (frontend)**  
-  - Features: user login, catalog, cart, checkout, payment  
-  - Security: **Spring Security + BCryptPasswordEncoder**  
+  - Create full-stack Java Spring MVC application for managing warehouse.
+  - Develop operations including inbound/outbound orders, inventory updates, and product categories.
+  - Design and implemented role-based access control to separate functionalities between admin and staff users.
+  - Build dynamic web interfaces using Thymeleaf, and enhanced with jQuery for interactive elements.
+  - Model and manage warehouse data using MySQL with Hibernate ORM for efficient database interaction.
+  - Implement CRUD functionalities for products, inventory batches, suppliers, and transaction records.
+  - Create a dashboard with key performance indicators (e.g., stock levels, recent transactions, low inventory alerts).
+  - Ensure clean architectural separation using the Model–View–Controller (MVC) pattern for maintainability.
+  - Secure user sessions, login/logout functionality, and password encryption.  
 </details>
 
 <br>
