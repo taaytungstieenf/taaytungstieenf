@@ -90,16 +90,16 @@
   
   - Build real-time data ingestion with Kafka and Schema Registry for enforceable event schemas.
   - Stream processing with Spark Structured Streaming on AWS EMR (stateful/windowed aggregations, enrichment joins).
-  - Persist raw/processed streams to cloud data lake (S3) in Parquet + Delta/Iceberg, partitioned by time with auto-compaction.
-  - Orchestrate pipelines via Apache Airflow, including stream job deploy/restart, batch compaction, and dependency management.
-  - Implement robust data quality with Great Expectations at Bronze/Silver/Gold layers and dead-letter queues for invalid messages.
-  - Model curated datasets in a cloud data warehouse (Redshift / BigQuery / Snowflake) using dbt (incremental models, tests, and lineage).
-  - Expose real-time and near-real-time KPIs on Superset/Metabase/Grafana with alerts for SLA breaches and anomaly signals.
-  - Secure data and workloads with IAM least-privilege, encryption in-transit/at-rest, private networking (VPC, VPN/Direct Connect), and audit logging.
-  - Implement CI/CD with GitHub Actions for building/testing dbt & Spark jobs and Terraform for reproducible infrastructure provisioning.
-  - Monitor reliability and cost using CloudWatch/Stackdriver + Prometheus/Grafana, autoscale compute, and apply lifecycle policies for storage optimization.
-  - Provide operational runbooks and incident workflows (on-call, retries, backfills) to ensure resilience and rapid recovery.
-  - Document data contracts and SLAs with producers/consumers to maintain schema evolution and backward compatibility.
+  - Persist raw/processed streams in S3 (Parquet + Delta/Iceberg), time-partitioned with auto-compaction.
+  - Orchestrate pipelines with Airflow (deploy/restart, compaction, dependencies)
+  - Ensure data quality with Great Expectations (Bronze/Silver/Gold) and DLQs for invalid messages.
+  - Model curated datasets in cloud warehouse (Redshift/BigQuery/Snowflake) with dbt (incrementals, tests, lineage).
+  - Expose real-time KPIs on Superset/Metabase/Grafana with alerts for SLA breaches and anomalies.
+  - Secure data/workloads with IAM, encryption, private networking, and audit logging.
+  - CI/CD with GitHub Actions (dbt & Spark) and Terraform for infra provisioning.
+  - Monitor reliability/cost with CloudWatch, Prometheus/Grafana; autoscale compute & optimize storage.
+  - Provide runbooks and incident workflows (on-call, retries, backfills) for resilience and quick recovery.
+  - Document data contracts and SLAs to ensure schema evolution and backward compatibility.
 </details>
 
 ### 💻 Software Engineering Projects  
