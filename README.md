@@ -118,29 +118,29 @@
 <details>
   <summary>Flight Booking Application</summary>
   
-  - Developed a full-stack warehouse management application using Spring Boot RESTful APIs for the backend and React for the frontend.
-  - Implemented CRUD functionalities for products, inventory batches, suppliers, and transaction records, exposing endpoints following REST principles.
+  - Built a full-stack warehouse management app with Spring Boot APIs and React.
+  - Implemented CRUD for products, inventory, suppliers, and transactions via REST APIs.
   - Designed and managed warehouse data in MySQL using Hibernate/JPA ORM for seamless persistence and relational mapping.
   - Built a responsive React frontend with React Router and Axios for API communication, ensuring smooth user experience.
   - Designed role-based access control (RBAC) at the API layer to separate functionalities between admin and staff users.
-  - Created dashboards with charts and tables to display key performance indicators (e.g., stock levels, recent transactions, low inventory alerts).
-  - Secured user authentication and authorization with JWT tokens, encrypted passwords, and protected routes on the frontend.
-  - Established clean architectural separation between backend services and frontend SPA (Single Page Application) for scalability and maintainability.
+  - Created dashboards with charts/tables for KPIs (stock, transactions, alerts).
+  - Secured authentication & authorization with JWT, encryption, and protected routes.
+  - Established clean separation between backend services and frontend SPA for scalability.
   - Integrated interactive UI elements with React hooks and state management for dynamic updates in real time.
-  - Ensured best practices in API documentation (Swagger/OpenAPI) and applied input validation + error handling for reliability.  
+  - Documented APIs with Swagger/OpenAPI and applied validation & error handling.  
 </details>
 
 <details>
   <summary>Hair Salon Booking Appilcation</summary>
 
-  - Developed a full-stack warehouse management application using Node.js/Express.js RESTful APIs for the backend and Angular for the frontend.
-  - Implemented CRUD functionalities for products, inventory batches, suppliers, and transaction records, exposed via RESTful API endpoints.
-  - Designed and managed warehouse data in MySQL using Sequelize ORM for efficient database interaction and relational mapping.
-  - Built a responsive Angular frontend with Angular Router, HttpClient, and Angular Material, ensuring smooth user experience.
+  - Built a full-stack warehouse management app with Node.js/Express APIs and Angular.
+  - Implemented CRUD for products, inventory, suppliers, and transactions via REST APIs
+  - Managed warehouse data in MySQL using Sequelize ORM for efficient mapping.
+  - Built a responsive Angular frontend with Router, HttpClient, and Material.
   - Implemented role-based access control (RBAC) using JWT to separate functionalities between admin and staff users.
   - Created a dashboard to display key warehouse KPIs (e.g., stock levels, recent transactions, low inventory alerts).
-  - Secured user authentication and session management with JWT tokens, encrypted passwords, and protected routes on the frontend.
-  - Ensured clean separation of concerns between backend services (API) and frontend (SPA) for maintainability and scalability.
+  - Secured authentication & session management with JWT, encryption, and protected routes.
+  - Ensured clean separation of backend APIs and frontend SPA for scalability.
 </details>
 
 <br>
