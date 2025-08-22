@@ -121,7 +121,7 @@
 </details>
 
 <details>
-  <summary>Hair Salon Booking Appilcation</summary>
+  <summary>Daily Blog</summary>
 
   - Built a full-stack warehouse management app with Node.js/Express APIs and Angular.
   - Implemented CRUD for products, inventory, suppliers, and transactions via REST APIs
