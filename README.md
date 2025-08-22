@@ -191,7 +191,7 @@
 
 
 <p align="center">
-  <img src="https://i.makeagif.com/media/3-28-2017/mHd6Cg.gif" alt="banner" width="250" height="150"/>
-  <img src="https://i.makeagif.com/media/3-28-2017/mHd6Cg.gif" alt="banner" width="250" height="150"/>
-  <img src="https://i.makeagif.com/media/3-28-2017/mHd6Cg.gif" alt="banner" width="250" height="150"/>
+  <img src="https://i.makeagif.com/media/3-28-2017/mHd6Cg.gif" alt="banner" width="270" height="180"/>
+  <img src="https://i.makeagif.com/media/3-28-2017/mHd6Cg.gif" alt="banner" width="270" height="180"/>
+  <img src="https://i.makeagif.com/media/3-28-2017/mHd6Cg.gif" alt="banner" width="270" height="180"/>
 </p>
