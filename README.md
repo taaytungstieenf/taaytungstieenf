@@ -85,7 +85,22 @@
 </details>
 
 <details>
-  <summary>🛒 E-commerce Web Application</summary>
+  - Build real-time data ingestion with Kafka (on-prem) / Amazon Kinesis (cloud) and Schema Registry for enforceable event schemas.
+  - Process streaming events using Spark Structured Streaming on AWS EMR (hoặc GCP Dataproc) with stateful/windowed aggregations and enrichment joins.
+  - Persist raw and processed streams to a cloud data lake (Amazon S3 / GCS) in Parquet + Delta/Iceberg, partitioned by date/hour with automatic compaction.
+  - Orchestrate end-to-end pipelines via Apache Airflow/Prefect, including stream job deploy/restart, batch compaction, and dependency management.
+  - Implement robust data quality with Great Expectations at Bronze/Silver/Gold layers and dead-letter queues for invalid messages.
+  - Model curated datasets in a cloud data warehouse (Redshift / BigQuery / Snowflake) using dbt (incremental models, tests, and lineage).
+  - Expose real-time and near-real-time KPIs on Superset/Metabase/Grafana with alerts for SLA breaches and anomaly signals.
+  - Secure data and workloads with IAM least-privilege, encryption in-transit/at-rest, private networking (VPC, VPN/Direct Connect), and audit logging.
+  - Implement CI/CD with GitHub Actions for building/testing dbt & Spark jobs and Terraform for reproducible infrastructure provisioning.
+  - Monitor reliability and cost using CloudWatch/Stackdriver + Prometheus/Grafana, autoscale compute, and apply lifecycle policies for storage optimization.
+  - Provide operational runbooks and incident workflows (on-call, retries, backfills) to ensure resilience and rapid recovery.
+  - Document data contracts and SLAs with producers/consumers to maintain schema evolution and backward compatibility.
+</details>
+
+<details>
+  <summary>Bookstore Management Application</summary>
   
   - Create full-stack Java Spring MVC application for managing warehouse.
   - Develop operations including inbound/outbound orders, inventory updates, and product categories.
