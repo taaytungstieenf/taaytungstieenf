@@ -6,39 +6,22 @@
 </p>
 
 ## 👤 About Me
-<!--
-<p align="center">
-  <samp>
-    Software Engineer, Data Engineer, Machine Learning Learner <br/>
-    Vietnamese & English
-  </samp>
-</p>
--->
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com/?lines=Hi,+I'm+Tae;Welcome+to+my+GitHub!;Fullstack+Developer;Data+Engineer;Machine+Learning+Engineer&center=true&size=24&color=ff79c6&font=Fira+Code">
 </p>
-<!--
-<div align="center">
-  ───────────────────────────────── ⋆⋅☆⋅⋆ ─────────────────────────────────
-</div>
--->
 
 - Experienced in building web applications, personal blogs  
 - Skilled in working with data warehouses, data lakes, data lakehouses  
 - Exploring AI technologies  
 - Executing daily tasks with the Linux shell
+
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=taaytungstieenf&color=ff69b4&style=flat-square&label=Profile+Views" />
 </p>
-<br>
-<!--
-## 🎨 Decoration
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=taaytungstieenf&theme=dracula&no-frame=true&margin-w=15&margin-h=15" />
-</p>
--->
 
-<br>
+
+<br> <!-- -->
+
 
 ## 🛠️ Tech Stack  
 
