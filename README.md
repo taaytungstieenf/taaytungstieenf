@@ -92,7 +92,7 @@
 </details>
 
 <details>
-  <summary>Bookstore Management Application</summary>
+  <summary>Warehouse Management System</summary>
   
   - Create full-stack Java Spring MVC application for managing warehouse.
   - Develop operations including inbound/outbound orders, inventory updates, and product categories.
