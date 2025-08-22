@@ -59,9 +59,8 @@
 
 ## 🚀 Project Recaps  
 
-### 📊 Data & AI Projects  
 <details>
-  <summary>Diabetes Support Application</summary>
+  <summary>**Diabetes Support Application**</summary>
   
   - Apply Gradient Boosting models such as CatBoost, LightGBM, and XGBoost to build predictive models.  
   - Perform Exploratory Data Analysis to understand the data, including feature importance, correlation heatmaps.  
@@ -102,7 +101,8 @@
   - Document data contracts and SLAs to ensure schema evolution and backward compatibility.
 </details>
 
-### 💻 Software Engineering Projects  
+---
+
 <details>
   <summary>Bookstore Management Application</summary>
   
