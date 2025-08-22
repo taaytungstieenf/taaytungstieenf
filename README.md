@@ -57,10 +57,10 @@
 
 <br>
 
-## 🚀 Projects  
+## 🚀 Project Recaps  
 
 <details>
-  <summary>📊 Data Lake Platform</summary>
+  <summary>Diabetes Support Application</summary>
   
   - Apply Gradient Boosting models such as CatBoost, LightGBM, and XGBoost to build predictive models.  
   - Perform Exploratory Data Analysis to understand the data, including feature importance, correlation heatmaps.  
@@ -72,11 +72,16 @@
 </details>
 
 <details>
-  <summary>🗄️ Data Warehouse ETL System</summary>
+  <summary>IMDB Processing Pipeline</summary>
   
-  - Designed **OLAP schema** for BI reporting  
-  - Queried big data with **Hive + Spark SQL**  
-  - Built dashboards using **Power BI / Tableau**  
+  - Apply big data concepts such as data preparation, data validation, and data visualization to build data pipeline.
+  - Download and extract raw data from the source, normalize and export data into Parquet format.
+  - Model data to relational database and build comprehensive full IMDB dataset for batch processing.
+  - Upload the exported data to HDFS and split full dataset into partition datasets by production year.
+  - Create data pipeline to download partition by each production year from HDFS back to the local system.
+  - Load the partitioned datasets into a data warehouse (MySQL) and ready for visualization by Streamlit.
+  - Validate the data at each stage to ensure data integrity, use Spark to process data at every stage of the pipeline.
+  - Automate the download and import process into MySQL using CRON jobs in Unix OS.
 </details>
 
 <details>
