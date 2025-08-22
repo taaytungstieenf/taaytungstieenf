@@ -120,7 +120,7 @@
   
   - Built a full-stack warehouse management app with Spring Boot APIs and React.
   - Implemented CRUD for products, inventory, suppliers, and transactions via REST APIs.
-  - Designed and managed warehouse data in MySQL using Hibernate/JPA ORM for seamless persistence and relational mapping.
+  - Managed warehouse data in MySQL using Hibernate/JPA for seamless persistence.
   - Built a responsive React frontend with React Router and Axios for API communication, ensuring smooth user experience.
   - Designed role-based access control (RBAC) at the API layer to separate functionalities between admin and staff users.
   - Created dashboards with charts/tables for KPIs (stock, transactions, alerts).
