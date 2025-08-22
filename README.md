@@ -89,7 +89,7 @@
   <summary>Real-Time Data Lakehouse Platform</summary>
   
   - Build real-time data ingestion with Kafka and Schema Registry for enforceable event schemas.
-  - Process streaming events with Spark Structured Streaming on AWS EMR using stateful/windowed aggregations and enrichment joins.
+  - Stream processing with Spark Structured Streaming on AWS EMR (stateful/windowed aggregations, enrichment joins).
   - Persist raw and processed streams to a cloud data lake (Amazon S3) in Parquet + Delta/Iceberg, partitioned by date/hour with automatic compaction.
   - Orchestrate pipelines via Apache Airflow, including stream job deploy/restart, batch compaction, and dependency management.
   - Implement robust data quality with Great Expectations at Bronze/Silver/Gold layers and dead-letter queues for invalid messages.
