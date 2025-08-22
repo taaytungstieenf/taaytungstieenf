@@ -90,7 +90,7 @@
   
   - Build real-time data ingestion with Kafka and Schema Registry for enforceable event schemas.
   - Stream processing with Spark Structured Streaming on AWS EMR (stateful/windowed aggregations, enrichment joins).
-  - Persist raw and processed streams to a cloud data lake (Amazon S3) in Parquet + Delta/Iceberg, partitioned by date/hour with automatic compaction.
+  - Persist raw/processed streams to cloud data lake (S3) in Parquet + Delta/Iceberg, partitioned by time with auto-compaction.
   - Orchestrate pipelines via Apache Airflow, including stream job deploy/restart, batch compaction, and dependency management.
   - Implement robust data quality with Great Expectations at Bronze/Silver/Gold layers and dead-letter queues for invalid messages.
   - Model curated datasets in a cloud data warehouse (Redshift / BigQuery / Snowflake) using dbt (incremental models, tests, and lineage).
