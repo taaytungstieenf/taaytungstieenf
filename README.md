@@ -60,7 +60,7 @@
 ## 🚀 Project Recaps  
 
 <details>
-  <summary>**Diabetes Support Application**</summary>
+  <summary>Diabetes Support Application</summary>
   
   - Apply Gradient Boosting models such as CatBoost, LightGBM, and XGBoost to build predictive models.  
   - Perform Exploratory Data Analysis to understand the data, including feature importance, correlation heatmaps.  
@@ -100,8 +100,6 @@
   - Provide runbooks and incident workflows (on-call, retries, backfills) for resilience and quick recovery.
   - Document data contracts and SLAs to ensure schema evolution and backward compatibility.
 </details>
-
----
 
 <details>
   <summary>Bookstore Management Application</summary>
