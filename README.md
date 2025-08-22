@@ -59,6 +59,7 @@
 
 ## 🚀 Project Recaps  
 
+### 📊 Data & AI Projects  
 <details>
   <summary>Diabetes Support Application</summary>
   
@@ -85,6 +86,8 @@
 </details>
 
 <details>
+  <summary>Real-Time Data Lakehouse Platform</summary>
+  
   - Build real-time data ingestion with Kafka (on-prem) / Amazon Kinesis (cloud) and Schema Registry for enforceable event schemas.
   - Process streaming events using Spark Structured Streaming on AWS EMR (hoặc GCP Dataproc) with stateful/windowed aggregations and enrichment joins.
   - Persist raw and processed streams to a cloud data lake (Amazon S3 / GCS) in Parquet + Delta/Iceberg, partitioned by date/hour with automatic compaction.
@@ -99,6 +102,7 @@
   - Document data contracts and SLAs with producers/consumers to maintain schema evolution and backward compatibility.
 </details>
 
+### 💻 Software Engineering Projects  
 <details>
   <summary>Bookstore Management Application</summary>
   
@@ -111,6 +115,34 @@
   - Create a dashboard with key performance indicators (e.g., stock levels, recent transactions, low inventory alerts).
   - Ensure clean architectural separation using the Model–View–Controller (MVC) pattern for maintainability.
   - Secure user sessions, login/logout functionality, and password encryption.  
+</details>
+
+<details>
+  <summary>Flight Booking Application</summary>
+  
+  - Developed a full-stack warehouse management application using Spring Boot RESTful APIs for the backend and React for the frontend.
+  - Implemented CRUD functionalities for products, inventory batches, suppliers, and transaction records, exposing endpoints following REST principles.
+  - Designed and managed warehouse data in MySQL using Hibernate/JPA ORM for seamless persistence and relational mapping.
+  - Built a responsive React frontend with React Router and Axios for API communication, ensuring smooth user experience.
+  - Designed role-based access control (RBAC) at the API layer to separate functionalities between admin and staff users.
+  - Created dashboards with charts and tables to display key performance indicators (e.g., stock levels, recent transactions, low inventory alerts).
+  - Secured user authentication and authorization with JWT tokens, encrypted passwords, and protected routes on the frontend.
+  - Established clean architectural separation between backend services and frontend SPA (Single Page Application) for scalability and maintainability.
+  - Integrated interactive UI elements with React hooks and state management for dynamic updates in real time.
+  - Ensured best practices in API documentation (Swagger/OpenAPI) and applied input validation + error handling for reliability.  
+</details>
+
+<details>
+  <summary>Hair Salon Booking Appilcation</summary>
+
+  - Developed a full-stack warehouse management application using Node.js/Express.js RESTful APIs for the backend and Angular for the frontend.
+  - Implemented CRUD functionalities for products, inventory batches, suppliers, and transaction records, exposed via RESTful API endpoints.
+  - Designed and managed warehouse data in MySQL using Sequelize ORM for efficient database interaction and relational mapping.
+  - Built a responsive Angular frontend with Angular Router, HttpClient, and Angular Material, ensuring smooth user experience.
+  - Implemented role-based access control (RBAC) using JWT to separate functionalities between admin and staff users.
+  - Created a dashboard to display key warehouse KPIs (e.g., stock levels, recent transactions, low inventory alerts).
+  - Secured user authentication and session management with JWT tokens, encrypted passwords, and protected routes on the frontend.
+  - Ensured clean separation of concerns between backend services (API) and frontend (SPA) for maintainability and scalability.
 </details>
 
 <br>
