@@ -62,7 +62,7 @@
 </details>
 
 <details>
-  <summary>IMDB Processing Pipeline</summary>
+  <summary>IMDB Data Processing Pipeline</summary>
   
   - Apply big data concepts such as data preparation, data validation, and data visualization to build data pipeline.
   - Download and extract raw data from the source, normalize and export data into Parquet format.
