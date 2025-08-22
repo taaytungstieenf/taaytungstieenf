@@ -5,7 +5,12 @@
   <img src="https://i.pinimg.com/originals/98/4e/81/984e81934046c3050464525dfcacb6bc.gif" alt="banner" width="250" height="150"/>
 </p>
 
+
+<br> <!-- break -->
+
+
 ## 👤 About Me
+
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com/?lines=Hi,+I'm+Tae;Welcome+to+my+GitHub!;Fullstack+Developer;Data+Engineer;Machine+Learning+Engineer&center=true&size=24&color=ff79c6&font=Fira+Code">
 </p>
@@ -20,7 +25,7 @@
 </p>
 
 
-<br> <!-- -->
+<br> <!-- break -->
 
 
 ## 🛠️ Tech Stack  
@@ -38,7 +43,9 @@
 
 </div>
 
-<br>
+
+<br> <!-- break -->
+
 
 ## 🚀 Project Recaps  
 
@@ -126,14 +133,12 @@
   - Ensured clean separation of backend APIs and frontend SPA for scalability.
 </details>
 
-<br>
+
+<br> <!-- break -->
+
 
 ## 📈 GitHub Stats  
-<!--
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=taaytungstieenf&theme=radical&margin-w=5&margin-h=5"/>
-</p>
--->
+
 <p align="center">
   <table>
     <tr>
@@ -154,7 +159,9 @@
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=taaytungstieenf&theme=radical&hide_border=true" />
 </p>
 
-<br>
+
+<br> <!-- break -->
+
 
 ## 📫 Connect with Me  
 
@@ -177,7 +184,4 @@
   <a href="https://facebook.com/tieeurtaaytaay">
     <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" />
   </a>
-
 </p>
-
-
