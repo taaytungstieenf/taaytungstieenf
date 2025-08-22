@@ -31,12 +31,12 @@
   <img src="https://komarev.com/ghpvc/?username=taaytungstieenf&color=ff69b4&style=flat-square&label=Profile+Views" />
 </p>
 <br>
-
+<!--
 ## 🎨 Decoration
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=taaytungstieenf&theme=dracula&no-frame=true&margin-w=15&margin-h=15" />
 </p>
-
+-->
 
 <br>
 
