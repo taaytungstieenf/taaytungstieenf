@@ -15,7 +15,7 @@
   <img src="https://readme-typing-svg.herokuapp.com/?lines=Hi,+I'm+Tae;Welcome+to+my+GitHub!;Fullstack+Developer;Data+Engineer;Machine+Learning+Engineer&center=true&size=24&color=ff79c6&font=Fira+Code">
 </p>
 
-- Experienced in building web applications, personal blogs  
+- Experienced in building e-commerce web applications, personal blogs  
 - Skilled in working with data warehouses, data lakes, data lakehouses  
 - Exploring AI technologies  
 - Executing daily tasks with the Linux shell
