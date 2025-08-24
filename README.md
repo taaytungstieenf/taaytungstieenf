@@ -146,7 +146,7 @@
         <img src="https://github-readme-streak-stats.herokuapp.com?user=taaytungstieenf&theme=radical&hide_border=true" />
       </td>
       <td>
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=taaytungstieenf&layout=compact&theme=radical&hide_border=true" />
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=taaytungstieenf&layout=compact&theme=radical" />
       </td>
       <td>
         <img src="https://github-readme-stats.vercel.app/api?username=taaytungstieenf&show_icons=true&theme=radical&hide_border=true" />
