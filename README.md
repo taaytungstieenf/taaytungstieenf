@@ -202,8 +202,10 @@
 
 ## 🤔 In Case of I Forget
 
+```
 1. Start Git
 |_____ git init
 |_____ rm -rf .git
 
 2. 
+```
