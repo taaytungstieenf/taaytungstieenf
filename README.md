@@ -246,7 +246,7 @@
 ```
 
 <p align="center">
-  <img src="https://i.makeagif.com/media/3-28-2017/mHd6Cg.gif" alt="banner" width="277" height="200"/>
-  <img src="https://i.makeagif.com/media/3-28-2017/mHd6Cg.gif" alt="banner" width="277" height="200"/>
-  <img src="https://i.makeagif.com/media/3-28-2017/mHd6Cg.gif" alt="banner" width="277" height="200"/>
+  <img src="https://i.makeagif.com/media/3-28-2017/mHd6Cg.gif" alt="banner" width="279" height="200"/>
+  <img src="https://i.makeagif.com/media/3-28-2017/mHd6Cg.gif" alt="banner" width="279" height="200"/>
+  <img src="https://i.makeagif.com/media/3-28-2017/mHd6Cg.gif" alt="banner" width="279" height="200"/>
 </p>
