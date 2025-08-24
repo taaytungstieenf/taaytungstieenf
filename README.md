@@ -200,7 +200,7 @@
 <br> <!-- break -->
 
 
-## 🤔 In Case of I Forget
+## 🤔 In Case of You Forget
 
 ```
 1. Start Git
@@ -227,7 +227,7 @@
 |_____ $ git reset -soft commit_hash
 |_____ $ git reset -hard commit_hash
 
-6. Workflow
+6. Merge workflow
 |_____ commits:  A -> B -> C                          (main)
 |_____ command:  $ git checkout -b test
 |_____ commits:  A -> B -> C                          (main, test)
