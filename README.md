@@ -204,20 +204,37 @@
 
 ```
 1. Start Git
-|_____ git init
-|_____ rm -rf .git
+|_____ $ git init
+|_____ $ rm -rf .git
 
 2. Save changes
-|_____ git add .
-|_____ git commit -m "message"
+|_____ $ git add .
+|_____ $ git commit -m "message"
 
 3. Check changes
-|_____ git status
-|_____ git log --oneline
+|_____ $ git status
+|_____ $ git log --oneline
 
 4. Branches in repo
-|_____ git branch
-|_____ git checkout branch_name
-|_____ git checkout -b new_branch
-|_____ git branch new_name
+|_____ $ git branch
+|_____ $ git checkout branch_name
+|_____ $ git checkout -b new_branch
+|_____ $ git branch new_name
+
+5. Change version
+|_____ $ git checkout commit_hash
+|_____ $ git reset -soft commit_hash
+|_____ $ git reset -hard commit_hash
+
+6. Workflow
+|_____ commits:  A -> B -> C      (main)
+|_____           $ git checkout -b test
+|_____ commits:  A -> B -> C -> D (main, test)
+|_____           $ git commit -m "D"
+|_____ commits:  A -> B -> C -> D (test)
+|                          |
+|                        (main)
+|_____           $ git checkout main
+|_____           $ git merge test
+|_____ commits:  A -> B -> C -> D  (test, main)
 ```
