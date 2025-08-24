@@ -195,3 +195,15 @@
   <img src="https://i.makeagif.com/media/3-28-2017/mHd6Cg.gif" alt="banner" width="270" height="200"/>
   <img src="https://i.makeagif.com/media/3-28-2017/mHd6Cg.gif" alt="banner" width="270" height="200"/>
 </p>
+
+
+<br> <!-- break -->
+
+
+## 🤔 In Case of I Forget
+
+1. Start Git
+|_____ git init
+|_____ rm -rf .git
+
+2. 
