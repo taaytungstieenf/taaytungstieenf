@@ -229,17 +229,17 @@
 |_____ $ git reset -hard HEAD
 
 6. Workflow
-|_____ commits:  A -> B -> C                (main)
-|_____           $ git checkout -b test
-|_____ commits:  A -> B -> C                (main, test)
-|_____           $ git commit -m "D"
-|_____ commits:  A -> B -> C -> D           (test)
-|_____           $ git checkout main; git merge test
-|_____ commits:  A -> B -> C -> D           (test, main)
+|_____ commits:  A -> B -> C                          (main)
+|_____ command:  $ git checkout -b test
+|_____ commits:  A -> B -> C                          (main, test)
+|_____ command:  $ git commit -m "D"
+|_____ commits:  A -> B -> C -> D                     (test)
+|_____ command:  $ git checkout main; git merge test
+|_____ commits:  A -> B -> C -> D                     (test, main)
 
 7. Start GitHub
 |_____ git clone https://github.com/username/repo_name.git
-|_____ git remote add remote_repo https//github.com/username/repo_name.git
+|_____ git remote add remote_repo https://github.com/username/repo_name.git
 |_____ git remote remove remote_repo
 |_____ git remote -v
 
