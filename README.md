@@ -217,9 +217,10 @@
 
 4. Branches in repo
 |_____ $ git branch
+|_____ $ git branch new_branch
 |_____ $ git checkout branch_name
 |_____ $ git checkout -b new_branch
-|_____ $ git branch new_name
+|_____ $ git branch -m new_name
 
 5. Change version
 |_____ $ git checkout commit_hash
