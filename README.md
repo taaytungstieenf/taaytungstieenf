@@ -187,15 +187,6 @@
 </p>
 
 
-
-
-<p align="center">
-  <img src="https://i.makeagif.com/media/3-28-2017/mHd6Cg.gif" alt="banner" width="270" height="200"/>
-  <img src="https://i.makeagif.com/media/3-28-2017/mHd6Cg.gif" alt="banner" width="270" height="200"/>
-  <img src="https://i.makeagif.com/media/3-28-2017/mHd6Cg.gif" alt="banner" width="270" height="200"/>
-</p>
-
-
 <br> <!-- break -->
 
 
@@ -251,3 +242,9 @@
 |_____ git push -u local_branch:remote_branch
 |_____ git push origin --delete branch_name
 ```
+
+<p align="center">
+  <img src="https://i.makeagif.com/media/3-28-2017/mHd6Cg.gif" alt="banner" width="270" height="200"/>
+  <img src="https://i.makeagif.com/media/3-28-2017/mHd6Cg.gif" alt="banner" width="270" height="200"/>
+  <img src="https://i.makeagif.com/media/3-28-2017/mHd6Cg.gif" alt="banner" width="270" height="200"/>
+</p>
