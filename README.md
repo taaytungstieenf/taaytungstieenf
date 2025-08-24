@@ -238,3 +238,57 @@
 |_____           $ git merge test
 |_____ commits:  A -> B -> C -> D  (test, main)
 ```
+
+| **Git Commands**        | **Mô tả**                  |
+|--------------------------|----------------------------|
+| `git init`              | Khởi tạo repo mới          |
+| `rm -rf .git`           | Xóa git khỏi thư mục       |
+| `git add .`             | Stage toàn bộ file         |
+| `git commit -m "msg"`   | Lưu commit với message     |
+| `git status`            | Kiểm tra trạng thái        |
+| `git log --oneline`     | Lịch sử commit ngắn gọn    |
+| `git branch`            | Liệt kê branch             |
+| `git checkout branch`   | Chuyển branch              |
+| `git checkout -b new`   | Tạo và chuyển branch mới   |
+| `git branch -m newname` | Đổi tên branch             |
+| `git checkout <hash>`   | Quay về commit cũ          |
+| `git reset --soft <h>`  | Reset giữ lại file         |
+| `git reset --hard <h>`  | Reset mất thay đổi         |
+
+
+<div style="display: flex; gap: 20px;">
+
+<div>
+
+### 1. Start Git
+- `git init`
+- `rm -rf .git`
+
+### 2. Save changes
+- `git add .`
+- `git commit -m "message"`
+
+### 3. Check changes
+- `git status`
+- `git log --oneline`
+
+</div>
+
+<div>
+
+### 4. Branches in repo
+- `git branch`
+- `git checkout branch_name`
+- `git checkout -b new_branch`
+- `git branch -m new_name`
+
+### 5. Change version
+- `git checkout commit_hash`
+- `git reset --soft commit_hash`
+- `git reset --hard commit_hash`
+
+</div>
+
+</div>
+
+
