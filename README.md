@@ -224,19 +224,18 @@
 5. Change version
 |_____ $ git checkout commit_hash
 |_____ $ git reset -soft commit_hash
+|_____ $ git reset -mixed commit_hash
 |_____ $ git reset -hard commit_hash
+|_____ $ git reset -hard HEAD
 
 6. Workflow
-|_____ commits:  A -> B -> C      (main)
+|_____ commits:  A -> B -> C                (main)
 |_____           $ git checkout -b test
-|_____ commits:  A -> B -> C -> D (main, test)
+|_____ commits:  A -> B -> C                (main, test)
 |_____           $ git commit -m "D"
-|_____ commits:  A -> B -> C -> D (test)
-|                          |
-|                        (main)
-|_____           $ git checkout main
-|_____           $ git merge test
-|_____ commits:  A -> B -> C -> D  (test, main)
+|_____ commits:  A -> B -> C -> D           (test)
+|_____           $ git checkout main; git merge test
+|_____ commits:  A -> B -> C -> D           (test, main)
 
 7. Start GitHub
 |_____ git clone https://github.com/username/repo_name.git
