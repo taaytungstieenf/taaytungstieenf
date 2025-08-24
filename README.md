@@ -247,7 +247,7 @@
 |_____ git push
 |_____ git pull
 
-9.
+9. Manipulate branches
 |_____ git push -u origin new_name
 |_____ git push -u local_branch:remote_branch
 |_____ git push origin --delete branch_name
