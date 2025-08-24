@@ -225,9 +225,7 @@
 5. Change version
 |_____ $ git checkout commit_hash
 |_____ $ git reset -soft commit_hash
-|_____ $ git reset -mixed commit_hash
 |_____ $ git reset -hard commit_hash
-|_____ $ git reset -hard HEAD
 
 6. Workflow
 |_____ commits:  A -> B -> C                          (main)
@@ -250,8 +248,7 @@
 |_____ git pull
 
 9.
-|_____ git branch -M new_name
-|_____ git push -u origin new_name   -> tự động tạo branch trên Github trùng tên nếu chưa có
-|_____ git push -u local_branch:remote_branch -> chỉ định đẩy lên branch nào trên GitHub
+|_____ git push -u origin new_name
+|_____ git push -u local_branch:remote_branch
 |_____ git push origin --delete branch_name
 ```
