@@ -240,8 +240,8 @@
 7. Start GitHub
 |_____ git clone https://github.com/username/repo_name.git
 |_____ git remote add remote_repo https//github.com/username/repo_name.git
-|_____ git remote remove remote_repo_name
-|_____ git remote -
+|_____ git remote remove remote_repo
+|_____ git remote -v
 
 8. Push & pull
 |_____ git push -u remote_repo branch_name
@@ -249,7 +249,8 @@
 |_____ git pull
 
 9.
-|_____ git push -u origin feature-login   -> tự động tạo branch trên Github trùng tên nếu chưa có
+|_____ git branch -M new_name
+|_____ git push -u origin new_name   -> tự động tạo branch trên Github trùng tên nếu chưa có
 |_____ git push -u local_branch:remote_branch -> chỉ định đẩy lên branch nào trên GitHub
 |_____ git push origin --delete branch_name
 ```
