@@ -207,5 +207,17 @@
 |_____ git init
 |_____ rm -rf .git
 
-2. 
+2. Save changes
+|_____ git add .
+|_____ git commit -m "message"
+
+3. Check changes
+|_____ git status
+|_____ git log --oneline
+
+4. Branches in repo
+|_____ git branch
+|_____ git checkout branch_name
+|_____ git checkout -b new_branch
+|_____ git branch new_name
 ```
