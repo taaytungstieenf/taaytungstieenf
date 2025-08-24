@@ -242,7 +242,7 @@
 |_____ git remote remove remote_repo
 |_____ git remote -v
 
-8. Push & pull
+8. Push and pull
 |_____ git push -u remote_repo branch_name
 |_____ git push
 |_____ git pull
