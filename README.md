@@ -187,9 +187,6 @@
     <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" />
   </a>
 </p>
-<a href="https://facebook.com/tieeurtaaytaay">
-    <img src="https://github-profile-trophy.vercel.app/?username=taaytungstieenf&theme=radical&margin-w=5&margin-h=5" />
-  </a>
 
 
 <br> <!-- break -->
