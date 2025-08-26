@@ -152,11 +152,6 @@
         <img src="https://github-readme-streak-stats.herokuapp.com/?user=taaytungstieenf&theme=radical" />
       </td>
     </tr>
-    <tr>
-      <td>
-        <img src="https://github-profile-trophy.vercel.app/?username=taaytungstieenf&theme=radical" />
-      </td>
-    </tr>
   </table>
 </p>
 
