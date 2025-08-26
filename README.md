@@ -153,7 +153,9 @@
       </td>
     </tr>
     <tr>
-      <img src="https://github-profile-trophy.vercel.app/?username=taaytungstieenf&theme=radical" />
+      <td>
+        <img src="https://github-profile-trophy.vercel.app/?username=taaytungstieenf&theme=radical" />
+      </td>
     </tr>
   </table>
 </p>
