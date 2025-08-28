@@ -122,21 +122,21 @@
 <details>
   <summary>Football Trading Card Store</summary>
 
-  - Built a full-stack Football Trading Card Store e-commerce platform using Spring Boot (REST APIs), React (SPA), and MongoDB.  
-  - Implemented CRUD for cards, inventory, users, orders, payments, reviews, and wishlists via well-documented REST endpoints.  
-  - Designed normalized MongoDB schemas for users, cards, carts, orders, payments, reviews, and banners with appropriate indexes for fast player/team/price queries.  
-  - Managed card variants and stock: support for condition, edition, graded vs raw, SKU-level inventory adjustments, and low-stock alerts.  
-  - Built a responsive React frontend using React Router, Axios/React Query, React Hook Form, and Material UI for catalog, product pages, cart, checkout, and account pages.  
-  - Implemented role-based access control (RBAC) using JWT: admin (product/order/promotion management) and customer (browse, purchase, review), with protected routes and refresh tokens.  
-  - Created checkout and order flow: cart → order creation → payment integration → status lifecycle (Pending → Paid → Shipped → Completed) and order timeline.  
-  - Integrated payment adapter layer (Stripe/VietQR-ready) and payment webhooks to reconcile transactions and update order status automatically.  
-  - Added search and faceted filtering: full-text search, filters by team, league, season, rarity, condition, graded, price range, and sorting (price, newest, best-selling).  
-  - Developed an Admin Dashboard with KPIs (daily/weekly GMV, order volume), top-selling cards, low-stock alerts, and promotion management panels.  
-  - Secured authentication and sessions with BCrypt password hashing, email verification, forgot-password flow, CORS rules, input validation, and basic audit logging.  
-  - Applied rate limiting, input sanitization, and server-side validation to protect APIs from abuse and injection attacks.  
-  - Ensured clean separation of backend APIs and frontend SPA for scalability and CI/CD; provided Docker Compose setup for API, web, and MongoDB.  
-  - Optimized performance: pagination, query indexing, caching strategy, and background jobs for inventory sync, order processing, and email notifications.  
-  - Logged transactional events and implemented basic analytics to support reporting, promotions, and business insights.  
+  - Built a full-stack Football Trading Card Store with Spring Boot, React, and MongoDB.  
+  - Implemented CRUD for cards, inventory, users, orders, payments, and reviews via REST APIs.  
+  - Designed MongoDB schemas with indexes for fast queries on player, team, and card rarity.  
+  - Managed card variants with condition, edition, graded vs raw, and low-stock notifications.  
+  - Developed a responsive React frontend with Router, Axios, and Material UI components.  
+  - Implemented role-based access control (RBAC) using JWT to separate admin and customer users.  
+  - Created checkout and order lifecycle from cart to payment and status tracking.  
+  - Integrated payment adapter layer with webhooks for automatic order status updates.  
+  - Added full-text search and filters for team, league, rarity, condition, and price range.  
+  - Built an Admin Dashboard to display sales KPIs, top-selling cards, and stock alerts.  
+  - Secured authentication with BCrypt hashing, email verification, and protected routes.  
+  - Applied rate limiting, validation, and sanitization to prevent abuse and attacks.  
+  - Ensured clean separation of backend APIs and frontend SPA for scalability.  
+  - Optimized performance with pagination, query indexing, and caching strategies.  
+  - Logged events and basic analytics to support reporting and promotions.   
 </details>
 
 
