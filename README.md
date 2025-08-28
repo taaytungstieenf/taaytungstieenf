@@ -120,16 +120,48 @@
 </details>
 
 <details>
-  <summary>Daily Blog</summary>
+  <summary>Football Trading Card Storeummary>
+  
+  - Built an **e-commerce platform** for buying and selling football trading cards using **Spring Boot** (REST APIs), **React** (SPA), and **MongoDB**.
+  - Designed **MongoDB schemas** for `users`, `cards`, `orders`, `carts`, `payments`, `inventory`, `reviews`, `wishlists`, and `banners`, with proper indexing for player/team/rarity/price queries.
+  - Implemented **CRUD operations** for trading cards and inventory: create/update/delete cards, manage stock, handle variations (condition, edition, graded vs raw), images, and metadata.
+  - Developed a **responsive React frontend** with Router, Axios/React Query, React Hook Form, and Material UI: catalog, product details, cart, checkout, user account, orders, wishlist.
+  - Applied **role-based access control (RBAC)** with JWT:  
+    - **Admin** → manage products, orders, promotions, and banners.  
+    - **Customer** → browse, purchase, track orders, leave reviews.  
+    - Secured routes with middleware, refresh tokens, and rate limiting.
+  - Built **checkout & order flow**: cart → order creation → payment → status update (Pending → Paid → Shipped → Completed), with support for payment webhooks (Stripe/VietQR-ready).
+  - Added **search & filtering**: full-text search + faceted filters (team, league, season, rarity, condition, graded, price range) with sorting (price, newest, best-selling).
+  - Created an **Admin Dashboard** with KPIs: daily/weekly GMV, order volume, top-selling cards, low-stock alerts, sales charts, and promotion management.
+  - Secured authentication & session management: password hashing (BCrypt), email verification, forgot password flow, CORS configuration, input validation, injection protection, audit logging.
+  - Ensured a **clean separation** of backend APIs and frontend SPA for scalability and deployment (Docker Compose: API, web, MongoDB).
 
-  - Built a full-stack warehouse management app with Node.js/Express APIs and Angular.
-  - Implemented CRUD for products, inventory, suppliers, and transactions via REST APIs
-  - Managed warehouse data in MySQL using Sequelize ORM for efficient mapping.
-  - Built a responsive Angular frontend with Router, HttpClient, and Material.
-  - Implemented role-based access control (RBAC) using JWT to separate functionalities between admin and staff users.
-  - Created a dashboard to display key warehouse KPIs (e.g., stock levels, recent transactions, low inventory alerts).
-  - Secured authentication & session management with JWT, encryption, and protected routes.
-  - Ensured clean separation of backend APIs and frontend SPA for scalability.
+  📌 Core Collections
+  - **users**: id, email, passwordHash, roles [admin|customer], addresses[], createdAt  
+  - **cards**: id, name, player, team, league, season, rarity, condition, graded, images[], price, inventoryQty, tags[], createdAt  
+  - **carts**: id, userId, items[{cardId, qty, priceAtAdd}], updatedAt  
+  - **orders**: id, userId, items[{cardId, qty, unitPrice}], totals, status, payment, shipping, timeline[], createdAt  
+  - **reviews**: id, userId, cardId, rating, comment, createdAt  
+
+  📌 Sample REST Endpoints
+  - `POST /auth/register|login|refresh`  
+  - `GET /cards?keyword=&team=&rarity=&minPrice=&maxPrice=&sort=...`  
+  - `POST /cards (admin)`, `PATCH /cards/:id (admin)`, `DELETE /cards/:id (admin)`  
+  - `GET /cart (me)`, `POST /cart/items`, `PATCH /cart/items/:cardId`, `DELETE /cart/items/:cardId`  
+  - `POST /checkout`, `POST /payments/webhook`  
+  - `GET /orders (me/admin)`, `PATCH /orders/:id/status (admin)`  
+  - `POST /reviews`, `GET /cards/:id/reviews`  
+
+  📌 React Pages
+  - Home (featured cards, banners)  
+  - Catalog (filters & search)  
+  - Card Detail  
+  - Cart & Checkout  
+  - Orders & Account  
+  - Wishlist  
+  - Admin Dashboard  
+  - Admin Management (Products, Orders, Promotions, Banners)  
+
 </details>
 
 
