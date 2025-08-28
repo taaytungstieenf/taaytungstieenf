@@ -122,45 +122,21 @@
 <details>
   <summary>Football Trading Card Storeummary>
   
-  - Built an **e-commerce platform** for buying and selling football trading cards using **Spring Boot** (REST APIs), **React** (SPA), and **MongoDB**.
-  - Designed **MongoDB schemas** for `users`, `cards`, `orders`, `carts`, `payments`, `inventory`, `reviews`, `wishlists`, and `banners`, with proper indexing for player/team/rarity/price queries.
-  - Implemented **CRUD operations** for trading cards and inventory: create/update/delete cards, manage stock, handle variations (condition, edition, graded vs raw), images, and metadata.
-  - Developed a **responsive React frontend** with Router, Axios/React Query, React Hook Form, and Material UI: catalog, product details, cart, checkout, user account, orders, wishlist.
-  - Applied **role-based access control (RBAC)** with JWT:  
-    - **Admin** → manage products, orders, promotions, and banners.  
-    - **Customer** → browse, purchase, track orders, leave reviews.  
-    - Secured routes with middleware, refresh tokens, and rate limiting.
-  - Built **checkout & order flow**: cart → order creation → payment → status update (Pending → Paid → Shipped → Completed), with support for payment webhooks (Stripe/VietQR-ready).
-  - Added **search & filtering**: full-text search + faceted filters (team, league, season, rarity, condition, graded, price range) with sorting (price, newest, best-selling).
-  - Created an **Admin Dashboard** with KPIs: daily/weekly GMV, order volume, top-selling cards, low-stock alerts, sales charts, and promotion management.
-  - Secured authentication & session management: password hashing (BCrypt), email verification, forgot password flow, CORS configuration, input validation, injection protection, audit logging.
-  - Ensured a **clean separation** of backend APIs and frontend SPA for scalability and deployment (Docker Compose: API, web, MongoDB).
-
-  📌 Core Collections
-  - **users**: id, email, passwordHash, roles [admin|customer], addresses[], createdAt  
-  - **cards**: id, name, player, team, league, season, rarity, condition, graded, images[], price, inventoryQty, tags[], createdAt  
-  - **carts**: id, userId, items[{cardId, qty, priceAtAdd}], updatedAt  
-  - **orders**: id, userId, items[{cardId, qty, unitPrice}], totals, status, payment, shipping, timeline[], createdAt  
-  - **reviews**: id, userId, cardId, rating, comment, createdAt  
-
-  📌 Sample REST Endpoints
-  - `POST /auth/register|login|refresh`  
-  - `GET /cards?keyword=&team=&rarity=&minPrice=&maxPrice=&sort=...`  
-  - `POST /cards (admin)`, `PATCH /cards/:id (admin)`, `DELETE /cards/:id (admin)`  
-  - `GET /cart (me)`, `POST /cart/items`, `PATCH /cart/items/:cardId`, `DELETE /cart/items/:cardId`  
-  - `POST /checkout`, `POST /payments/webhook`  
-  - `GET /orders (me/admin)`, `PATCH /orders/:id/status (admin)`  
-  - `POST /reviews`, `GET /cards/:id/reviews`  
-
-  📌 React Pages
-  - Home (featured cards, banners)  
-  - Catalog (filters & search)  
-  - Card Detail  
-  - Cart & Checkout  
-  - Orders & Account  
-  - Wishlist  
-  - Admin Dashboard  
-  - Admin Management (Products, Orders, Promotions, Banners)  
+  - Built a full-stack **Football Trading Card Store** e-commerce platform using **Spring Boot** (REST APIs), **React** (SPA), and **MongoDB**.
+  - Implemented CRUD for **cards**, **inventory**, **users**, **orders**, **payments**, **reviews**, and **wishlists** via well-documented REST endpoints.
+  - Designed normalized **MongoDB schemas** for `users`, `cards`, `carts`, `orders`, `payments`, `reviews`, and `banners` with appropriate indexes for fast player/team/price queries.
+  - Managed card variants and stock: support for **condition**, **edition**, **graded vs raw**, SKU-level inventory adjustments, and low-stock alerts.
+  - Built a responsive **React frontend** using React Router, Axios/React Query, React Hook Form, and Material UI for catalog, product pages, cart, checkout, and account pages.
+  - Implemented **role-based access control (RBAC)** using JWT: admin (product/order/promotion management) and customer (browse, purchase, review), with protected routes and refresh tokens.
+  - Created checkout and order flow: cart → order creation → payment integration → status lifecycle (Pending → Paid → Shipped → Completed) and order timeline.
+  - Integrated payment adapter layer (Stripe/VietQR-ready) and **payment webhooks** to reconcile transactions and update order status automatically.
+  - Added search and faceted filtering: full-text search, filters by team/league/season/rarity/condition/graded, price range, and sorting (price, newest, best-selling).
+  - Developed an **Admin Dashboard** with KPIs (daily/weekly GMV, order volume), top-selling cards, low-stock alerts, and promotion management panels.
+  - Secured authentication and sessions with **BCrypt** password hashing, email verification, forgot-password flow, CORS rules, input validation, and basic audit logging.
+  - Applied rate-limiting, input sanitization, and server-side validation to protect APIs from abuse and injection attacks.
+  - Ensured clean separation of backend APIs and frontend SPA for scalability and CI/CD; provided **Docker Compose** setup for API, web, and MongoDB.
+  - Optimized performance: pagination, query indexing, caching strategy, and background jobs for inventory sync, order processing, and email notifications.
+  - Logged transactional events and implemented basic analytics to support reporting, promotions, and business insights. 
 
 </details>
 
