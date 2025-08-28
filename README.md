@@ -226,13 +226,13 @@
 |_____ $ git reset -hard commit_hash
 
 6. Merge workflow
-|_____ commits:  A -> B -> C                          (main)
+|_____ commits:  A -> B -> C                            (main)
 |_____ command:  $ git checkout -b test
-|_____ commits:  A -> B -> C                          (main, test)
+|_____ commits:  A -> B -> C                            (main, test)
 |_____ command:  $ git commit -m "D"
-|_____ commits:  A -> B -> C -> D                     (test)
+|_____ commits:  A -> B -> C -> D                       (test)
 |_____ command:  $ git checkout main; git merge test
-|_____ commits:  A -> B -> C -> D                     (test, main)
+|_____ commits:  A -> B -> C -> D                       (test, main)
 
 7. Start GitHub
 |_____ git clone https://github.com/username/repo_name.git
