@@ -12,7 +12,7 @@
 ## 👤 About Me
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?lines=Hi,+I'm+Tae;Welcome+to+my+GitHub!;Full-stack+Engineer;End-to-end+Data+Engineer&center=true&size=24&color=ff79c6&font=Fira+Code">
+  <img src="https://readme-typing-svg.herokuapp.com/?lines=Hi,+I'm+Tae;Welcome+to+my+GitHub!;Back-end+Engineer;Data+Engineer&center=true&size=24&color=ff79c6&font=Fira+Code">
 </p>
 
 - Experienced in building e-commerce web applications, personal blogs  
