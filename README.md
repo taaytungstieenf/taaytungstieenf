@@ -222,8 +222,11 @@
 |_____ $ git commit -m <filename>/<foldername>         Commit specific file or folder
 
 3. Check changes
-|_____ $ git status
-|_____ $ git log --oneline
+|_____ $ git status                                    Observe staging area
+|_____ $ git status --short
+|
+|      $ git log                                       Observe commit history
+|_____ $ git log --oneline                             Observe commit history in brief
 
 4. Branches in repo
 |_____ $ git branch
