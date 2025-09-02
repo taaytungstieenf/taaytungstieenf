@@ -234,9 +234,9 @@
 
 5. Change version
 |_____ $ git checkout <commit_hash>               Switch all code to a commit verson temporarily
-|_____ $ git reset -soft <commit_hash>            Reset commit to old version, keep staging area, keep working dir
-|_____ $ git reset -mixed <commit_hash>           Reset commit to old version, reset staging area, keep working dir
-|_____ $ git reset -hard <commit_hash>            Reset commit to old version, reset staging area, reset woring dir
+|_____ $ git reset -soft <commit_hash>            Reset commit to old version, keep staging area, keep workplace
+|_____ $ git reset -mixed <commit_hash>           Reset commit to old version, reset staging area, keep workplace
+|_____ $ git reset -hard <commit_hash>            Reset commit to old version, reset staging area, reset workplace
 |
 |_____ commits: A -> B -> C (HEAD)
 |_____ command: $ git reset -soft B
