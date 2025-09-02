@@ -207,11 +207,11 @@
 ## 🤔 In Case of You Forget
 
 ```
-`1. Start Git`
+1. Start Git
 |_____ $ git init                                Turn a folder into Git repo
-|_____ $ git init path/to/dir
+|_____ $ git init path/to/dir                    Turn a folder into Git repo in abs path
 |_____ $ rm -rf .git                             Turn a Git repo into folder by deleting .git
-|_____ $ rm -rf .git path/to/dir
+|_____ $ rm -rf .git path/to/dir                 Turn a Git repo into folder by deleting .git in abs path
 
 2. Save changes
 |_____ $ git add .                               Add all files to staging area
@@ -233,36 +233,39 @@
 |_____ $ git branch -m new_name                  Rename current branch
 
 5. Change version
-|_____ $ git checkout <commit_hash>              Switch all code to a commit verson temporarily
-|_____ $ git reset -soft <commit_hash>           Reset commit to old version, keep staging area, keep workplace
-|_____ $ git reset -mixed <commit_hash>          Reset commit to old version, reset staging area, keep workplace
-|_____ $ git reset -hard <commit_hash>           Reset commit to old version, reset staging area, reset workplace
+|_____ $ git checkout <commit_hash>              Switch code to an old commit temporarily in workplace
+|_____ $ git reset -soft <commit_hash>           Reset commit, keep staging area, keep workplace
+|_____ $ git reset -mixed <commit_hash>          Reset commit, reset staging area, keep workplace
+|_____ $ git reset -hard <commit_hash>           Reset commit, reset staging area, reset workplace
 |
-|_____ Example:
+|_____ EXAMPLE:
 |_____ commits: A -> B -> C (HEAD)
 |_____ command: $ git reset -soft B
 |_____ resutls: HEAD back to B, retain staging area at C, retain working dir at C
 |
-|_____ Example:
+|_____ EXAMPLE:
 |_____ commits: A -> B -> C (HEAD)
 |_____ command: $ git reset -hard B
 |_____ results: HEAD back to B, reset staging area to B, reset working dir to B
 
-
 6. Merge workflow
-|_____ commits:  A -> B -> C                      (main)
+|_____ commits:  A -> B -> C                                (main)
 |_____ command:  $ git checkout -b test
-|_____ commits:  A -> B -> C                      (main, test)
+|_____ commits:  A -> B -> C                                (main, test)
 |_____ command:  $ git commit -m "D"
-|_____ commits:  A -> B -> C -> D                 (test)
+|_____ commits:  A -> B -> C -> D                           (test)
 |_____ command:  $ git checkout main; git merge test
-|_____ commits:  A -> B -> C -> D                 (test, main)
+|_____ commits:  A -> B -> C -> D                           (test, main)
 
 7. Start GitHub
-|_____ git clone https://github.com/username/repo_name.git
-|_____ git remote add remote_repo https://github.com/username/repo_name.git
-|_____ git remote remove remote_repo
-|_____ git remote -v
+|_____ ! Download a Github repo
+|_____ $ git clone https://github.com/username/repo_name.git
+|_____ ! Add remote repo
+|_____ $ git remote add <remote_name> https://github.com/username/repo_name.git
+|_____ ! Delete remote repo
+|_____ $ git remote remove <remote_name>
+|_____ ! List all remote repos
+|_____ $ git remote -v
 
 8. Push and pull
 |_____ git push -u remote_repo branch_name
