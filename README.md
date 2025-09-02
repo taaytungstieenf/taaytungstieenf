@@ -207,14 +207,14 @@
 ## 🤔 In Case of You Forget
 
 ```
-1. Start Git
+01. Start Git
 |
 |_____ $ git init                                Turn a folder into Git repo
 |_____ $ git init path/to/dir                    Turn a folder into Git repo in abs path
 |_____ $ rm -rf .git                             Turn a Git repo into folder by deleting .git
 |_____ $ rm -rf .git path/to/dir                 Turn a Git repo into folder by deleting .git in abs path
 
-2. Save changes
+02. Save changes
 |
 |_____ $ git add .                               Add all files to staging area
 |_____ $ git add <filename>/<foldername>         Add specific file or folder to staging area
@@ -223,14 +223,14 @@
 |_____ $ git commit -m "message"                 Commit all files
 |_____ $ git commit -m <filename>/<foldername>   Commit specific file or folder
 
-3. Check changes
+03. Check changes
 |
 |_____ $ git status                              Observe staging area
 |_____ $ git status --short                      Observe staging area in brief
 |_____ $ git log                                 Observe commit history
 |_____ $ git log --oneline                       Observe commit history in brief
 
-4. Branches in repo
+04. Branches in repo
 |
 |_____ $ git branch                              Show all existed branches and which branch you are in
 |_____ $ git branch new_branch                   Create a new branch
@@ -252,7 +252,16 @@
 |_____ ! Track all commit form 1/2/2025 to now
 |_____ $ git long --since='Feb 1 2025'
 
-5. Change version
+06. Compare changes
+|
+|_____ $ git diff                                Between all unstaged objects and committed objects
+|_____ $ git diff --staged                       Between all staged objects and committed objects
+|_____ $ git diff <object_name>                  Between an unstaged object with committed object
+|_____ $ git diff --staged <object_name>         Between an staged object with committed object
+|_____ $ git diff <commit_hash> <commit_hash>    Between 2 specific commits
+|_____ $ git diff HEAD HEAD~1                    Between 2 most recent commits
+
+07. Change version
 |
 |_____ $ git checkout <commit_hash>              Switch code to an old commit temporarily in workplace
 |_____ $ git reset -soft <commit_hash>           Reset commit, keep staging area, keep workplace
@@ -269,7 +278,7 @@
 |_____ command: $ git reset -hard B
 |_____ results: HEAD back to B, reset staging area to B, reset working dir to B
 
-6. Merge workflow
+08. Merge workflow
 |
 |_____ commits:  A -> B -> C                                (main)
 |_____ command:  $ git checkout -b test
@@ -279,7 +288,7 @@
 |_____ command:  $ git checkout main; git merge test
 |_____ commits:  A -> B -> C -> D                           (test, main)
 
-7. Start GitHub
+09. Start GitHub
 |
 |_____ ! DOWNLOAD A GITHUB REPO
 |_____ $ git clone https://github.com/username/repo_name.git
@@ -293,7 +302,7 @@
 |_____ ! LIST ALL REMOTE REPOS
 |_____ $ git remote -v
 
-8. Push and pull
+10. Push and pull
 |
 |_____ git push -u <remote_name> branch_name     Push code to remote and set upstream
 |_____ git push                                  Push code with existed upstream
@@ -314,7 +323,7 @@
 |-----------------------------------------------| $ git pull  |    <<----    |    code     |
 |-----------------------------------------------+-------------+--------------+-------------+
 
-9. Manipulate locals and remotes
+11. Manipulate locals and remotes
 |
 |_____ git branch -u origin/<remote_branch>     Set upstream for convenience
 |_____ git push -u origin <local_branch>        Push a local branch to remote, if there is no remote, create it
