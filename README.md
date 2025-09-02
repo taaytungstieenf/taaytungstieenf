@@ -208,9 +208,9 @@
 
 ```
 1. Start Git
-|_____ $ git init                                      Turn a folder into Git repo
+|_____ $ git init                                 Turn a folder into Git repo
 |_____ $ git init path/to/dir
-|_____ $ rm -rf .git                                   Turn a Git repo into folder by deleting .git
+|_____ $ rm -rf .git                              Turn a Git repo into folder by deleting .git
 |_____ $ rm -rf .git path/to/dir
 
 2. Save changes
@@ -234,18 +234,27 @@
 
 5. Change version
 |_____ $ git checkout <commit_hash>               Switch all code to a commit verson temporarily
-|_____ $ git reset -soft <commit_hash>            Reset commit to other version, keep staging area, keep working dir
-|_____ $ git reset -mixed <commit_hash>           Reset commit to other version, reset staging area, keep working dir
-|_____ $ git reset -hard <commit_hash>            Reset commit to other version, reset staging area, reset woring dir
+|_____ $ git reset -soft <commit_hash>            Reset commit to old version, keep staging area, keep working dir
+|_____ $ git reset -mixed <commit_hash>           Reset commit to old version, reset staging area, keep working dir
+|_____ $ git reset -hard <commit_hash>            Reset commit to old version, reset staging area, reset woring dir
+|
+|_____ commits: A -> B -> C (HEAD)
+|_____ command: $ git reset -soft B
+|_____ resutls: HEAD back to B, retain staging area at C, retain working dir at C
+|
+|_____ commits: A -> B -> C (HEAD)
+|_____ command: $ git reset -hard B
+|_____ results: HEAD back to B, reset staging area to B, reset working dir to B
+
 
 6. Merge workflow
-|_____ commits:  A -> B -> C                           (main)
+|_____ commits:  A -> B -> C                      (main)
 |_____ command:  $ git checkout -b test
-|_____ commits:  A -> B -> C                           (main, test)
+|_____ commits:  A -> B -> C                      (main, test)
 |_____ command:  $ git commit -m "D"
-|_____ commits:  A -> B -> C -> D                      (test)
+|_____ commits:  A -> B -> C -> D                 (test)
 |_____ command:  $ git checkout main; git merge test
-|_____ commits:  A -> B -> C -> D                      (test, main)
+|_____ commits:  A -> B -> C -> D                 (test, main)
 
 7. Start GitHub
 |_____ git clone https://github.com/username/repo_name.git
