@@ -266,7 +266,7 @@
 |_____ $ git revert <commit_hash>                Revert current commit to a specific commit
 |_____ $ git revert --no-edit <commit_has>       Revert current commit to a specific commit without writing log
 |_____ $ git revert -n <commit_hash>             Revert current commit to a specific commit without committing
-|_____ $ git revert <commit_hash> -- <object>    Revert a current specific object to a specific commit
+|_____ $ git checkout <commit_hash> -- <object>  Revert a current specific object to a specific commit
 
 08. Change version
 |
