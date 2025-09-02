@@ -238,10 +238,12 @@
 |_____ $ git reset -mixed <commit_hash>           Reset commit to old version, reset staging area, keep workplace
 |_____ $ git reset -hard <commit_hash>            Reset commit to old version, reset staging area, reset workplace
 |
+|_____ Example:
 |_____ commits: A -> B -> C (HEAD)
 |_____ command: $ git reset -soft B
 |_____ resutls: HEAD back to B, retain staging area at C, retain working dir at C
 |
+|_____ Example:
 |_____ commits: A -> B -> C (HEAD)
 |_____ command: $ git reset -hard B
 |_____ results: HEAD back to B, reset staging area to B, reset working dir to B
