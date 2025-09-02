@@ -266,13 +266,13 @@
 
 7. Start GitHub
 |
-|_____ ! Download a Github repo
+|_____ ! DOWNLOAD A GITHUB REPO
 |_____ $ git clone https://github.com/username/repo_name.git
-|_____ ! Add remote repo
+|_____ ! ADD REMOTE REPO
 |_____ $ git remote add <remote_name> https://github.com/username/repo_name.git
-|_____ ! Delete remote repo
+|_____ ! DELETE REMOTE REPO
 |_____ $ git remote remove <remote_name>        
-|_____ ! List all remote repos
+|_____ ! LIST ALL REMOTE REPOS
 |_____ $ git remote -v
 
 8. Push and pull
