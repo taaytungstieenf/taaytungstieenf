@@ -208,24 +208,28 @@
 
 ```
 1. Start Git
+|
 |_____ $ git init                                Turn a folder into Git repo
 |_____ $ git init path/to/dir                    Turn a folder into Git repo in abs path
 |_____ $ rm -rf .git                             Turn a Git repo into folder by deleting .git
 |_____ $ rm -rf .git path/to/dir                 Turn a Git repo into folder by deleting .git in abs path
 
 2. Save changes
+|
 |_____ $ git add .                               Add all files to staging area
 |_____ $ git add <filename>/<foldername>         Add specific file or folder to staging area       
 |_____ $ git commit -m "message"                 Commit all files
 |_____ $ git commit -m <filename>/<foldername>   Commit specific file or folder
 
 3. Check changes
+|
 |_____ $ git status                              Observe staging area
 |_____ $ git status --short                      Observe staging area in brief
 |_____ $ git log                                 Observe commit history
 |_____ $ git log --oneline                       Observe commit history in brief
 
 4. Branches in repo
+|
 |_____ $ git branch                              Show all existed branches and which branch you are in
 |_____ $ git branch new_branch                   Create a new branch
 |_____ $ git checkout branch_name                Switch branch
@@ -233,6 +237,7 @@
 |_____ $ git branch -m new_name                  Rename current branch
 
 5. Change version
+|
 |_____ $ git checkout <commit_hash>              Switch code to an old commit temporarily in workplace
 |_____ $ git reset -soft <commit_hash>           Reset commit, keep staging area, keep workplace
 |_____ $ git reset -mixed <commit_hash>          Reset commit, reset staging area, keep workplace
@@ -249,6 +254,7 @@
 |_____ results: HEAD back to B, reset staging area to B, reset working dir to B
 
 6. Merge workflow
+|
 |_____ commits:  A -> B -> C                                (main)
 |_____ command:  $ git checkout -b test
 |_____ commits:  A -> B -> C                                (main, test)
@@ -258,6 +264,7 @@
 |_____ commits:  A -> B -> C -> D                           (test, main)
 
 7. Start GitHub
+|
 |_____ ! Download a Github repo
 |_____ $ git clone https://github.com/username/repo_name.git
 |_____ ! Add remote repo
@@ -268,7 +275,8 @@
 |_____ $ git remote -v
 
 8. Push and pull
-|_____ git push -u remote_repo branch_name       Push code to remote and set upstream
+|
+|_____ git push -u <remote_name> branch_name     Push code to remote and set upstream
 |_____ git push                                  Push code with existed upstream
 |_____ git pull                                  Pull code with existed upstream
 |
@@ -278,20 +286,23 @@
 |_____ ahead 2: there are 2 local commits have not yet pushed to remote
 |_____ behind3: there are 3 remote commits have not yet pulled to local
 |
-|-------------+              +-------------|
-| local repo  |              | remote repo |
-|-------------+--------------+-------------|
-|     main    |              | origin/main |
-|-------------+--------------+-------------|
-| $ git push        --->          code     |
-| $ git pull       <---           code     |
-|__________________________________________|
+|-----------------------------------------------|-------------+              +-------------|
+|-----------------------------------------------| local repo  |              | remote repo |
+|-----------------------------------------------+-------------+--------------+-------------|
+|-----------------------------------------------|     main    |              | origin/main |
+|-----------------------------------------------|-------------+--------------+-------------|
+|-----------------------------------------------| $ git push        --->          code     |
+|-----------------------------------------------| $ git pull       <---           code     |
+|-----------------------------------------------|------------------------------------------|
 
 
-9. Manipulate branches
-|_____ git push -u origin new_name
-|_____ git push -u local_branch:remote_branch
-|_____ git push origin --delete branch_name
+9. Manipulate locals and remotes
+|
+|_____ git push -u origin <local_name>          Push a local branch to a remote, if there is not remote, create it
+|_____ git push -u origin <local>:<remote>      Push a specific local branch to a specific remote branch
+|_____ git push origin --delete <remote_name>   Delete a remote branch
+|_____ git branch -d <local_name>               Delete a local branch with checking merge
+|_____ git branch -D <local_name>               Delete a local branch without checking merge   
 ```
 
 <p align="center">
