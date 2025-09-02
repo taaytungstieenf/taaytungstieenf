@@ -234,9 +234,9 @@
 
 5. Change version
 |_____ $ git checkout <commit_hash>                    Switch all code to a commit verson temporarily
-|_____ $ git reset -soft <commit_hash>                 Reset all code to other version, keep staging area at the moment, keep working directory
-|_____ $ git reset -mixed <commit_hash>                Reset all code to other version, reset staging area, keep working directory
-|_____ $ git reset -hard <commit_hash>                 Reset all code to other version, reset staging area, reset woring directory
+|_____ $ git reset -soft <commit_hash>                 Reset code to other version, keep staging area, keep working dir
+|_____ $ git reset -mixed <commit_hash>                Reset code to other version, reset staging area, keep working dir
+|_____ $ git reset -hard <commit_hash>                 Reset code to other version, reset staging area, reset woring dir
 
 6. Merge workflow
 |_____ commits:  A -> B -> C                            (main)
