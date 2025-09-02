@@ -208,23 +208,20 @@
 
 ```
 1. Start Git
-|_____ $ git init                                      -> Turn a folder into Git repo
+|_____ $ git init                                      Turn a folder into Git repo
 |_____ $ git init path/to/dir
-|
 |_____ $ rm -rf .git                                   Turn a Git repo into folder by deleting .git
 |_____ $ rm -rf .git path/to/dir
 
 2. Save changes
 |_____ $ git add .                                     Add all files to staging area
-|_____ $ git add <filename>/<foldername>               Add specific file or folder to staging area
-|                                     
+|_____ $ git add <filename>/<foldername>               Add specific file or folder to staging area       
 |_____ $ git commit -m "message"                       Commit all files
 |_____ $ git commit -m <filename>/<foldername>         Commit specific file or folder
 
 3. Check changes
 |_____ $ git status                                    Observe staging area
 |_____ $ git status --short                            Observe staging area in brief
-|
 |      $ git log                                       Observe commit history
 |_____ $ git log --oneline                             Observe commit history in brief
 
@@ -236,9 +233,10 @@
 |_____ $ git branch -m new_name                        Rename current branch
 
 5. Change version
-|_____ $ git checkout commit_hash
-|_____ $ git reset -soft commit_hash
-|_____ $ git reset -hard commit_hash
+|_____ $ git checkout <commit_hash>                    Switch all code to a commit verson temporarily
+|_____ $ git reset -soft <commit_hash>                 Reset all code to other version, keep staging area at the moment, keep working directory
+|_____ $ git reset -mixed <commit_hash>                Reset all code to other version, reset staging area, keep working directory
+|_____ $ git reset -hard <commit_hash>                 Reset all code to other version, reset staging area, reset woring directory
 
 6. Merge workflow
 |_____ commits:  A -> B -> C                            (main)
