@@ -210,8 +210,8 @@
 00. Start Git
 |
 |_____ $ git config --list --show-origin         Show git configuration information
-|_____ $ git config --global user.name "..."     Change name
-|_____ $ $ git config --global user.email "..."  Change email
+|_____ $ git config --global user.name "name"    Change name
+|_____ $ git config --global user.email "email"  Change email
 
 01. Initialize Git
 |
