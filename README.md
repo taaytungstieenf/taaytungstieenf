@@ -158,22 +158,6 @@
         <img src="https://github-readme-streak-stats.herokuapp.com/?user=taaytungstieenf&theme=radical" />
       </td>
     </tr>
-  </table>
-</p>
-
-<p align="center">
-  <table>
-    <tr>
-      <td>
-        <img src="https://github-readme-stats.vercel.app/api?username=taaytungstieenf&show_icons=true&theme=radical" />
-      </td>
-      <td>
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=taaytungstieenf&layout=compact&theme=radical" />
-      </td>
-      <td>
-        <img src="https://github-readme-streak-stats.herokuapp.com/?user=taaytungstieenf&theme=radical" />
-      </td>
-    </tr>
     <tr>
       <td colspan="3" align="center">
         <img src="https://github-profile-trophy.vercel.app/?username=taaytungstieenf&theme=radical" />
