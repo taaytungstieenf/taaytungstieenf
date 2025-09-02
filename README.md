@@ -292,14 +292,14 @@
 |-----------------------------------------------+-------------+--------------+-------------|
 |-----------------------------------------------|     main    |              | origin/main |
 |-----------------------------------------------|-------------+--------------+-------------|
-|-----------------------------------------------| $ git push        --->          code     |
-|-----------------------------------------------| $ git pull       <---           code     |
-|-----------------------------------------------|------------------------------------------|
-
+|-----------------------------------------------| $ git push  |     --->     |    code     |
+|-----------------------------------------------| $ git pull  |    <---      |    code     |
+|-----------------------------------------------+-------------+--------------+-------------+
 
 9. Manipulate locals and remotes
 |
-|_____ git push -u origin <local_name>          Push a local branch to remote, if there is no remote, create it
+|_____ git branch -u origin/<remote_branch>     Set upstream for convenience
+|_____ git push -u origin <local_branch>        Push a local branch to remote, if there is no remote, create it
 |_____ git push -u origin <local>:<remote>      Push a specific local branch to a specific remote branch
 |_____ git push origin --delete <remote_name>   Delete a remote branch
 |_____ git branch -d <local_name>               Delete a local branch with checking merge
