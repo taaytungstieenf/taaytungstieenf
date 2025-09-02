@@ -176,7 +176,7 @@
     </tr>
     <tr>
       <td colspan="3" align="center">
-        <img src="https://github-profile-trophy.vercel.app/?username=taaytungstieenf&theme=onedark" />
+        <img src="https://github-profile-trophy.vercel.app/?username=taaytungstieenf&theme=radical" />
       </td>
     </tr>
   </table>
