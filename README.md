@@ -208,11 +208,13 @@
 
 ```
 1. Start Git
-|_____ $ git init
-|_____ $ rm -rf .git
+|_____ $ git init                                       turn a folder into Git repo
+|_____ $ git init path/to/dir
+|_____ $ rm -rf .git                                    turn a Git repo into folder by deleting .git
+|_____ $ rm -rf .git path/to/dir
 
 2. Save changes
-|_____ $ git add .
+|_____ $ git add .                                      
 |_____ $ git commit -m "message"
 
 3. Check changes
