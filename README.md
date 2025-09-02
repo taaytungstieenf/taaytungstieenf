@@ -261,7 +261,14 @@
 |_____ $ git diff <commit_hash> <commit_hash>    Between 2 specific commits
 |_____ $ git diff HEAD HEAD~1                    Between 2 most recent commits
 
-07. Change version
+07. Reinstate version
+|
+|_____ $ git revert <commit_hash>                Revert current commit to a specific commit
+|_____ $ git revert --no-edit <commit_has>       Revert current commit to a specific commit without writing log
+|_____ $ git revert -n <commit_hash>             Revert current commit to a specific commit without committing
+|_____ $ git revert <commit_hash> -- <object>    Revert a current specific object to a specific commit
+
+08. Change version
 |
 |_____ $ git checkout <commit_hash>              Switch code to an old commit temporarily in workplace
 |_____ $ git reset -soft <commit_hash>           Reset commit, keep staging area, keep workplace
@@ -278,7 +285,7 @@
 |_____ command: $ git reset -hard B
 |_____ results: HEAD back to B, reset staging area to B, reset working dir to B
 
-08. Merge workflow
+09. Merge workflow
 |
 |_____ commits:  A -> B -> C                                (main)
 |_____ command:  $ git checkout -b test
@@ -288,7 +295,7 @@
 |_____ command:  $ git checkout main; git merge test
 |_____ commits:  A -> B -> C -> D                           (test, main)
 
-09. Start GitHub
+10. Start GitHub
 |
 |_____ ! DOWNLOAD A GITHUB REPO
 |_____ $ git clone https://github.com/username/repo_name.git
@@ -302,7 +309,7 @@
 |_____ ! LIST ALL REMOTE REPOS
 |_____ $ git remote -v
 
-10. Push and pull
+11. Push and pull
 |
 |_____ git push -u <remote_name> branch_name     Push code to remote and set upstream
 |_____ git push                                  Push code with existed upstream
@@ -323,7 +330,7 @@
 |-----------------------------------------------| $ git pull  |    <<----    |    code     |
 |-----------------------------------------------+-------------+--------------+-------------+
 
-11. Manipulate locals and remotes
+12. Manipulate locals and remotes
 |
 |_____ git branch -u origin/<remote_branch>     Set upstream for convenience
 |_____ git push -u origin <local_branch>        Push a local branch to remote, if there is no remote, create it
