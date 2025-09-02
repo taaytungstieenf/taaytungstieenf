@@ -208,14 +208,18 @@
 
 ```
 1. Start Git
-|_____ $ git init                                       turn a folder into Git repo
+|_____ $ git init                                      Turn a folder into Git repo
 |_____ $ git init path/to/dir
-|_____ $ rm -rf .git                                    turn a Git repo into folder by deleting .git
+|
+|_____ $ rm -rf .git                                   Turn a Git repo into folder by deleting .git
 |_____ $ rm -rf .git path/to/dir
 
 2. Save changes
-|_____ $ git add .                                      
-|_____ $ git commit -m "message"
+|_____ $ git add .                                     Add all files to staging area
+|_____ $ git add <filename>/<foldername>               Add specific file or folder to staging area
+|                                     
+|_____ $ git commit -m "message"                       Commit all files
+|_____ $ git commit -m <filename>/<foldername>         Commit specific file or folder
 
 3. Check changes
 |_____ $ git status
