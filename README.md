@@ -234,7 +234,8 @@
 |_____ $ git branch new_branch                   Create a new branch
 |_____ $ git checkout branch_name                Switch branch
 |_____ $ git checkout -b new_branch              Create a new branch and switch to that branch
-|_____ $ git branch -m new_name                  Rename current branch
+|_____ $ git branch -m new_name                  Rename current branch and check if there is any existed, error
+|_____ $ git branch -M new_name                  Rename name current branch, if there is any existed, replace it
 
 5. Change version
 |
@@ -287,7 +288,7 @@
 |_____ behind3: there are 3 remote commits have not yet pulled to local
 |
 |-----------------------------------------------|-------------+              +-------------|
-|-----------------------------------------------| local repo  |              | remote repo |
+|-----------------------------------------------| local  repo |              | remote repo |
 |-----------------------------------------------+-------------+--------------+-------------|
 |-----------------------------------------------|     main    |              | origin/main |
 |-----------------------------------------------|-------------+--------------+-------------|
@@ -298,7 +299,7 @@
 
 9. Manipulate locals and remotes
 |
-|_____ git push -u origin <local_name>          Push a local branch to a remote, if there is not remote, create it
+|_____ git push -u origin <local_name>          Push a local branch to remote, if there is no remote, create it
 |_____ git push -u origin <local>:<remote>      Push a specific local branch to a specific remote branch
 |_____ git push origin --delete <remote_name>   Delete a remote branch
 |_____ git branch -d <local_name>               Delete a local branch with checking merge
