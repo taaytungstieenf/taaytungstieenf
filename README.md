@@ -207,7 +207,13 @@
 ## 🤔 In Case of You Forget
 
 ```
-01. Start Git
+00. Start Git
+|
+|_____ $ git config --list --show-origin         Show git configuration information
+|_____ $ git config --global user.name "..."     Change name
+|_____ $ $ git config --global user.email "..."  Change email
+
+01. Initialize Git
 |
 |_____ $ git init                                Turn a folder into Git repo
 |_____ $ git init path/to/dir                    Turn a folder into Git repo in abs path
@@ -307,7 +313,9 @@
 |_____ $ git remote remove <remote_name>         Delete remote name
 |_____ $ git remote -v                           List all remote names
 |_____ $ git fetch <remote_name>                 Download the lastest version of a remote branch (origin/main)
-|_____ $ git diff
+|_____ $ git log origin/main                     Track the newly fetched branch
+|_____ $ git diff origin/main <local>            Compare local branch with newly fetched branch
+|_____ $ git merge origin/main <local>           Merge newly fetched branch to local branch
 
 11. Push and pull
 |
