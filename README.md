@@ -271,6 +271,21 @@
 |_____ git push -u remote_repo branch_name
 |_____ git push
 |_____ git pull
+|
+|_____ EXAMPLE:
+|_____ command: $ git status sb
+|_____ results: ## main...origin/main [ahead 2, behind 3]
+|_____ ahead 2: there are 2 local commits have not yet pushed to remote
+|_____ behind3: there are 3 remote commits have not yet pulled to local
+|
+| Local repo  |              | Remote repo |
+|------------------------------------------|
+|     main    |              | origin/main |
+|                                          |
+| $ git push        --->                   |
+| $ git pull       <---                    |
+|__________________________________________|
+
 
 9. Manipulate branches
 |_____ git push -u origin new_name
