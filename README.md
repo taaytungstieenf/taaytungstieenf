@@ -217,7 +217,9 @@
 2. Save changes
 |
 |_____ $ git add .                               Add all files to staging area
-|_____ $ git add <filename>/<foldername>         Add specific file or folder to staging area       
+|_____ $ git add <filename>/<foldername>         Add specific file or folder to staging area
+|_____ $ git restore --staged <objectname>       Unstage an object from staging area
+|_____ $ git restore --staged                    Unstage all objects from staging area
 |_____ $ git commit -m "message"                 Commit all files
 |_____ $ git commit -m <filename>/<foldername>   Commit specific file or folder
 
