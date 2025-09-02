@@ -214,29 +214,29 @@
 |_____ $ rm -rf .git path/to/dir
 
 2. Save changes
-|_____ $ git add .                                     Add all files to staging area
-|_____ $ git add <filename>/<foldername>               Add specific file or folder to staging area       
-|_____ $ git commit -m "message"                       Commit all files
-|_____ $ git commit -m <filename>/<foldername>         Commit specific file or folder
+|_____ $ git add .                                Add all files to staging area
+|_____ $ git add <filename>/<foldername>          Add specific file or folder to staging area       
+|_____ $ git commit -m "message"                  Commit all files
+|_____ $ git commit -m <filename>/<foldername>    Commit specific file or folder
 
 3. Check changes
-|_____ $ git status                                    Observe staging area
-|_____ $ git status --short                            Observe staging area in brief
-|      $ git log                                       Observe commit history
-|_____ $ git log --oneline                             Observe commit history in brief
+|_____ $ git status                               Observe staging area
+|_____ $ git status --short                       Observe staging area in brief
+|_____ $ git log                                  Observe commit history
+|_____ $ git log --oneline                        Observe commit history in brief
 
 4. Branches in repo
-|_____ $ git branch                                    Show all existed branches and which branch you are in
-|_____ $ git branch new_branch                         Create a new branch
-|_____ $ git checkout branch_name                      Switch branch
-|_____ $ git checkout -b new_branch                    Create a new branch and switch to that branch
-|_____ $ git branch -m new_name                        Rename current branch
+|_____ $ git branch                               Show all existed branches and which branch you are in
+|_____ $ git branch new_branch                    Create a new branch
+|_____ $ git checkout branch_name                 Switch branch
+|_____ $ git checkout -b new_branch               Create a new branch and switch to that branch
+|_____ $ git branch -m new_name                   Rename current branch
 
 5. Change version
-|_____ $ git checkout <commit_hash>                    Switch all code to a commit verson temporarily
-|_____ $ git reset -soft <commit_hash>                 Reset code to other version, keep staging area, keep working dir
-|_____ $ git reset -mixed <commit_hash>                Reset code to other version, reset staging area, keep working dir
-|_____ $ git reset -hard <commit_hash>                 Reset code to other version, reset staging area, reset woring dir
+|_____ $ git checkout <commit_hash>               Switch all code to a commit verson temporarily
+|_____ $ git reset -soft <commit_hash>            Reset commit to other version, keep staging area, keep working dir
+|_____ $ git reset -mixed <commit_hash>           Reset commit to other version, reset staging area, keep working dir
+|_____ $ git reset -hard <commit_hash>            Reset commit to other version, reset staging area, reset woring dir
 
 6. Merge workflow
 |_____ commits:  A -> B -> C                           (main)
