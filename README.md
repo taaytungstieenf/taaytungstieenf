@@ -238,6 +238,7 @@
 |_____ $ git checkout -b new_branch              Create a new branch and switch to that branch
 |_____ $ git branch -m new_name                  Rename current branch and check if there is any existed, error
 |_____ $ git branch -M new_name                  Rename name current branch, if there is any existed, replace it
+|_____ $ git checkout -- <object_name>           Restore an object back to the current commit
 
 05. Track commits
 |
@@ -260,6 +261,7 @@
 |_____ $ git diff --staged <object_name>         Between an staged object with committed object
 |_____ $ git diff <commit_hash> <commit_hash>    Between 2 specific commits
 |_____ $ git diff HEAD HEAD~1                    Between 2 most recent commits
+|_____ $ git diff <branch1> <branch2>            Between 2 branches
 
 07. Reinstate version
 |
@@ -297,17 +299,15 @@
 
 10. Start GitHub
 |
-|_____ ! DOWNLOAD A GITHUB REPO
-|_____ $ git clone https://github.com/username/repo_name.git
-|
-|_____ ! ADD REMOTE REPO
-|_____ $ git remote add <remote_name> https://github.com/username/repo_name.git
-|
-|_____ ! DELETE REMOTE REPO
-|_____ $ git remote remove <remote_name>
-|
-|_____ ! LIST ALL REMOTE REPOS
-|_____ $ git remote -v
+|_____ $ git clone path/to/repo                  Clone a local repo
+|_____ $ git clone path/to/repo <new_repo_name>  Clone a local repo and rename it
+|_____ $ git clone repo_link                     Clone a remote repo
+|_____ $ git clone repo_link <new_repo_name>     Clone a remote repo and rename it
+|_____ $ git remote add <remote_name> repo_link  Add a remote name
+|_____ $ git remote remove <remote_name>         Delete remote name
+|_____ $ git remote -v                           List all remote names
+|_____ $ git fetch <remote_name>                 Download the lastest version of a remote branch (origin/main)
+|_____ $ git diff
 
 11. Push and pull
 |
@@ -336,8 +336,8 @@
 |_____ git push -u origin <local_branch>        Push a local branch to remote, if there is no remote, create it
 |_____ git push -u origin <local>:<remote>      Push a specific local branch to a specific remote branch
 |_____ git push origin --delete <remote_name>   Delete a remote branch
-|_____ git branch -d <local_name>               Delete a local branch with checking merge
-|_____ git branch -D <local_name>               Delete a local branch without checking merge   
+|_____ git branch -d <local_name>               Delete a local branch that was merged to main
+|_____ git branch -D <local_name>               Delete a local branch that was not merged to main   
 ```
 
 <p align="center">
