@@ -239,6 +239,19 @@
 |_____ $ git branch -m new_name                  Rename current branch and check if there is any existed, error
 |_____ $ git branch -M new_name                  Rename name current branch, if there is any existed, replace it
 
+05. Track commits
+|
+|_____ $ git log                                 Track all commits
+|_____ $ git show <commit_hash>                  Track a specific commits by hash
+|_____ $ git log -5                              Track the last 5 commits
+|_____ $ git log <object_name>                   Track commit by object name
+|
+|_____ ! Track all commits from 1/2/2025 to 28/2/2025
+|_____ $ git log --since='Feb 1 2025' --until='Feb 28 2025'
+|
+|_____ ! Track all commit form 1/2/2025 to now
+|_____ $ git long --since='Feb 1 2025'
+
 5. Change version
 |
 |_____ $ git checkout <commit_hash>              Switch code to an old commit temporarily in workplace
@@ -270,10 +283,13 @@
 |
 |_____ ! DOWNLOAD A GITHUB REPO
 |_____ $ git clone https://github.com/username/repo_name.git
+|
 |_____ ! ADD REMOTE REPO
 |_____ $ git remote add <remote_name> https://github.com/username/repo_name.git
+|
 |_____ ! DELETE REMOTE REPO
-|_____ $ git remote remove <remote_name>        
+|_____ $ git remote remove <remote_name>
+|
 |_____ ! LIST ALL REMOTE REPOS
 |_____ $ git remote -v
 
