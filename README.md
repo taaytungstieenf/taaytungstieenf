@@ -263,14 +263,14 @@
 |_____ ! Add remote repo
 |_____ $ git remote add <remote_name> https://github.com/username/repo_name.git
 |_____ ! Delete remote repo
-|_____ $ git remote remove <remote_name>
+|_____ $ git remote remove <remote_name>        
 |_____ ! List all remote repos
 |_____ $ git remote -v
 
 8. Push and pull
-|_____ git push -u remote_repo branch_name
-|_____ git push
-|_____ git pull
+|_____ git push -u remote_repo branch_name       Push code to remote and set upstream
+|_____ git push                                  Push code with existed upstream
+|_____ git pull                                  Pull code with existed upstream
 |
 |_____ EXAMPLE:
 |_____ command: $ git status sb
@@ -278,12 +278,13 @@
 |_____ ahead 2: there are 2 local commits have not yet pushed to remote
 |_____ behind3: there are 3 remote commits have not yet pulled to local
 |
-| Local repo  |              | Remote repo |
-|------------------------------------------|
+|-------------+              +-------------|
+| local repo  |              | remote repo |
+|-------------+--------------+-------------|
 |     main    |              | origin/main |
-|                                          |
-| $ git push        --->                   |
-| $ git pull       <---                    |
+|-------------+--------------+-------------|
+| $ git push        --->          code     |
+| $ git pull       <---           code     |
 |__________________________________________|
 
 
