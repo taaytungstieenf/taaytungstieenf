@@ -236,7 +236,16 @@
 |_____ $ git log                                 Observe commit history
 |_____ $ git log --oneline                       Observe commit history in brief
 
-04. Work with commit
+04. Branches in repo
+|
+|_____ $ git branch                              Show all existed branches and which branch you are at
+|_____ $ git branch <newbranch>                  Create a new branch
+|_____ $ git checkout <branchname>               Switch to a branch
+|_____ $ git checkout -b <newbranch>             Create and switch to a new branch with the HEAD commit
+|_____ $ git branch -m <newname>                 Rename current branch but error if <newname> exists 
+|_____ $ git branch -M <newname>                 Rename current branch and replace <newname> if it exists
+|_____ $ git checkout -- <objectname>            Restore an object back to HEAD commit
+|_____ $ git checkout <hash> -- <objectname>     Restore an object back to a specific commit 
 
 05. Track commits
 |
