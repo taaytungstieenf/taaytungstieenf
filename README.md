@@ -209,25 +209,25 @@
 ```
 00. Start Git
 |
-|_____ $ git config --list --show-origin         Show git configuration information
-|_____ $ git config --global user.name "name"    Change name
-|_____ $ git config --global user.email "email"  Change email
+|_____ $ git config --list --show-origin         Show git configuration and information
+|_____ $ git config --global user.name "name"    Change user name
+|_____ $ git config --global user.email "email"  Change user email
 
 01. Initialize Git
 |
 |_____ $ git init                                Turn a folder into Git repo
-|_____ $ git init path/to/dir                    Turn a folder into Git repo in abs path
+|_____ $ git init path/to/dir                    Turn a folder into Git repo with absolute path
 |_____ $ rm -rf .git                             Turn a Git repo into folder by deleting .git
-|_____ $ rm -rf .git path/to/dir                 Turn a Git repo into folder by deleting .git in abs path
+|_____ $ rm -rf .git path/to/dir                 Turn a Git repo into folder by deleting .git with absolute path
 
 02. Save changes
 |
-|_____ $ git add .                               Add all files to staging area
+|_____ $ git add .                               Add all files to the staging area
 |_____ $ git add <objectname>                    Add specific file or folder to staging area
 |_____ $ git restore --staged                    Unstage all objects from staging area
 |_____ $ git restore --staged <objectname>       Unstage an object from staging area
-|_____ $ git commit -m "message"                 Commit all files
-|_____ $ git commit -m <filename>/<foldername>   Commit specific file or folder
+|_____ $ git commit -m "log"                     Commit all files
+|_____ $ git commit -m "log" <objectname>        Commit specific file or folder
 
 03. Check changes
 |
@@ -236,15 +236,7 @@
 |_____ $ git log                                 Observe commit history
 |_____ $ git log --oneline                       Observe commit history in brief
 
-04. Branches in repo
-|
-|_____ $ git branch                              Show all existed branches and which branch you are in
-|_____ $ git branch new_branch                   Create a new branch
-|_____ $ git checkout branch_name                Switch branch
-|_____ $ git checkout -b new_branch              Create a new branch and switch to that branch
-|_____ $ git branch -m new_name                  Rename current branch and check if there is any existed, error
-|_____ $ git branch -M new_name                  Rename name current branch, if there is any existed, replace it
-|_____ $ git checkout -- <object_name>           Restore an object back to the current commit
+04. Work with commit
 
 05. Track commits
 |
