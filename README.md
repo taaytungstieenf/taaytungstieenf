@@ -216,18 +216,18 @@
 01. Initialize Git
 |
 |_____ $ git init                                Turn a folder into Git repo
-|_____ $ git init path/to/dir                    Turn a folder into Git repo with absolute path
+|_____ $ git init path/to/dir                    Turn a folder into Git repo with abs path
 |_____ $ rm -rf .git                             Turn a Git repo into folder by deleting .git
-|_____ $ rm -rf .git path/to/dir                 Turn a Git repo into folder by deleting .git with absolute path
+|_____ $ rm -rf .git path/to/dir                 Turn a Git repo into folder by deleting .git with abs path
 
 02. Save changes
 |
-|_____ $ git add .                               Add all files to the staging area
-|_____ $ git add <objectname>                    Add specific file or folder to staging area
+|_____ $ git add .                               Add all objects to staging area
+|_____ $ git add <objectname>                    Add a specific object to staging area
 |_____ $ git restore --staged                    Unstage all objects from staging area
-|_____ $ git restore --staged <objectname>       Unstage an object from staging area
-|_____ $ git commit -m "log"                     Commit all files
-|_____ $ git commit -m "log" <objectname>        Commit specific file or folder
+|_____ $ git restore --staged <objectname>       Unstage a specific object from staging area
+|_____ $ git commit -m "log"                     Commit all objects
+|_____ $ git commit -m "log" <objectname>        Commit a specific object
 
 03. Check changes
 |
