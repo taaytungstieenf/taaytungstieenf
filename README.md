@@ -264,35 +264,39 @@
 |
 |_____ $ git diff                                Between all unstaged objects and committed objects
 |_____ $ git diff --staged                       Between all staged objects and committed objects
-|_____ $ git diff <object_name>                  Between an unstaged object with committed object
-|_____ $ git diff --staged <object_name>         Between an staged object with committed object
-|_____ $ git diff <commit_hash> <commit_hash>    Between 2 specific commits
+|_____ $ git diff <objectname>                   Between an unstaged object with committed object
+|_____ $ git diff --staged <objectname>          Between an staged object with committed object
+|_____ $ git diff <hash1> <hash2>                Between 2 specific commits
 |_____ $ git diff HEAD HEAD~1                    Between 2 most recent commits
-|_____ $ git diff <branch1> <branch2>            Between 2 branches
+|_____ $ git diff <branch1> <branch2>            Between 2 specific branches
 
 07. Reinstate version
 |
-|_____ $ git revert <commit_hash>                Revert current commit to a specific commit
-|_____ $ git revert --no-edit <commit_has>       Revert current commit to a specific commit without writing log
-|_____ $ git revert -n <commit_hash>             Revert current commit to a specific commit without committing
-|_____ $ git checkout <commit_hash> -- <object>  Revert a current specific object to a specific commit
+|_____ $ git revert <hash>                       Revert current commit to a specific commit
+|_____ $ git revert --no-edit <hash>             Revert current commit to a specific commit without writing log
+|_____ $ git revert -n <hash>                    Revert current commit to a specific commit without committing
 
 08. Change version
 |
-|_____ $ git checkout <commit_hash>              Switch code to an old commit temporarily in workplace
-|_____ $ git reset -soft <commit_hash>           Reset commit, keep staging area, keep workplace
-|_____ $ git reset -mixed <commit_hash>          Reset commit, reset staging area, keep workplace
-|_____ $ git reset -hard <commit_hash>           Reset commit, reset staging area, reset workplace
+|_____ $ git checkout <hash>                     Switch code to an old commit temporarily in workplace
+|_____ $ git reset -soft <hash>                  Reset commit, keep staging area, keep workplace
+|_____ $ git reset -mixed <hash>                 Reset commit, reset staging area, keep workplace
+|_____ $ git reset -hard <hash>                  Reset commit, reset staging area, reset workplace
 |
 |_____ EXAMPLE:
 |_____ commits: A -> B -> C (HEAD)
 |_____ command: $ git reset -soft B
-|_____ resutls: HEAD back to B, retain staging area at C, retain working dir at C
+|_____ resutls: commit HEAD back to B, retain staging area at C, retain working directory at C
+|
+|_____ EXAMPLE:
+|_____ commits: A -> B -> C (HEAD)
+|_____ command: $ git reset -mixed B
+|_____ resutls: commit HEAD back to B, reset staging area to B, retain working directory at C
 |
 |_____ EXAMPLE:
 |_____ commits: A -> B -> C (HEAD)
 |_____ command: $ git reset -hard B
-|_____ results: HEAD back to B, reset staging area to B, reset working dir to B
+|_____ results: commit HEAD back to B, reset staging area to B, reset working directory to B
 
 09. Merge workflow
 |
@@ -307,28 +311,28 @@
 10. Start GitHub
 |
 |_____ $ git clone path/to/repo                  Clone a local repo
-|_____ $ git clone path/to/repo <new_repo_name>  Clone a local repo and rename it
+|_____ $ git clone path/to/repo <newname>        Clone a local repo and rename it
 |_____ $ git clone repo_link                     Clone a remote repo
-|_____ $ git clone repo_link <new_repo_name>     Clone a remote repo and rename it
-|_____ $ git remote add <remote_name> repo_link  Add a remote name
-|_____ $ git remote remove <remote_name>         Delete remote name
-|_____ $ git remote -v                           List all remote names
-|_____ $ git fetch <remote_name>                 Download the lastest version of a remote branch (origin/main)
+|_____ $ git clone repo_link <newname>           Clone a remote repo and rename it
+|_____ $ git remote add <remotename> <repolink>  Add a remote repo
+|_____ $ git remote remove <remotename>          Delete remote repo
+|_____ $ git remote -v                           List all remote repos have been added
+|_____ $ git fetch <remotename>                  Download the lastest version of a remote branch (origin/main)
 |_____ $ git log origin/main                     Track the newly fetched branch
-|_____ $ git diff origin/main <local>            Compare local branch with newly fetched branch
-|_____ $ git merge origin/main <local>           Merge newly fetched branch to local branch
+|_____ $ git diff origin/main <localname>        Compare newly fetched branch with local branch
+|_____ $ git merge origin/main <localname>       Merge newly fetched branch to local branch
 
 11. Push and pull
 |
-|_____ git push -u <remote_name> branch_name     Push code to remote and set upstream
+|_____ git push -u <remotename> <localbranch>    Push code to remote and set upstream repo
 |_____ git push                                  Push code with existed upstream
 |_____ git pull                                  Pull code with existed upstream
 |
 |_____ EXAMPLE:
 |_____ command: $ git status sb
 |_____ results: ## main...origin/main [ahead 2, behind 3]
-|_____ ahead 2: there are 2 local commits have not yet pushed to remote
-|_____ behind3: there are 3 remote commits have not yet pulled to local
+|_____ meaning: ahead 2 - there are 2 local commits have not yet pushed to remote
+|_____ meaning: behind 3 - there are 3 remote commits have not yet pulled to local
 |
 |-----------------------------------------------+-------------+              +-------------+
 |-----------------------------------------------| local  repo |              | remote repo |
@@ -341,12 +345,12 @@
 
 12. Manipulate locals and remotes
 |
-|_____ git branch -u origin/<remote_branch>     Set upstream for convenience
-|_____ git push -u origin <local_branch>        Push a local branch to remote, if there is no remote, create it
-|_____ git push -u origin <local>:<remote>      Push a specific local branch to a specific remote branch
-|_____ git push origin --delete <remote_name>   Delete a remote branch
-|_____ git branch -d <local_name>               Delete a local branch that was merged to main
-|_____ git branch -D <local_name>               Delete a local branch that was not merged to main   
+|_____ git branch -u <remotename>/<remotebranch>Set upstream for convenience
+|_____ git push -u origin <localbranch>         Push local branch to remote, create remote branch if needed
+|_____ git push -u origin <local>:<remote>      Push a speciic local branch to a specific remote branch
+|_____ git push origin --delete <remotename>    Delete a branch on remote
+|_____ git branch -d <localbranch>              Delete a local branch that was merged to main
+|_____ git branch -D <localbranch>              Delete a local branch that was not merged to main   
 ```
 
 <p align="center">
