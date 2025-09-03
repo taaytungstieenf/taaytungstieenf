@@ -16,7 +16,7 @@
 </p>
 
 - Experienced in building e-commerce web applications, personal blogs  
-- Skilled in working with data warehouses, data lakes, data lakehouses  
+- Skilled in working with data warehouses, data lakes, and data lakehouses  
 - Exploring AI technologies and executing daily tasks with the Linux shell
 
 <p align="center">
@@ -55,21 +55,21 @@
   - Perform Exploratory Data Analysis to understand the data, including feature importance, correlation heatmaps.  
   - Compare model performance using accuracy, precision, recall, F1-score, and confusion matrix.  
   - Evaluate machine learning models using ROC and Precision-Recall curves.  
-  - Apply feature engineering concepts to transform dialogue-based data for chatbot application.  
-  - Implement semantic search with FAISS and integrate DialoGPT to build retrieval-based chatbot.  
+  - Apply feature engineering concepts to transform dialogue-based data for a chatbot application.  
+  - Implement semantic search with FAISS and integrate DialoGPT to build a retrieval-based chatbot.  
   - Containerize the application using Docker.
 </details>
 
 <details>
   <summary>IMDB Data Processing Pipeline</summary>
   
-  - Apply big data concepts such as data preparation, data validation, and data visualization to build data pipeline.
-  - Download and extract raw data from the source, normalize and export data into Parquet format.
-  - Model data to relational database and build comprehensive full IMDB dataset for batch processing.
-  - Upload the exported data to HDFS and split full dataset into partition datasets by production year.
-  - Create data pipeline to download partition by each production year from HDFS back to the local system.
+  - Apply big data concepts such as data preparation, data validation, and data visualization to build a data pipeline.
+  - Download and extract raw data from the source, normalize, and export data into Parquet format.
+  - Model data to a relational database and build a comprehensive full IMDB dataset for batch processing.
+  - Upload the exported data to HDFS and split the full dataset into partition datasets by production year.
+  - Create a data pipeline to download partitions by each production year from HDFS back to the local system.
   - Load the partitioned datasets into a data warehouse (MySQL) and ready for visualization by Streamlit.
-  - Validate the data at each stage to ensure data integrity, use Spark to process data at every stage of the pipeline.
+  - Validate the data at each stage to ensure data integrity, and use Spark to process data at every stage of the pipeline.
   - Automate the download and import process into MySQL using CRON jobs in Unix OS.
 </details>
 
@@ -93,10 +93,10 @@
 <details>
   <summary>Warehouse Management System</summary>
   
-  - Create full-stack Java Spring MVC application for managing warehouse.
-  - Develop operations including inbound/outbound orders, inventory updates, and product categories.
-  - Design and implemented role-based access control to separate functionalities between admin and staff users.
-  - Build dynamic web interfaces using Thymeleaf, and enhanced with jQuery for interactive elements.
+  - Create a full-stack Java Spring MVC application for managing a warehouse.
+  - Develop operations, including inbound/outbound orders, inventory updates, and product categories.
+  - Design and implement role-based access control to separate functionalities between admin and staff users.
+  - Build dynamic web interfaces using Thymeleaf and enhanced with jQuery for interactive elements.
   - Model and manage warehouse data using MySQL with Hibernate ORM for efficient database interaction.
   - Implement CRUD functionalities for products, inventory batches, suppliers, and transaction records.
   - Create a dashboard with key performance indicators (e.g., stock levels, recent transactions, low inventory alerts).
@@ -204,7 +204,7 @@
 <br> <!-- break -->
 
 
-## 🤔 In Case of You Forget
+## 🤔 In Case You Forget
 
 ```
 00. Start Git
