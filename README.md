@@ -250,15 +250,15 @@
 05. Track commits
 |
 |_____ $ git log                                 Track all commits
-|_____ $ git show <commit_hash>                  Track a specific commits by hash
-|_____ $ git log -5                              Track the last 5 commits
-|_____ $ git log <object_name>                   Track commit by object name
+|_____ $ git log -n                              Track the last n commits
+|_____ $ git log <objectname>                    Track commits that object was changed
+|_____ $ git show <hash>                         Show a specific commits in detail by hash
 |
-|_____ ! Track all commits from 1/2/2025 to 28/2/2025
+|_____ ! TRACK ALL COMMITS FROM 1/2/2025 TO 28/2/2025
 |_____ $ git log --since='Feb 1 2025' --until='Feb 28 2025'
 |
-|_____ ! Track all commit form 1/2/2025 to now
-|_____ $ git long --since='Feb 1 2025'
+|_____ ! TRACK ALL COMMITS FROM 1/2/2025 TO NOW
+|_____ $ git log --since='Feb 1 2025'
 
 06. Compare changes
 |
