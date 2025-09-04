@@ -5,7 +5,7 @@
   <img src="https://i.pinimg.com/originals/98/4e/81/984e81934046c3050464525dfcacb6bc.gif" alt="banner" width="270" height="180"/>
 </p>
 
-ccc
+
 <br> <!-- break -->
 
 
