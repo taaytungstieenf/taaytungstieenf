@@ -49,7 +49,7 @@
 ## 🚀 Project Recaps  
 
 <details>
-  <summary>Data Warehouse</summary>
+  <summary>Big Data Architecture: Data Warehouse</summary>
   
   - Apply data warehouse concepts such as data cleaning, schema design, and dimensional modeling to build a batch ETL pipeline.
   - Download and extract raw IMDB data from the source, transform and normalize it into relational tables.
@@ -63,7 +63,7 @@
 </details>
 
 <details>
-  <summary>Data Lake</summary>
+  <summary>Big Data Architecture: Data Lake</summary>
   
   - Apply big data concepts such as data preparation, data validation, and data visualization to build a data pipeline.
   - Download and extract raw data from the source, normalize, and export data into Parquet format.
@@ -76,7 +76,7 @@
 </details>
 
 <details>
-  <summary>Data Lakehouse</summary>
+  <summary>Big Data Architecture: Data Lakehouse</summary>
   
   - Apply modern data lakehouse concepts such as ACID data storage, schema enforcement, and unified batch/stream processing to build an end-to-end data pipeline.
   - Download and ingest raw IMDB datasets into the lakehouse in Parquet/Delta format.
