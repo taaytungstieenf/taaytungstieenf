@@ -78,13 +78,13 @@
 <details>
   <summary>Big Data Architecture: Data Lakehouse</summary>
   
-  - Apply modern data lakehouse concepts such as ACID data storage, schema enforcement, and unified batch/stream processing.
+  - Apply data lakehouse concepts such as ACID data storage, schema enforcement, and unified batch/stream processing.
   - Download and ingest raw IMDB datasets into the lakehouse in Parquet/Delta format.
   - Define table structures directly on top of the lakehouse using Delta Lake/Iceberg, with schema evolution support.
   - Transform and curate the raw data into structured tables (fact and dimension models) inside the same lakehouse.
   - Partition large tables (e.g., movies by production year) using Delta/Iceberg partitioning to improve query performance.
   - Leverage Spark SQL and Delta Lake APIs to query, validate, and update data while maintaining ACID guarantees.
-  - Support BI and ML workloads simultaneously: run analytical dashboards while enabling ML training directly on lakehouse data.
+  - Support BI & ML workloads simultaneously: run analytical dashboards while enabling ML training directly on lakehouse data.
   - Automate ingestion, transformation, and reporting pipelines with Spark jobs scheduled via Airflow.
 </details>
 
