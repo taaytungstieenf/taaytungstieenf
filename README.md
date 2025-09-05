@@ -49,7 +49,7 @@
 ## 🚀 Project Recaps  
 
 <details>
-  <summary>Diabetes Support Application</summary>
+  <summary>Data Warehouse</summary>
   
   - Apply data warehouse concepts such as data cleaning, schema design, and dimensional modeling to build a batch ETL pipeline.
   - Download and extract raw IMDB data from the source, transform and normalize it into relational tables.
@@ -63,7 +63,7 @@
 </details>
 
 <details>
-  <summary>IMDB Data Processing Pipeline</summary>
+  <summary>Data Lake</summary>
   
   - Apply big data concepts such as data preparation, data validation, and data visualization to build a data pipeline.
   - Download and extract raw data from the source, normalize, and export data into Parquet format.
@@ -76,7 +76,7 @@
 </details>
 
 <details>
-  <summary>Real-Time Data Lakehouse Platform</summary>
+  <summary>Data Lakehouse</summary>
   
   - Apply modern data lakehouse concepts such as ACID data storage, schema enforcement, and unified batch/stream processing to build an end-to-end data pipeline.
   - Download and ingest raw IMDB datasets into the lakehouse in Parquet/Delta format.
@@ -89,52 +89,45 @@
 </details>
 
 <details>
-  <summary>Warehouse Management System</summary>
+  <summary>Flight Booking Application: API + Postman</summary>
   
-  - Create a full-stack Java Spring MVC application for managing a warehouse.
-  - Develop operations, including inbound/outbound orders, inventory updates, and product categories.
-  - Design and implement role-based access control to separate functionalities between admin and staff users.
-  - Build dynamic web interfaces using Thymeleaf and enhanced with jQuery for interactive elements.
-  - Model and manage warehouse data using MySQL with Hibernate ORM for efficient database interaction.
-  - Implement CRUD functionalities for products, inventory batches, suppliers, and transaction records.
-  - Create a dashboard with key performance indicators (e.g., stock levels, recent transactions, low inventory alerts).
+  - Develop a RESTful Java Spring Boot backend for a flight booking system.
+  - Implement CRUD APIs for managing users, flights, and bookings.
+  - Enable user registration, login, and logout, with password hashing using BCrypt.
+  - Provide search API for flights by origin, destination, and departure date.
+  - Implement role-based access control (e.g., admin to manage flights, users to create bookings).
+  - Manage data persistence in MySQL using Hibernate/JPA for ORM.
+  - Secure endpoints with Spring Security + JWT, ensuring authenticated access.
+  - Validate request payloads and return structured error responses.
+  - Test all features via Postman, exposing endpoints in Swagger/OpenAPI documentation.
+</details>
+
+<details>
+  <summary>Flight Booking Application: API + Thymleaf</summary>
+  
+  - Create a full-stack Java Spring MVC application for flight booking.
+  - Develop operations, including flight scheduling, ticket bookings, and passenger management.
+  - Design and implement role-based access control to separate functionalities between admin (manage flights, view reports) and users (book tickets, view history).
+  - Build dynamic web interfaces using Thymeleaf templates, enhanced with jQuery for interactive search and booking forms.
+  - Model and manage booking data in MySQL, using Hibernate ORM for efficient interaction with flight, passenger, and booking tables.
+  - Implement CRUD functionalities for flights, routes, passengers, and booking records.
+  - Create a dashboard for admin with key metrics (e.g., number of active flights, bookings per day, top destinations).
   - Ensure clean architectural separation using the Model–View–Controller (MVC) pattern for maintainability.
-  - Secure user sessions, login/logout functionality, and password encryption.  
+  - Secure user sessions with Spring Security, including login/logout functionality and password encryption.
 </details>
 
 <details>
-  <summary>Flight Booking Application</summary>
-  
-  - Built a full-stack warehouse management app with Spring Boot APIs and React.
-  - Implemented CRUD for products, inventory, suppliers, and transactions via REST APIs.
-  - Managed warehouse data in MySQL using Hibernate/JPA for seamless persistence.
-  - Built a responsive React frontend with React Router and Axios for API communication, ensuring smooth user experience.
-  - Designed role-based access control (RBAC) at the API layer to separate functionalities between admin and staff users.
-  - Created dashboards with charts/tables for KPIs (stock, transactions, alerts).
-  - Secured authentication & authorization with JWT, encryption, and protected routes.
-  - Established clean separation between backend services and frontend SPA for scalability.
-  - Integrated interactive UI elements with React hooks and state management for dynamic updates in real time.
-  - Documented APIs with Swagger/OpenAPI and applied validation & error handling.  
-</details>
+  <summary>Flight Booking Application: API + React</summary>
 
-<details>
-  <summary>Football Trading Card Store</summary>
-
-  - Built a full-stack Football Trading Card Store with Spring Boot, React, and MongoDB.  
-  - Implemented CRUD for cards, inventory, users, orders, payments, and reviews via REST APIs.  
-  - Designed MongoDB schemas with indexes for fast queries on player, team, and card rarity.  
-  - Managed card variants with condition, edition, graded vs raw, and low-stock notifications.  
-  - Developed a responsive React frontend with Router, Axios, and Material UI components.  
-  - Implemented role-based access control (RBAC) using JWT to separate admin and customer users.  
-  - Created checkout and order lifecycle from cart to payment and status tracking.  
-  - Integrated payment adapter layer with webhooks for automatic order status updates.  
-  - Added full-text search and filters for team, league, rarity, condition, and price range.  
-  - Built an Admin Dashboard to display sales KPIs, top-selling cards, and stock alerts.  
-  - Secured authentication with BCrypt hashing, email verification, and protected routes.  
-  - Applied rate limiting, validation, and sanitization to prevent abuse and attacks.  
-  - Ensured clean separation of backend APIs and frontend SPA for scalability.  
-  - Optimized performance with pagination, query indexing, and caching strategies.  
-  - Logged events and basic analytics to support reporting and promotions.   
+  - Build a full-stack flight booking application with a Spring Boot REST API backend and React frontend.
+  - Expose backend services for user authentication (JWT), flight management, and booking workflows.
+  - Implement React components for flight search, booking forms, and user dashboards.
+  - Create a separate admin portal for managing flights, monitoring bookings, and controlling user access.
+  - Integrate role-based access control between admin and regular users, enforced by Spring Security and JWT tokens.
+  - Store and manage booking, flight, and passenger data in MySQL, optimized via Hibernate/JPA.
+  - Support advanced features such as booking cancellation, pagination of flight listings, and filtering by date/destination.
+  - Deploy the backend on a cloud platform (e.g., Heroku/Railway) and the frontend on Netlify/Vercel for demonstration.
+  - Ensure responsive design and improve user experience with React Router, state management, and reusable components.
 </details>
 
 
