@@ -51,14 +51,14 @@
 <details>
   <summary>Big Data Architecture: Data Warehouse</summary>
   
-  - Apply data warehouse concepts such as data cleaning, schema design, and dimensional modeling to build a batch ETL pipeline.
+  - Apply DW concepts such as data cleaning, schema design, and dimensional modeling to build a batch ETL pipeline.
   - Download and extract raw IMDB data from the source, transform and normalize it into relational tables.
   - Design a star schema with fact and dimension tables (e.g., Fact_Movie, Dim_Actor, Dim_Director, Dim_ProductionYear).
   - Load the transformed tables into a relational database (MySQL) to serve as the data warehouse.
   - Partition the fact table by production year to improve query performance and optimize reporting.  
   - Build SQL-based ETL pipelines to update and maintain the warehouse data periodically.
   - Validate the data at each ETL stage to ensure referential integrity across fact and dimension tables.
-  - Develop dashboards and reports with Streamlit to visualize movie trends, such as number of movies per year, top genres, and most active actors.
+  - Develop dashboards and reports with Streamlit to visualize movie trends, such as number of movies per year, top genres...
   - Automate the ETL and reporting pipeline with CRON jobs in Unix OS for scheduled updates.
 </details>
 
