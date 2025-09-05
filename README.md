@@ -107,9 +107,9 @@
   
   - Create a full-stack Java Spring MVC application for flight booking.
   - Develop operations, including flight scheduling, ticket bookings, and passenger management.
-  - Design and implement role-based access control to separate functionalities between admin (manage flights, view reports) and users (book tickets, view history).
+  - Design and implement role-based access control to separate functionalities between admin and users.
   - Build dynamic web interfaces using Thymeleaf templates, enhanced with jQuery for interactive search and booking forms.
-  - Model and manage booking data in MySQL, using Hibernate ORM for efficient interaction with flight, passenger, and booking tables.
+  - Model and manage booking data in MySQL, using Hibernate ORM for efficient interaction with flight, passenger...
   - Implement CRUD functionalities for flights, routes, passengers, and booking records.
   - Create a dashboard for admin with key metrics (e.g., number of active flights, bookings per day, top destinations).
   - Ensure clean architectural separation using the Model–View–Controller (MVC) pattern for maintainability.
