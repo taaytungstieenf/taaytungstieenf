@@ -84,7 +84,7 @@
   - Transform and curate the raw data into structured tables (fact and dimension models) inside the same lakehouse.
   - Partition large tables (e.g., movies by production year) using Delta/Iceberg partitioning to improve query performance.
   - Leverage Spark SQL and Delta Lake APIs to query, validate, and update data while maintaining ACID guarantees.
-  - Support BI & ML workloads simultaneously: run analytical dashboards while enabling ML training directly on lakehouse data.
+  - Support BI & ML workloads simultaneously, run analytical dashboards while enabling ML tasks directly on lakehouse data.
   - Automate ingestion, transformation, and reporting pipelines with Spark jobs scheduled via Airflow.
 </details>
 
