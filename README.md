@@ -51,13 +51,15 @@
 <details>
   <summary>Diabetes Support Application</summary>
   
-  - Apply Gradient Boosting models such as CatBoost, LightGBM, and XGBoost to build predictive models.  
-  - Perform Exploratory Data Analysis to understand the data, including feature importance, correlation heatmaps.  
-  - Compare model performance using accuracy, precision, recall, F1-score, and confusion matrix.  
-  - Evaluate machine learning models using ROC and Precision-Recall curves.  
-  - Apply feature engineering concepts to transform dialogue-based data for a chatbot application.  
-  - Implement semantic search with FAISS and integrate DialoGPT to build a retrieval-based chatbot.  
-  - Containerize the application using Docker.
+  - Apply data warehouse concepts such as data cleaning, schema design, and dimensional modeling to build a batch ETL pipeline.
+  - Download and extract raw IMDB data from the source, transform and normalize it into relational tables.
+  - Design a star schema with fact and dimension tables (e.g., Fact_Movie, Dim_Actor, Dim_Director, Dim_ProductionYear).
+  - Load the transformed tables into a relational database (MySQL) to serve as the data warehouse.
+  - Partition the fact table by production year to improve query performance and optimize reporting.  
+  - Build SQL-based ETL pipelines to update and maintain the warehouse data periodically.
+  - Validate the data at each ETL stage to ensure referential integrity across fact and dimension tables.
+  - Develop dashboards and reports with Streamlit to visualize movie trends, such as number of movies per year, top genres, and most active actors.
+  - Automate the ETL and reporting pipeline with CRON jobs in Unix OS for scheduled updates.
 </details>
 
 <details>
@@ -76,18 +78,14 @@
 <details>
   <summary>Real-Time Data Lakehouse Platform</summary>
   
-  - Build real-time data ingestion with Kafka and Schema Registry for enforceable event schemas.
-  - Stream processing with Spark Structured Streaming on AWS EMR (stateful/windowed aggregations, enrichment joins).
-  - Persist raw/processed streams in S3 (Parquet + Delta/Iceberg), time-partitioned with auto-compaction.
-  - Orchestrate pipelines with Airflow (deploy/restart, compaction, dependencies)
-  - Ensure data quality with Great Expectations (Bronze/Silver/Gold) and DLQs for invalid messages.
-  - Model curated datasets in cloud warehouse (Redshift/BigQuery/Snowflake) with dbt (incrementals, tests, lineage).
-  - Expose real-time KPIs on Superset/Metabase/Grafana with alerts for SLA breaches and anomalies.
-  - Secure data/workloads with IAM, encryption, private networking, and audit logging.
-  - CI/CD with GitHub Actions (dbt & Spark) and Terraform for infra provisioning.
-  - Monitor reliability/cost with CloudWatch, Prometheus/Grafana; autoscale compute & optimize storage.
-  - Provide runbooks and incident workflows (on-call, retries, backfills) for resilience and quick recovery.
-  - Document data contracts and SLAs to ensure schema evolution and backward compatibility.
+  - Apply modern data lakehouse concepts such as ACID data storage, schema enforcement, and unified batch/stream processing to build an end-to-end data pipeline.
+  - Download and ingest raw IMDB datasets into the lakehouse in Parquet/Delta format.
+  - Define table structures directly on top of the lakehouse using Delta Lake/Iceberg, with schema evolution support.
+  - Transform and curate the raw data into structured tables (fact and dimension models) inside the same lakehouse.
+  - Partition large tables (e.g., movies by production year) using Delta/Iceberg partitioning to improve query performance.
+  - Leverage Spark SQL and Delta Lake APIs to query, validate, and update data while maintaining ACID guarantees.
+  - Support BI and ML workloads simultaneously: run analytical dashboards in Streamlit while enabling ML training (e.g., predict top genres or movie ratings) directly on lakehouse data.
+  - Automate ingestion, transformation, and reporting pipelines with Spark jobs scheduled via CRON/Airflow on the Unix environment.
 </details>
 
 <details>
