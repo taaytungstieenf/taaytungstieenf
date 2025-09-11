@@ -9,7 +9,7 @@
 <br> <!-- break -->
 
 
-## 👤 About Me
+# 👤 About Me
 
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com/?lines=Hi,+I'm+Tae;Welcome+to+my+GitHub!;Back-end+Engineer;Data+Engineer&center=true&size=24&color=ff79c6&font=Fira+Code">
