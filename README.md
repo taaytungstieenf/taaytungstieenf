@@ -218,7 +218,6 @@
 |_____ $ git restore --staged                    Unstage all objects from staging area
 |_____ $ git restore --staged <objectname>       Unstage a specific object from staging area
 |_____ $ git commit -m "log"                     Commit all objects
-|_____ $ git commit -m "log" <objectname>        Commit a specific object
 
 03. Check changes
 |
@@ -263,16 +262,16 @@
 
 07. Reinstate version
 |
-|_____ $ git revert <hash>                       Revert current commit to a specific commit
+|_____ $ git revert <hash>                       Undo the changes of the hash commit
 |_____ $ git revert --no-edit <hash>             Revert current commit to a specific commit without writing log
 |_____ $ git revert -n <hash>                    Revert current commit to a specific commit without committing
 
 08. Change version
 |
 |_____ $ git checkout <hash>                     Switch code to an old commit temporarily in workplace
-|_____ $ git reset -soft <hash>                  Reset commit, keep staging area, keep workplace
-|_____ $ git reset -mixed <hash>                 Reset commit, reset staging area, keep workplace
-|_____ $ git reset -hard <hash>                  Reset commit, reset staging area, reset workplace
+|_____ $ git reset --soft <hash>                  Reset commit, keep staging area, keep workplace
+|_____ $ git reset --mixed <hash>                 Reset commit, reset staging area, keep workplace
+|_____ $ git reset --hard <hash>                  Reset commit, reset staging area, reset workplace
 |
 |_____ EXAMPLE:
 |_____ commits: A -> B -> C (HEAD)
@@ -311,7 +310,7 @@
 |_____ $ git fetch <remotename>                  Download the lastest version of a remote branch (origin/main)
 |_____ $ git log origin/main                     Track the newly fetched branch
 |_____ $ git diff origin/main <localname>        Compare newly fetched branch with local branch
-|_____ $ git merge origin/main <localname>       Merge newly fetched branch to local branch
+|_____ $ git merge origin/main                   Merge newly fetched branch to current branch
 
 11. Push and pull
 |
@@ -339,7 +338,7 @@
 |_____ git branch -u <remotename>/<remotebranch>Set upstream for convenience
 |_____ git push -u origin <localbranch>         Push local branch to remote, create remote branch if needed
 |_____ git push -u origin <local>:<remote>      Push a speciic local branch to a specific remote branch
-|_____ git push origin --delete <remotename>    Delete a branch on remote
+|_____ git push origin --delete <remotebranch>  Delete a branch on remote
 |_____ git branch -d <localbranch>              Delete a local branch that was merged to main
 |_____ git branch -D <localbranch>              Delete a local branch that was not merged to main   
 ```
