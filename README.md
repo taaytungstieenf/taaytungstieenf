@@ -304,7 +304,7 @@
 |_____ $ git clone path/to/repo <newname>        Clone a local repo and rename it
 |_____ $ git clone repo_link                     Clone a remote repo
 |_____ $ git clone repo_link <newname>           Clone a remote repo and rename it
-|_____ $ git remote add <remotename> <repolink>  Add a remote repo
+|_____ $ git remote add <remotename> repolink    Add a remote repo
 |_____ $ git remote remove <remotename>          Delete remote repo
 |_____ $ git remote -v                           List all remote repos have been added
 |_____ $ git fetch <remotename>                  Download the lastest version of a remote branch (origin/main)
