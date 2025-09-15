@@ -269,9 +269,9 @@
 08. Change version
 |
 |_____ $ git checkout <hash>                     Switch code to an old commit temporarily in workplace
-|_____ $ git reset --soft <hash>                  Reset commit, keep staging area, keep workplace
-|_____ $ git reset --mixed <hash>                 Reset commit, reset staging area, keep workplace
-|_____ $ git reset --hard <hash>                  Reset commit, reset staging area, reset workplace
+|_____ $ git reset --soft <hash>                 Reset commit, keep staging area, keep workplace
+|_____ $ git reset --mixed <hash>                Reset commit, reset staging area, keep workplace
+|_____ $ git reset --hard <hash>                 Reset commit, reset staging area, reset workplace
 |
 |_____ EXAMPLE:
 |_____ commits: A -> B -> C (HEAD)
