@@ -298,12 +298,10 @@
 |_____ $ git remote add <remotename> repolink    Add a remote repo
 |_____ $ git remote remove <remotename>          Delete remote repo
 |_____ $ git remote -v                           List all remote repos have been added
-
-12. Push and pull
 |
-|_____ $ git push -u <remotename> <localbranch>    Push code to remote and set upstream repo
-|_____ $ git push                                  Push code with existed upstream
-|_____ $ git pull                                  Pull code with existed upstream
+|_____ $ git push -u <remotename> <localbranch>  Push code to remote and set upstream repo
+|_____ $ git push                                Push code with existed upstream
+|_____ $ git pull                                Pull code with existed upstream
 |
 |_____ EXAMPLE:
 |_____ command: $ git status sb
