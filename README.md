@@ -235,7 +235,8 @@
 |_____ $ git checkout <branchname>               Switch to a branch
 |_____ $ git checkout -b <newbranch>             Create and switch to a new branch with the HEAD commit
 |_____ $ git checkout -- <object>                Restore an object back to HEAD commit
-|_____ $ git checkout <hash> -- <object>         Restore an object back to a specific commit 
+|_____ $ git checkout <hash> -- <object>         Restore an object back to a specific commit
+|_____ $ git checkout <hash>                     Switch code to an old commit temporarily in workplace
 
 05. Track commits
 |
@@ -268,7 +269,6 @@
 
 08. Change version
 |
-|_____ $ git checkout <hash>                     Switch code to an old commit temporarily in workplace
 |_____ $ git reset --soft <hash>                 Reset commit, keep staging area, keep workplace
 |_____ $ git reset --mixed <hash>                Reset commit, reset staging area, keep workplace
 |_____ $ git reset --hard <hash>                 Reset commit, reset staging area, reset workplace
