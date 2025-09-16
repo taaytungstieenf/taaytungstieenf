@@ -247,6 +247,7 @@
 |_____ $ git diff --staged                       Between all staged objects and committed objects
 |_____ $ git diff <object>                       Between an unstaged object with committed object
 |_____ $ git diff --staged <object>              Between an staged object with committed object
+|
 |_____ $ git diff <hash1> <hash2>                Between 2 specific commits
 |_____ $ git diff HEAD HEAD~1                    Between 2 most recent commits
 |_____ $ git diff <branch1> <branch2>            Between 2 specific branches
