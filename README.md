@@ -214,9 +214,9 @@
 02. Save changes
 |
 |_____ $ git add .                               Add all objects to staging area
-|_____ $ git add <objectname>                    Add a specific object to staging area
+|_____ $ git add <object>                        Add a specific object to staging area
 |_____ $ git restore --staged                    Unstage all objects from staging area
-|_____ $ git restore --staged <objectname>       Unstage a specific object from staging area
+|_____ $ git restore --staged <object>           Unstage a specific object from staging area
 |_____ $ git commit -m "log"                     Commit all objects
 
 03. Check changes
@@ -234,8 +234,8 @@
 |_____ $ git branch -M <newname>                 Rename current branch and replace <newname> if it exists
 |_____ $ git checkout <branchname>               Switch to a branch
 |_____ $ git checkout -b <newbranch>             Create and switch to a new branch with the HEAD commit
-|_____ $ git checkout -- <objectname>            Restore an object back to HEAD commit
-|_____ $ git checkout <hash> -- <objectname>     Restore an object back to a specific commit 
+|_____ $ git checkout -- <object>                Restore an object back to HEAD commit
+|_____ $ git checkout <hash> -- <object>         Restore an object back to a specific commit 
 
 05. Track commits
 |
