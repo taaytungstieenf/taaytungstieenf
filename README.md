@@ -309,14 +309,14 @@
 
 12. Push and pull
 |
-|_____ git push -u <remotename> <localbranch>    Push code to remote and set upstream repo
-|_____ git push                                  Push code with existed upstream
-|_____ git pull                                  Pull code with existed upstream
+|_____ $ git push -u <remotename> <localbranch>    Push code to remote and set upstream repo
+|_____ $ git push                                  Push code with existed upstream
+|_____ $ git pull                                  Pull code with existed upstream
 |
 |_____ EXAMPLE:
 |_____ command: $ git status sb
 |_____ results: ## main...origin/main [ahead 2, behind 3]
-|_____ meaning: ahead 2 - there are 2 local commits have not yet pushed to remote
+|_____ meaning: ahead  2 - there are 2 local commits have not yet pushed to remote
 |_____ meaning: behind 3 - there are 3 remote commits have not yet pulled to local
 |
 |-----------------------------------------------+-------------+              +-------------+
@@ -328,14 +328,28 @@
 |-----------------------------------------------| $ git pull  |    <<----    |    code     |
 |-----------------------------------------------+-------------+--------------+-------------+
 
+11. Start GitHub
+|
+|_____ $ git clone path/to/repo                  Clone a local repo
+|_____ $ git clone path/to/repo <newname>        Clone a local repo and rename it
+|_____ $ git clone repo_link                     Clone a remote repo
+|_____ $ git clone repo_link <newname>           Clone a remote repo and rename it
+|_____ $ git remote add <remotename> repolink    Add a remote repo
+|_____ $ git remote remove <remotename>          Delete remote repo
+|_____ $ git remote -v                           List all remote repos have been added
+|_____ $ git fetch <remotename>                  Download the lastest version of a remote branch (origin/main)
+|_____ $ git log origin/main                     Track the newly fetched branch
+|_____ $ git diff origin/main <localname>        Compare newly fetched branch with local branch
+|_____ $ git merge origin/main                   Merge newly fetched branch to current branch
+
 13. Manipulate locals and remotes
 |
-|_____ git branch -u <remotename>/<remotebranch>Set upstream for convenience
-|_____ git push -u origin <localbranch>         Push local branch to remote, create remote branch if needed
-|_____ git push -u origin <local>:<remote>      Push a speciic local branch to a specific remote branch
-|_____ git push origin --delete <remotebranch>  Delete a branch on remote
-|_____ git branch -d <localbranch>              Delete a local branch that was merged to main
-|_____ git branch -D <localbranch>              Delete a local branch that was not merged to main   
+|_____ $ git branch -u <remotename>/<remotebranch>Set upstream for convenience
+|_____ $ git push -u origin <localbranch>         Push local branch to remote, create remote branch if needed
+|_____ $ git push -u origin <local>:<remote>      Push a speciic local branch to a specific remote branch
+|_____ $ git push origin --delete <remotebranch>  Delete a branch on remote
+|_____ $ git branch -d <localbranch>              Delete a local branch that was merged to main
+|_____ $ git branch -D <localbranch>              Delete a local branch that was not merged to main   
 ```
 
 <p align="center">
