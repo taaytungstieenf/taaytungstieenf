@@ -227,7 +227,6 @@
 |_____ $ git log --oneline                       Observe commit history in brief
 |_____ $ git log -n                              Track the last n commits
 |_____ $ git log <object>                        Track commits that object was changed
-|_____ $ git show <hash>                         Show a specific commits in detail by hash
 |
 |_____ $ git log --since='Feb 1 2025' --until='Feb 28 2025'
 |_____ $ git log --since='Feb 1 2025'
