@@ -259,8 +259,8 @@
 08. Reinstate version
 |
 |_____ $ git revert <hash>                          Undo the changes of the hash commit
-|_____ $ git revert --no-edit <hash>                Revert current commit to a commit without writing log
-|_____ $ git revert -n <hash>                       Revert current commit to a commit without committing
+|_____ $ git revert --no-edit <hash>                Revert current commit to a specific commit without writing log
+|_____ $ git revert -n <hash>                       Revert current commit to a specific commit without committing
 
 09. Change version
 |
