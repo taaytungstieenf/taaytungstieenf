@@ -241,7 +241,7 @@
 |
 |_____ $ git log                                 Track all commits
 |_____ $ git log -n                              Track the last n commits
-|_____ $ git log <objectname>                    Track commits that object was changed
+|_____ $ git log <object>                    Track commits that object was changed
 |_____ $ git show <hash>                         Show a specific commits in detail by hash
 |
 |_____ ! TRACK ALL COMMITS FROM 1/2/2025 TO 28/2/2025
@@ -254,8 +254,8 @@
 |
 |_____ $ git diff                                Between all unstaged objects and committed objects
 |_____ $ git diff --staged                       Between all staged objects and committed objects
-|_____ $ git diff <objectname>                   Between an unstaged object with committed object
-|_____ $ git diff --staged <objectname>          Between an staged object with committed object
+|_____ $ git diff <object>                       Between an unstaged object with committed object
+|_____ $ git diff --staged <object>              Between an staged object with committed object
 |_____ $ git diff <hash1> <hash2>                Between 2 specific commits
 |_____ $ git diff HEAD HEAD~1                    Between 2 most recent commits
 |_____ $ git diff <branch1> <branch2>            Between 2 specific branches
