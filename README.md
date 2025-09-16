@@ -293,7 +293,13 @@
 |_____ command:  $ git checkout main; git merge test
 |_____ commits:  A -> B -> C -> D                           (test, main)
 
-11. Push and pull
+11. Start with GitHub
+|
+|_____ $ git remote add <remotename> repolink    Add a remote repo
+|_____ $ git remote remove <remotename>          Delete remote repo
+|_____ $ git remote -v                           List all remote repos have been added
+
+12. Push and pull
 |
 |_____ $ git push -u <remotename> <localbranch>    Push code to remote and set upstream repo
 |_____ $ git push                                  Push code with existed upstream
@@ -314,21 +320,19 @@
 |-----------------------------------------------| $ git pull  |    <<----    |    code     |
 |-----------------------------------------------+-------------+--------------+-------------+
 
-12. Start GitHub
+13. Best practice with GitHub
 |
 |_____ $ git clone path/to/repo                  Clone a local repo
 |_____ $ git clone path/to/repo <newname>        Clone a local repo and rename it
 |_____ $ git clone repo_link                     Clone a remote repo
 |_____ $ git clone repo_link <newname>           Clone a remote repo and rename it
-|_____ $ git remote add <remotename> repolink    Add a remote repo
-|_____ $ git remote remove <remotename>          Delete remote repo
-|_____ $ git remote -v                           List all remote repos have been added
+|
 |_____ $ git fetch <remotename>                  Download the lastest version of a remote branch (origin/main)
 |_____ $ git log origin/main                     Track the newly fetched branch
 |_____ $ git diff origin/main <localname>        Compare newly fetched branch with local branch
 |_____ $ git merge origin/main                   Merge newly fetched branch to current branch
 
-13. Manipulate locals and remotes
+14. Manipulate locals and remotes
 |
 |_____ $ git branch -u <remotename>/<remotebranch>Set upstream for convenience
 |_____ $ git push -u origin <localbranch>         Push local branch to remote, create remote branch if needed
