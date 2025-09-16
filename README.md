@@ -230,7 +230,7 @@
 |_____ $ git log <object>                        Track commits that object was changed
 |
 |_____ $ git log --since='Feb 1 2025' --until='Feb 28 2025'
-||_____ $ git log --since='Feb 1 2025'
+|_____ $ git log --since='Feb 1 2025'
 |
 |_____ $ git show <hash>                         Show a specific commits in detail by hash
 
