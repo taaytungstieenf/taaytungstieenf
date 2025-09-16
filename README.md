@@ -264,9 +264,9 @@
 
 09. Change version
 |
-|_____ $ git reset --soft <hash>                 Reset commit, keep staging area, keep workplace
-|_____ $ git reset --mixed <hash>                Reset commit, reset staging area, keep workplace
-|_____ $ git reset --hard <hash>                 Reset commit, reset staging area, reset workplace
+|_____ $ git reset --soft <hash>                    Reset commit, keep staging area, keep workplace
+|_____ $ git reset --mixed <hash>                   Reset commit, reset staging area, keep workplace
+|_____ $ git reset --hard <hash>                    Reset commit, reset staging area, reset workplace
 |
 |_____ EXAMPLE:
 |_____ commits: A -> B -> C (HEAD)
@@ -295,13 +295,13 @@
 
 11. Start with GitHub
 |
-|_____ $ git remote add <remotealias> repo_link  Add a remote repo
-|_____ $ git remote remove <remotealias>         Delete remote repo
-|_____ $ git remote -v                           List all remote repos have been added
+|_____ $ git remote add <remotealias> repo_link     Add a remote repo
+|_____ $ git remote remove <remotealias>            Delete remote repo
+|_____ $ git remote -v                              List all remote repos have been added
 |
-|_____ $ git push -u <remotealias> <localbranch> Push code to remote and set upstream repo
-|_____ $ git push                                Push code with existed upstream
-|_____ $ git pull                                Pull code with existed upstream
+|_____ $ git push -u <remotealias> <localbranch>    Push code to remote and set upstream repo
+|_____ $ git push                                   Push code with existed upstream
+|_____ $ git pull                                   Pull code with existed upstream
 |
 |_____ EXAMPLE:
 |_____ command: $ git status sb
@@ -309,47 +309,47 @@
 |_____ meaning: ahead  2 - there are 2 local commits have not yet pushed to remote
 |_____ meaning: behind 3 - there are 3 remote commits have not yet pulled to local
 |
-|-----------------------------------------------+-------------+              +-------------+
-|-----------------------------------------------| local  repo |              | remote repo |
-|-----------------------------------------------|-------------+--------------+-------------|
-|-----------------------------------------------|    main     |              | origin/main |
-|-----------------------------------------------|-------------+--------------+-------------|
-|-----------------------------------------------| $ git push  |    ---->>    |    code     |
-|-----------------------------------------------| $ git pull  |    <<----    |    code     |
-|-----------------------------------------------+-------------+--------------+-------------+
+|--------------------------------------------------+-------------+              +-------------+
+|--------------------------------------------------| local  repo |              | remote repo |
+|--------------------------------------------------|-------------+--------------+-------------|
+|--------------------------------------------------|    main     |              | origin/main |
+|--------------------------------------------------|-------------+--------------+-------------|
+|--------------------------------------------------| $ git push  |    ---->>    |    code     |
+|--------------------------------------------------| $ git pull  |    <<----    |    code     |
+|--------------------------------------------------+-------------+--------------+-------------+
 
 12. Clone repo
 |
-|_____ $ git clone path/to/repo                  Clone a local repo
-|_____ $ git clone path/to/repo <newname>        Clone a local repo and rename it
-|_____ $ git clone repo_link                     Clone a remote repo
-|_____ $ git clone repo_link <newname>           Clone a remote repo and rename it
+|_____ $ git clone path/to/repo                     Clone a local repo
+|_____ $ git clone path/to/repo <newname>           Clone a local repo and rename it
+|_____ $ git clone repo_link                        Clone a remote repo
+|_____ $ git clone repo_link <newname>              Clone a remote repo and rename it
 
 13. Fetch repo
 |
-|_____ $ git fetch <remotealias>                 Update all branches from remote repo
-|_____ $ git fetch <remotealias> <branchname>    Update a branch from remote repo
-|_____ $ git fetch --all                         Update all branches of all remote repos
-|_____ $ git fetch --prune                       Which non-existed branches on remote will be deleted at local
+|_____ $ git fetch <remotealias>                    Update all branches from remote repo
+|_____ $ git fetch <remotealias> <branchname>       Update a branch from remote repo
+|_____ $ git fetch --all                            Update all branches of all remote repos
+|_____ $ git fetch --prune                          Which non-existed branches on remote will be deleted at local
 
 14. Manipulate locals and remotes
 |
-|_____ $ git branch -u <remotealias>/<branch>     Set upstream for convenience, branch means local & remote
-|_____ $ git branch -d <localbranch>              Delete a local branch that was merged to main
-|_____ $ git branch -D <localbranch>              Delete a local branch that was not merged to main
+|_____ $ git branch -u <remotealias>/<branch>       Set upstream for convenience, branch means local & remote
+|_____ $ git branch -d <localbranch>                Delete a local branch that was merged to main
+|_____ $ git branch -D <localbranch>                Delete a local branch that was not merged to main
 |
-|_____ $ git push -u <remotealias> <localbranch>                Push local branch to the same-name branch on remote
-|_____ $ git push -u <remotealias> <localbranch>:<remotebranch> Push local branch to a specific remote branch
-|_____ $ git push    <remotealias> --delete <remotebranch>      Delete a branch on remote 
+|_____ $ git push -u <remotealias> <local>          Push local branch to a same-name branch on remote
+|_____ $ git push -u <remotealias> <local>:<remote> Push local branch to a specific remote branch
+|_____ $ git push <remotealias> --delete <remote>   Delete a branch on remote 
 
 15. Best practice with GitHub
 |
-|_____ $ git remote add origin repo_link         Set a GitHub repo link to a remote name "origin"
-|_____ $ git branch -M main                      Rename current branch to "main"
-|_____ $ git fetch origin                        Download all branches of repo "origin"
-|_____ $ git log origin/main                     Track branch "main" of repo "origin"
-|_____ $ git diff origin/main main               Compare branch "main" of origin to local branch "main"
-|_____ $ git merge origin/main                   Merge branch "main" of origin to local branch "main"
+|_____ $ git remote add origin repo_link            Set a GitHub repo link to a remote name "origin"
+|_____ $ git branch -M main                         Rename current branch to "main"
+|_____ $ git fetch origin                           Download all branches of repo "origin"
+|_____ $ git log origin/main                        Track branch "main" of repo "origin"
+|_____ $ git diff origin/main main                  Compare branch "main" of origin to local branch "main"
+|_____ $ git merge origin/main                      Merge branch "main" of origin to local branch "main"
 ```
 
 <p align="center">
