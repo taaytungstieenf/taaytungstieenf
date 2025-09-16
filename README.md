@@ -338,7 +338,7 @@
 |_____ $ git branch -d <localbranch>              Delete a local branch that was merged to main
 |_____ $ git branch -D <localbranch>              Delete a local branch that was not merged to main
 |
-|_____ $ git push -u <remotealias> <localbranch>                Push a local branch to the same-name branch on remote
+|_____ $ git push -u <remotealias> <localbranch>                Push local branch to the same-name branch on remote
 |_____ $ git push -u <remotealias> <localbranch>:<remotebranch> Push local branch to a specific remote branch
 |_____ $ git push    <remotealias> --delete <remotebranch>      Delete a branch on remote 
 
