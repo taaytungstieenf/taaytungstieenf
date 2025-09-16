@@ -241,7 +241,7 @@
 |_____ $ git checkout <branchname>               Switch to a branch
 |_____ $ git checkout -b <newbranch>             Create and switch to a new branch with the HEAD commit
 
-07. Compare changes
+06. Compare changes
 |
 |_____ $ git diff                                Between all unstaged objects and committed objects
 |_____ $ git diff --staged                       Between all staged objects and committed objects
@@ -251,18 +251,18 @@
 |_____ $ git diff HEAD HEAD~1                    Between 2 most recent commits
 |_____ $ git diff <branch1> <branch2>            Between 2 specific branches
 
-08. Switch version
+07. Switch version
 |_____ $ git checkout -- <object>                Restore an object back to HEAD commit
 |_____ $ git checkout <hash> -- <object>         Restore an object back to a specific commit
 |_____ $ git checkout <hash>                     Restore current code base to a specific commit
 
-09. Reinstate version
+08. Reinstate version
 |
 |_____ $ git revert <hash>                       Undo the changes of the hash commit
 |_____ $ git revert --no-edit <hash>             Revert current commit to a specific commit without writing log
 |_____ $ git revert -n <hash>                    Revert current commit to a specific commit without committing
 
-10. Change version
+09. Change version
 |
 |_____ $ git reset --soft <hash>                 Reset commit, keep staging area, keep workplace
 |_____ $ git reset --mixed <hash>                Reset commit, reset staging area, keep workplace
@@ -283,7 +283,7 @@
 |_____ command: $ git reset -hard B
 |_____ results: commit HEAD back to B, reset staging area to B, reset working directory to B
 
-11. Merge workflow
+10. Merge workflow
 |
 |_____ commits:  A -> B -> C                                (main)
 |_____ command:  $ git checkout -b test
@@ -293,7 +293,7 @@
 |_____ command:  $ git checkout main; git merge test
 |_____ commits:  A -> B -> C -> D                           (test, main)
 
-12. Start GitHub
+11. Start GitHub
 |
 |_____ $ git clone path/to/repo                  Clone a local repo
 |_____ $ git clone path/to/repo <newname>        Clone a local repo and rename it
@@ -307,7 +307,7 @@
 |_____ $ git diff origin/main <localname>        Compare newly fetched branch with local branch
 |_____ $ git merge origin/main                   Merge newly fetched branch to current branch
 
-13. Push and pull
+12. Push and pull
 |
 |_____ git push -u <remotename> <localbranch>    Push code to remote and set upstream repo
 |_____ git push                                  Push code with existed upstream
@@ -328,7 +328,7 @@
 |-----------------------------------------------| $ git pull  |    <<----    |    code     |
 |-----------------------------------------------+-------------+--------------+-------------+
 
-14. Manipulate locals and remotes
+13. Manipulate locals and remotes
 |
 |_____ git branch -u <remotename>/<remotebranch>Set upstream for convenience
 |_____ git push -u origin <localbranch>         Push local branch to remote, create remote branch if needed
