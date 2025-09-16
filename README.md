@@ -200,61 +200,61 @@
 ```
 01. Start Git
 |
-|_____ $ git config --list --show-origin         Show git configuration and information
-|_____ $ git config --global user.name "name"    Change user name
-|_____ $ git config --global user.email "email"  Change user email
+|_____ $ git config --list --show-origin            Show git configuration and information
+|_____ $ git config --global user.name "name"       Change user name
+|_____ $ git config --global user.email "email"     Change user email
 
 02. Initialize Git
 |
-|_____ $ git init                                Turn a folder into Git repo
-|_____ $ git init path/to/dir                    Turn a folder into Git repo with abs path
-|_____ $ rm -rf .git                             Turn a Git repo into folder by deleting .git
-|_____ $ rm -rf .git path/to/dir                 Turn a Git repo into folder by deleting .git with abs path
+|_____ $ git init                                   Turn a folder into Git repo
+|_____ $ git init path/to/dir                       Turn a folder into Git repo with abs path
+|_____ $ rm -rf .git                                Turn a Git repo into folder by deleting .git
+|_____ $ rm -rf .git path/to/dir                    Turn a Git repo into folder by deleting .git with abs path
 
 03. Save changes
 |
-|_____ $ git add .                               Add all objects to staging area
-|_____ $ git add <object>                        Add a specific object to staging area
-|_____ $ git restore --staged                    Unstage all objects from staging area
-|_____ $ git restore --staged <object>           Unstage a specific object from staging area
-|_____ $ git commit -m "log"                     Commit all objects
+|_____ $ git add .                                  Add all objects to staging area
+|_____ $ git add <object>                           Add a specific object to staging area
+|_____ $ git restore --staged                       Unstage all objects from staging area
+|_____ $ git restore --staged <object>              Unstage a specific object from staging area
+|_____ $ git commit -m "log"                        Commit all objects
 
 04. Check changes
 |
-|_____ $ git status                              Observe staging area
-|_____ $ git status --short                      Observe staging area in brief
-|_____ $ git log                                 Observe commit history
-|_____ $ git log --oneline                       Observe commit history in brief
-|_____ $ git log -n                              Track the last n commits
-|_____ $ git log <object>                        Track commits that object was changed
+|_____ $ git status                                 Observe staging area
+|_____ $ git status --short                         Observe staging area in brief
+|_____ $ git log                                    Observe commit history
+|_____ $ git log --oneline                          Observe commit history in brief
+|_____ $ git log -n                                 Track the last n commits
+|_____ $ git log <object>                           Track commits that object was changed
 |
 |_____ $ git log --since='Feb 1 2025' --until='Feb 28 2025'
 |_____ $ git log --since='Feb 1 2025'
 
 05. Branches in repo
 |
-|_____ $ git branch                              Show all existed branches and which branch you are at
-|_____ $ git branch <newbranch>                  Create a new branch
-|_____ $ git branch -m <newname>                 Rename current branch but error if <newname> exists 
-|_____ $ git branch -M <newname>                 Rename current branch and replace <newname> if it exists
-|_____ $ git checkout <branchname>               Switch to a branch
-|_____ $ git checkout -b <newbranch>             Create and switch to a new branch with the HEAD commit
+|_____ $ git branch                                 Show all existed branches and which branch you are at
+|_____ $ git branch <newbranch>                     Create a new branch
+|_____ $ git branch -m <newname>                    Rename current branch but error if <newname> exists 
+|_____ $ git branch -M <newname>                    Rename current branch and replace <newname> if it exists
+|_____ $ git checkout <branchname>                  Switch to a branch
+|_____ $ git checkout -b <newbranch>                Create and switch to a new branch with the HEAD commit
 
 06. Compare changes
 |
-|_____ $ git diff                                Between all unstaged objects and committed objects
-|_____ $ git diff --staged                       Between all staged objects and committed objects
-|_____ $ git diff <object>                       Between an unstaged object with committed object
-|_____ $ git diff --staged <object>              Between an staged object with committed object
+|_____ $ git diff                                   Between all unstaged objects and committed objects
+|_____ $ git diff --staged                          Between all staged objects and committed objects
+|_____ $ git diff <object>                          Between an unstaged object with committed object
+|_____ $ git diff --staged <object>                 Between an staged object with committed object
 |
-|_____ $ git diff <hash1> <hash2>                Between 2 specific commits
-|_____ $ git diff HEAD HEAD~1                    Between 2 most recent commits
-|_____ $ git diff <branch1> <branch2>            Between 2 specific branches
+|_____ $ git diff <hash1> <hash2>                   Between 2 specific commits
+|_____ $ git diff HEAD HEAD~1                       Between 2 most recent commits
+|_____ $ git diff <branch1> <branch2>               Between 2 specific branches
 
 07. Switch version
-|_____ $ git checkout -- <object>                Restore an object back to HEAD commit
-|_____ $ git checkout <hash> -- <object>         Restore an object back to a specific commit
-|_____ $ git checkout <hash>                     Restore current code base to a specific commit
+|_____ $ git checkout -- <object>                   Restore an object back to HEAD commit
+|_____ $ git checkout <hash> -- <object>            Restore an object back to a specific commit
+|_____ $ git checkout <hash>                        Restore current code base to a specific commit
 
 08. Reinstate version
 |
