@@ -223,8 +223,17 @@
 |
 |_____ $ git status                              Observe staging area
 |_____ $ git status --short                      Observe staging area in brief
+|
 |_____ $ git log                                 Observe commit history
 |_____ $ git log --oneline                       Observe commit history in brief
+|_____ $ git log -n                              Track the last n commits
+|_____ $ git log <object>                        Track commits that object was changed
+|
+|_____ $ git log --since='Feb 1 2025' --until='Feb 28 2025'
+||_____ $ git log --since='Feb 1 2025'
+|
+|_____ $ git show <hash>                         Show a specific commits in detail by hash
+
 
 05. Branches in repo
 |
@@ -234,19 +243,6 @@
 |_____ $ git branch -M <newname>                 Rename current branch and replace <newname> if it exists
 |_____ $ git checkout <branchname>               Switch to a branch
 |_____ $ git checkout -b <newbranch>             Create and switch to a new branch with the HEAD commit
-
-06. Track commits
-|
-|_____ $ git log                                 Track all commits
-|_____ $ git log -n                              Track the last n commits
-|_____ $ git log <object>                    Track commits that object was changed
-|_____ $ git show <hash>                         Show a specific commits in detail by hash
-|
-|_____ ! TRACK ALL COMMITS FROM 1/2/2025 TO 28/2/2025
-|_____ $ git log --since='Feb 1 2025' --until='Feb 28 2025'
-|
-|_____ ! TRACK ALL COMMITS FROM 1/2/2025 TO NOW
-|_____ $ git log --since='Feb 1 2025'
 
 07. Compare changes
 |
