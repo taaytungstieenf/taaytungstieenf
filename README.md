@@ -198,20 +198,20 @@
 ## 🤔 In Case You Forget
 
 ```
-00. Start Git
+01. Start Git
 |
 |_____ $ git config --list --show-origin         Show git configuration and information
 |_____ $ git config --global user.name "name"    Change user name
 |_____ $ git config --global user.email "email"  Change user email
 
-01. Initialize Git
+02. Initialize Git
 |
 |_____ $ git init                                Turn a folder into Git repo
 |_____ $ git init path/to/dir                    Turn a folder into Git repo with abs path
 |_____ $ rm -rf .git                             Turn a Git repo into folder by deleting .git
 |_____ $ rm -rf .git path/to/dir                 Turn a Git repo into folder by deleting .git with abs path
 
-02. Save changes
+03. Save changes
 |
 |_____ $ git add .                               Add all objects to staging area
 |_____ $ git add <object>                        Add a specific object to staging area
@@ -219,14 +219,14 @@
 |_____ $ git restore --staged <object>           Unstage a specific object from staging area
 |_____ $ git commit -m "log"                     Commit all objects
 
-03. Check changes
+04. Check changes
 |
 |_____ $ git status                              Observe staging area
 |_____ $ git status --short                      Observe staging area in brief
 |_____ $ git log                                 Observe commit history
 |_____ $ git log --oneline                       Observe commit history in brief
 
-04. Branches in repo
+05. Branches in repo
 |
 |_____ $ git branch                              Show all existed branches and which branch you are at
 |_____ $ git branch <newbranch>                  Create a new branch
@@ -238,7 +238,7 @@
 |_____ $ git checkout <hash> -- <object>         Restore an object back to a specific commit
 |_____ $ git checkout <hash>                     Switch code to an old commit temporarily in workplace
 
-05. Track commits
+06. Track commits
 |
 |_____ $ git log                                 Track all commits
 |_____ $ git log -n                              Track the last n commits
@@ -251,7 +251,7 @@
 |_____ ! TRACK ALL COMMITS FROM 1/2/2025 TO NOW
 |_____ $ git log --since='Feb 1 2025'
 
-06. Compare changes
+07. Compare changes
 |
 |_____ $ git diff                                Between all unstaged objects and committed objects
 |_____ $ git diff --staged                       Between all staged objects and committed objects
@@ -261,13 +261,18 @@
 |_____ $ git diff HEAD HEAD~1                    Between 2 most recent commits
 |_____ $ git diff <branch1> <branch2>            Between 2 specific branches
 
-07. Reinstate version
+08. Switch version
+|_____ $ git checkout -- <object>                Restore an object back to HEAD commit
+|_____ $ git checkout <hash> -- <object>         Restore an object back to a specific commit
+|_____ $ git checkout <hash>                     Restore current code base to a specific commit
+
+09. Reinstate version
 |
 |_____ $ git revert <hash>                       Undo the changes of the hash commit
 |_____ $ git revert --no-edit <hash>             Revert current commit to a specific commit without writing log
 |_____ $ git revert -n <hash>                    Revert current commit to a specific commit without committing
 
-08. Change version
+10. Change version
 |
 |_____ $ git reset --soft <hash>                 Reset commit, keep staging area, keep workplace
 |_____ $ git reset --mixed <hash>                Reset commit, reset staging area, keep workplace
@@ -288,7 +293,7 @@
 |_____ command: $ git reset -hard B
 |_____ results: commit HEAD back to B, reset staging area to B, reset working directory to B
 
-09. Merge workflow
+11. Merge workflow
 |
 |_____ commits:  A -> B -> C                                (main)
 |_____ command:  $ git checkout -b test
@@ -298,7 +303,7 @@
 |_____ command:  $ git checkout main; git merge test
 |_____ commits:  A -> B -> C -> D                           (test, main)
 
-10. Start GitHub
+12. Start GitHub
 |
 |_____ $ git clone path/to/repo                  Clone a local repo
 |_____ $ git clone path/to/repo <newname>        Clone a local repo and rename it
@@ -312,7 +317,7 @@
 |_____ $ git diff origin/main <localname>        Compare newly fetched branch with local branch
 |_____ $ git merge origin/main                   Merge newly fetched branch to current branch
 
-11. Push and pull
+13. Push and pull
 |
 |_____ git push -u <remotename> <localbranch>    Push code to remote and set upstream repo
 |_____ git push                                  Push code with existed upstream
@@ -333,7 +338,7 @@
 |-----------------------------------------------| $ git pull  |    <<----    |    code     |
 |-----------------------------------------------+-------------+--------------+-------------+
 
-12. Manipulate locals and remotes
+14. Manipulate locals and remotes
 |
 |_____ git branch -u <remotename>/<remotebranch>Set upstream for convenience
 |_____ git push -u origin <localbranch>         Push local branch to remote, create remote branch if needed
