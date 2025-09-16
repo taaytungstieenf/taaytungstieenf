@@ -332,23 +332,24 @@
 |_____ $ git fetch --all                         Update all branches of all remote repos
 |_____ $ git fetch --prune                       Which non-existed branches on remote will be deleted at local
 
-13. Best practice with GitHub
+14. Manipulate locals and remotes
+|
+|_____ $ git branch -u <remotealias>/<branch>     Set upstream for convenience, branch means local & remote
+|_____ $ git branch -d <localbranch>              Delete a local branch that was merged to main
+|_____ $ git branch -D <localbranch>              Delete a local branch that was not merged to main
+|
+|_____ $ git push -u <remotealias> <localbranch>                Push a local branch to the same-name branch on remote
+|_____ $ git push -u <remotealias> <localbranch>:<remotebranch> Push local branch to a specific remote branch
+|_____ $ git push    <remotealias> --delete <remotebranch>      Delete a branch on remote 
+
+15. Best practice with GitHub
 |
 |_____ $ git remote add origin repo_link         Set a GitHub repo link to a remote name "origin"
 |_____ $ git branch -M main                      Rename current branch to "main"
-|_____ $ git fetch origin                        Download the lastest version of a remote branch
-|_____ $ git log origin/main                     Track the newly fetched branch
-|_____ $ git diff origin/main <localname>        Compare newly fetched branch with local branch
-|_____ $ git merge origin/main                   Merge newly fetched branch to current branch
-
-14. Manipulate locals and remotes
-|
-|_____ $ git branch -u <remotename>/<remotebranch>Set upstream for convenience
-|_____ $ git push -u origin <localbranch>         Push local branch to remote, create remote branch if needed
-|_____ $ git push -u origin <local>:<remote>      Push a speciic local branch to a specific remote branch
-|_____ $ git push origin --delete <remotebranch>  Delete a branch on remote
-|_____ $ git branch -d <localbranch>              Delete a local branch that was merged to main
-|_____ $ git branch -D <localbranch>              Delete a local branch that was not merged to main   
+|_____ $ git fetch origin                        Download all branches of repo "origin"
+|_____ $ git log origin/main                     Track branch "main" of repo "origin"
+|_____ $ git diff origin/main main               Compare branch "main" of origin to local branch "main"
+|_____ $ git merge origin/main                   Merge branch "main" of origin to local branch "main"
 ```
 
 <p align="center">
