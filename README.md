@@ -259,8 +259,8 @@
 08. Reinstate version
 |
 |_____ $ git revert <hash>                          Undo the changes of the hash commit
-|_____ $ git revert --no-edit <hash>                Revert current commit to a specific commit without writing log
-|_____ $ git revert -n <hash>                       Revert current commit to a specific commit without committing
+|_____ $ git revert --no-edit <hash>                Revert current commit to specific commit without writing log
+|_____ $ git revert -n <hash>                       Revert current commit to specific commit without committing
 
 09. Change version
 |
@@ -285,13 +285,13 @@
 
 10. Merge workflow
 |
-|_____ commits:  A -> B -> C                          [ main ]
+|_____ commits:  A -> B -> C                        [ main ]
 |_____ command:  $ git checkout -b test
-|_____ commits:  A -> B -> C                          [ main, test ]
+|_____ commits:  A -> B -> C                        [ main, test ]
 |_____ command:  $ git commit -m "D"
-|_____ commits:  A -> B -> C -> D                     [ test ]
+|_____ commits:  A -> B -> C -> D                   [ test ]
 |_____ command:  $ git checkout main; git merge test
-|_____ commits:  A -> B -> C -> D                     [ test, main ]
+|_____ commits:  A -> B -> C -> D                   [ test, main ]
 
 11. Start with GitHub
 |
