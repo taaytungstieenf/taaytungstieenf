@@ -295,11 +295,11 @@
 
 11. Start with GitHub
 |
-|_____ $ git remote add <remotename> repolink    Add a remote repo
-|_____ $ git remote remove <remotename>          Delete remote repo
+|_____ $ git remote add <remotealias> repo_link  Add a remote repo
+|_____ $ git remote remove <remotealias>         Delete remote repo
 |_____ $ git remote -v                           List all remote repos have been added
 |
-|_____ $ git push -u <remotename> <localbranch>  Push code to remote and set upstream repo
+|_____ $ git push -u <remotealias> <localbranch> Push code to remote and set upstream repo
 |_____ $ git push                                Push code with existed upstream
 |_____ $ git pull                                Pull code with existed upstream
 |
@@ -318,14 +318,25 @@
 |-----------------------------------------------| $ git pull  |    <<----    |    code     |
 |-----------------------------------------------+-------------+--------------+-------------+
 
-13. Best practice with GitHub
+12. Clone repo
 |
 |_____ $ git clone path/to/repo                  Clone a local repo
 |_____ $ git clone path/to/repo <newname>        Clone a local repo and rename it
 |_____ $ git clone repo_link                     Clone a remote repo
 |_____ $ git clone repo_link <newname>           Clone a remote repo and rename it
+
+13. Fetch repo
 |
-|_____ $ git fetch <remotename>                  Download the lastest version of a remote branch (origin/main)
+|_____ $ git fetch <remotealias>                 Update all branches from remote repo
+|_____ $ git fetch <remotealias> <branchname>    Update a branch from remote repo
+|_____ $ git fetch --all                         Update all branches of all remote repos
+|_____ $ git fetch --prune                       Which non-existed branches on remote will be deleted at local
+
+13. Best practice with GitHub
+|
+|_____ $ git remote add origin repo_link         Set a GitHub repo link to a remote name "origin"
+|_____ $ git branch -M main                      Rename current branch to "main"
+|_____ $ git fetch origin                        Download the lastest version of a remote branch
 |_____ $ git log origin/main                     Track the newly fetched branch
 |_____ $ git diff origin/main <localname>        Compare newly fetched branch with local branch
 |_____ $ git merge origin/main                   Merge newly fetched branch to current branch
