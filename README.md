@@ -234,9 +234,6 @@
 |_____ $ git branch -M <newname>                 Rename current branch and replace <newname> if it exists
 |_____ $ git checkout <branchname>               Switch to a branch
 |_____ $ git checkout -b <newbranch>             Create and switch to a new branch with the HEAD commit
-|_____ $ git checkout -- <object>                Restore an object back to HEAD commit
-|_____ $ git checkout <hash> -- <object>         Restore an object back to a specific commit
-|_____ $ git checkout <hash>                     Switch code to an old commit temporarily in workplace
 
 06. Track commits
 |
