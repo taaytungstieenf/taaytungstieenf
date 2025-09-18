@@ -237,6 +237,8 @@
 |_____ $ git branch <newbranch>                     Create a new branch
 |_____ $ git branch -m <newname>                    Rename current branch but error if <newname> exists 
 |_____ $ git branch -M <newname>                    Rename current branch and replace <newname> if it exists
+|_____ $ git branch -d <localbranch>                Delete a local branch that was merged to main
+|_____ $ git branch -D <localbranch>                Delete a local branch that was not merged to main
 |_____ $ git checkout <branchname>                  Switch to a branch
 |_____ $ git checkout -b <newbranch>                Create and switch to a new branch with the HEAD commit
 
@@ -300,11 +302,14 @@
 |_____ $ git remote -v                              List all remote repos have been added
 |
 |_____ $ git push -u <remotealias> <localbranch>    Push code to remote and set upstream repo
+|_____ $ git push -u <remotealias> <local>:<remote> Push local branch to a specific remote branch
+|_____ $ git push <remotealias> --delete <remote>   Delete a branch on remote 
+|
 |_____ $ git push                                   Push code with existed upstream
 |_____ $ git pull                                   Pull code with existed upstream
+|_____ $ git status sb
 |
 |_____ EXAMPLE:
-|_____ command: $ git status sb
 |_____ results: ## main...origin/main [ahead 2, behind 3]
 |_____ meaning: ahead  2 - there are 2 local commits have not yet pushed to remote
 |_____ meaning: behind 3 - there are 3 remote commits have not yet pulled to local
@@ -332,17 +337,7 @@
 |_____ $ git fetch --all                            Update all branches of all remote repos
 |_____ $ git fetch --prune                          Which non-existed branches on remote will be deleted at local
 
-14. Manipulate locals and remotes
-|
-|_____ $ git branch -u <remotealias>/<branch>       Set upstream for convenience, branch means local & remote
-|_____ $ git branch -d <localbranch>                Delete a local branch that was merged to main
-|_____ $ git branch -D <localbranch>                Delete a local branch that was not merged to main
-|
-|_____ $ git push -u <remotealias> <local>          Push local branch to a same-name branch on remote
-|_____ $ git push -u <remotealias> <local>:<remote> Push local branch to a specific remote branch
-|_____ $ git push <remotealias> --delete <remote>   Delete a branch on remote 
-
-15. Best practice with GitHub
+14. Best practice with GitHub
 |
 |_____ $ git remote add origin repo_link            Set a GitHub repo link to a remote name "origin"
 |_____ $ git branch -M main                         Rename current branch to "main"
