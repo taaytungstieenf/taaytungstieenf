@@ -302,7 +302,7 @@
 |_____ $ git remote remove <remotealias>            Delete remote repo
 |_____ $ git remote -v                              List all remote repos have been added
 |
-|_____ $ git push -u <remotealias> <localbranch>    Push code to remote and set upstream repo
+|_____ $ git push -u <remotealias> <local>          Push code to remote and set upstream repo
 |_____ $ git push -u <remotealias> <local>:<remote> Push local branch to a specific remote branch
 |_____ $ git push <remotealias> --delete <remote>   Delete a branch on remote 
 |
