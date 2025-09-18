@@ -239,6 +239,7 @@
 |_____ $ git branch -M <newname>                    Rename current branch and replace <newname> if it exists
 |_____ $ git branch -d <localbranch>                Delete a local branch that was merged to main
 |_____ $ git branch -D <localbranch>                Delete a local branch that was not merged to main
+|
 |_____ $ git checkout <branchname>                  Switch to a branch
 |_____ $ git checkout -b <newbranch>                Create and switch to a new branch with the HEAD commit
 
